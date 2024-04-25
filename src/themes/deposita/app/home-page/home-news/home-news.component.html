@@ -1,0 +1,15 @@
+<div class="background-image-container">
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="d-flex flex-wrap">
+        <div>
+          <img class="img-fluid" src="assets/deposita/images/deposita_title.svg" alt="Deposita"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <picture class="background-image">
+    <source type="image/svg" srcset="assets/deposita/images/deposita_bg.svg 2000w"/>
+    <img alt="" [src]="'assets/deposita/images/deposita_bg.svg'"/><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+  </picture>
+</div>

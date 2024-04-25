@@ -1,0 +1,55 @@
+:host {
+  display: block;
+  margin-top: calc(var(--ds-content-spacing) * -1.5);
+  z-index: -1;
+
+  div.background-image-container {
+    color: white;
+    position: relative;
+    height: 100vh;
+    width: 120%;
+    right: 9.5rem;
+
+    .background-image > img {
+
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      object-fit: contain;
+      object-position: top;
+    }
+
+    .container {
+      position: relative;
+      right: 8.9%;
+      bottom: 10%;
+      width: 100%;
+
+    }
+
+    .img-fluid {
+      width: 18rem;
+      height: 22rem;
+      position: relative;
+      left: -7px;
+    }
+
+  }
+
+  .jumbotron {
+    background-color: transparent;
+  }
+
+  a {
+    color: var(--ds-home-news-link-color);
+
+    @include hover {
+      color: var(--ds-home-news-link-hover-color);
+    }
+  }
+}
+
+

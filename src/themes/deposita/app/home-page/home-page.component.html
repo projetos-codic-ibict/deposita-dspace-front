@@ -1,0 +1,9 @@
+<div class="container">
+  <ds-themed-home-news></ds-themed-home-news>
+  <ng-container *ngIf="(site$ | async) as site">
+    <ds-view-tracker [object]="site"></ds-view-tracker>
+  </ng-container>
+  <ds-themed-search-form [large]="true" [inPlaceSearch]="false" [searchPlaceholder]="'Pesquisar por Artigos, livros ....'"></ds-themed-search-form>
+  <!-- <ds-themed-top-level-community-list></ds-themed-top-level-community-list>
+  <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list> -->
+</div>
