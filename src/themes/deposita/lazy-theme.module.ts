@@ -65,6 +65,7 @@ import { TopLevelCommunityListComponent } from './app/home-page/top-level-commun
 import { SearchFormComponent } from './app/shared/search-form/search-form.component';
 import { HomePageComponent } from './app/home-page/home-page.component';
 
+
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
   SearchFormComponent,
