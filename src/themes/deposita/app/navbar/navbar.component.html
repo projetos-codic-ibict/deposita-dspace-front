@@ -1,0 +1,43 @@
+<nav [ngClass]="{'open': !(menuCollapsed | async)}" [@slideMobileNav]="!(windowService.isXsOrSm() | async) ? 'default' : ((menuCollapsed | async) ? 'collapsed' : 'expanded')"
+  class="navbar navbar-expand-md navbar-light p-0 navbar-container" role="navigation" [attr.aria-label]="'nav.main.description' | translate">
+  <a class="navbar-brand my-2" routerLink="/home">
+    <img src="assets/deposita/images/deposita_logo.svg" [attr.alt]="'menu.header.image.logo' | translate" />
+  </a>
+
+  <div class="navbar-inner-container w-100">
+    <div id="collapsingNav" class="w-100">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
+            <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <div class="text-md-center">
+            <a routerLink="/home" class="nav-link-custom">Inicial</a>
+          </div>
+          <div class="text-md-center">
+            <a routerLink="/search" class="nav-link-custom">Navegar</a>
+          </div>
+          <div class="text-md-center">
+            <a routerLink="/communities/7bc8d2d1-5e3a-495c-bfff-13e846fca9d5" class="nav-link-custom">O Deposita</a>
+          </div>
+          <div class="text-md-center">
+            <a routerLink="" class="nav-link-custom">FAQ</a>
+          </div>
+          <div class="text-md-center">
+            <a routerLink="" class="nav-link-custom">Contatos</a>
+          </div>
+          <div class="text-md-center">
+            <a routerLink="" class="nav-link-enter">Entrar</a>
+          </div>
+       </li>
+        <!-- <ng-container *ngFor="let section of (sections | async)">
+          <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
+        </ng-container> -->
+      </ul>
+    </div>
+  </div>
+
+  <a class="navbar-brand m-2">
+    <img src="assets/deposita/images/ibict_logo.svg" [attr.alt]="'menu.header.image.logo' | translate"/>
+  </a>
+</nav>

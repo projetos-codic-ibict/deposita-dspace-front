@@ -1,0 +1,185 @@
+nav.navbar {
+  border-top: 1px var(--ds-header-navbar-border-top-color) solid;
+  border-bottom: 1px #F6F7F7 solid;
+}
+
+.navbar-nav {
+  width: 100%; /* Faz com que a lista de navegação use todo o espaço disponível no container */
+  position: relative; /* Permite posicionar o pseudo-elemento */
+  left: 7rem; /* Ajusta a posição da lista de navegação; altere conforme necessário */
+
+  ::ng-deep a.nav-link-custom,
+  ::ng-deep a.nav-link-enter {
+    color: #6A6A6A;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 38px; /* Adiciona padding inferior para criar espaço para a barra */
+    position: relative; /* Permite posicionar o pseudo-elemento */
+  }
+
+  ::ng-deep a.nav-link-enter {
+    color: #0F49BD;
+  }
+
+  ::ng-deep a.nav-link-custom:hover,
+  ::ng-deep a.nav-link-enter:hover {
+    color: #0F49BD;
+    /* Use o pseudo-elemento ::after para criar a barra */
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0; /* Posiciona a barra na parte inferior do link */
+      left: 50%; /* Centraliza a barra em relação ao link */
+      transform: translateX(-50%); /* Ajusta para centralizar a barra */
+      width: 120%; /* Ajusta o comprimento da barra; altere conforme necessário */
+      height: 2px; /* Espessura da barra */
+      background-color: #0F49BD; /* Cor da barra */
+    }
+  }
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-inner-container {
+  flex-grow: 1;  /* Faz com que o container interior cresça e use todo o espaço disponível */
+  display: flex;
+  justify-content: center; /* Centraliza os itens de navegação horizontalmente */
+  align-items: center;
+}
+
+.nav-item.d-flex .text-md-center {
+  margin-right: 3rem; /* Adiciona um espaçamento à direita de cada div */
+}
+
+.nav-item.d-flex .text-md-center:last-child {
+  margin-right: 0; /* Remove a margem do último div para evitar espaçamento extra */
+}
+
+.navbar-brand {
+  margin: 0; /* Remove as margens padrão para alinhar corretamente com o topo da navbar */
+  padding: 0.5rem; /* Adiciona um pouco de padding para visualmente parecer melhor */
+}
+
+a.navbar-brand img {
+  height: 50px; /* Define a altura máxima da imagem */
+}
+
+/* Se as imagens estiverem em lados opostos, você pode precisar de seletores mais específicos */
+.navbar-brand:first-child img {
+  margin-left: 15rem; /* Apenas a margem esquerda para o logo no canto esquerdo */
+}
+
+.navbar-brand:last-child img {
+  margin-right: 15rem; /* Apenas a margem direita para o logo no canto direito */
+}
+
+/* Ajustes para dispositivos móveis, se necessário */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+/* Adicionando para responsividade e alinhamento dos itens da navbar */
+@media (max-width: 768px) {
+  .navbar-inner-container {
+    justify-content: space-between;
+  }
+}
+
+/** Mobile menu styling **/
+@media screen and (max-width: map-get($grid-breakpoints, md)-0.02) {
+  .navbar {
+    width: 100%;
+    background-color: var(--bs-white);
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    &.open {
+      height: 100vh; //doesn't matter because wrapper is sticky
+    }
+  }
+}
+
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+  .reset-padding-md {
+    margin-left: calc(var(--bs-spacer) / -2);
+    margin-right: calc(var(--bs-spacer) / -2);
+  }
+}
+
+/* TODO remove when https://github.com/twbs/bootstrap/issues/24726 is fixed */
+.navbar-expand-md.navbar-container {
+  @media screen and (max-width: map-get($grid-breakpoints, md)-0.02) {
+    > .navbar-inner-container {
+      padding: 0 var(--bs-spacer);
+      a.navbar-brand {
+        display: none;
+      }
+      .navbar-collapsed {
+        display: none;
+      }
+    }
+    padding: 0;
+  }
+  height: 96px;
+}
+
+a.navbar-brand img {
+  max-height: 50px;
+}
+
+
+@media screen and (max-width: 1366px) {
+  .navbar-nav {
+    width: 100%; /* Faz com que a lista de navegação use todo o espaço disponível no container */
+    position: relative; /* Permite posicionar o pseudo-elemento */
+    left: 3rem; /* Ajusta a posição da lista de navegação; altere conforme necessário */
+
+    ::ng-deep a.nav-link-custom,
+    ::ng-deep a.nav-link-enter {
+      color: #6A6A6A;
+      font-size: 18px;
+      text-decoration: none;
+      padding-bottom: 38px; /* Adiciona padding inferior para criar espaço para a barra */
+      position: relative; /* Permite posicionar o pseudo-elemento */
+    }
+
+    ::ng-deep a.nav-link-enter {
+      color: #0F49BD;
+    }
+
+    ::ng-deep a.nav-link-custom:hover,
+    ::ng-deep a.nav-link-enter:hover {
+      color: #0F49BD;
+      /* Use o pseudo-elemento ::after para criar a barra */
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0; /* Posiciona a barra na parte inferior do link */
+        left: 50%; /* Centraliza a barra em relação ao link */
+        transform: translateX(-50%); /* Ajusta para centralizar a barra */
+        width: 120%; /* Ajusta o comprimento da barra; altere conforme necessário */
+        height: 2px; /* Espessura da barra */
+        background-color: #0F49BD; /* Cor da barra */
+      }
+    }
+  }
+
+  /* Se as imagens estiverem em lados opostos, você pode precisar de seletores mais específicos */
+  .navbar-brand:first-child img {
+    margin-left: 7rem; /* Apenas a margem esquerda para o logo no canto esquerdo */
+  }
+
+  .navbar-brand:last-child img {
+    margin-right: 7rem; /* Apenas a margem direita para o logo no canto direito */
+  }
+}
+
+

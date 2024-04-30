@@ -1,0 +1,70 @@
+/* Estilos padrão para o formulário de pesquisa */
+.search-form {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 60px #074E8E33;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1000;
+  bottom: 0;
+  width: 130%; /* Alterado para ocupar toda a largura da tela */
+  max-width: 1440px; /* Define a largura máxima do formulário */
+  margin: 0 auto; /* Centraliza o formulário na tela */
+  right: 10rem;
+}
+
+/* Estilos para a caixa de entrada de texto */
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 1294px; /* Define a largura máxima da caixa de entrada */
+  margin-right: 8px;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+}
+
+/* Estilos para o link de busca avançada */
+.input-advanced-search-link {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  text-decoration: underline;
+  text-decoration-color: #292A89;
+  color: #0F49BD;
+}
+
+/* Estilos para o botão de pesquisa */
+.btn-primary {
+  background-color: #0F49BD;
+  width: 117px;
+  border-radius: 4px !important;
+}
+
+/* Media query para telas com resolução de 1366x768 */
+@media (max-width: 1366px) {
+  .search-form {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 60px #074E8E33;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 1000;
+    bottom: 22rem;
+    width: 100%; /* Alterado para ocupar 90% da largura da tela */
+    max-width: 1366px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário na tela */
+    right: 0;
+  }
+
+  .input-box {
+    position: relative;
+    width: 87%;
+    max-width: 1366px; /* Define a largura máxima da caixa de entrada */
+    margin-right: 8px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+  }
+
+}

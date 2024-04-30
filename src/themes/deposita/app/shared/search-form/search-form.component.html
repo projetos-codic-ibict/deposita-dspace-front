@@ -1,0 +1,23 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form.value)" action="/search" class="search-form">
+  <div class="input-group">
+    <div *ngIf="showScopeSelector" class="input-group-prepend">
+      <button class="scope-button btn btn-outline-secondary text-truncate"
+              [ngbTooltip]="dsoNameService.getName(selectedScope | async)" type="button"
+              (click)="openScopeModal()">
+        {{dsoNameService.getName(selectedScope | async) || ('search.form.scope.all' | translate)}}
+      </button>
+    </div>
+    <div class="input-box">
+      <input type="text" [(ngModel)]="query" name="query" class="form-control"
+             attr.aria-label="{{ searchPlaceholder }}" [attr.data-test]="'search-box' | dsBrowserOnly"
+             [placeholder]="searchPlaceholder">
+
+      <a href="/search" class="input-advanced-search-link">Busca avançada</a>
+    </div>
+    <div class="input-group-append">
+      <button type="submit" class="btn btn-primary" [attr.data-test]="'search-button' | dsBrowserOnly">
+        Buscar
+      </button>
+    </div>
+  </div>
+</form>
