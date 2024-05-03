@@ -67,4 +67,17 @@
     opacity: 1;
     text-align: left;
   }
+
+  .loading-text {
+    width: 100%;
+    height: 17rem;
+    color: rgb(44, 50, 55);
+    font-family: Open Sans;
+    font-weight: SemiBold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    top: 7rem;
+    position: relative;
+  }
 }
