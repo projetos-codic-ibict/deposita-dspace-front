@@ -64,12 +64,14 @@ import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 import { TopLevelCommunityListComponent } from './app/home-page/top-level-community-list/top-level-community-list.component';
 import { SearchFormComponent } from './app/shared/search-form/search-form.component';
 import { HomePageComponent } from './app/home-page/home-page.component';
+import { ItensCardComponent } from './app/home-page/itens-card/itens-card.component';
 
 
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
   SearchFormComponent,
-  HomePageComponent
+  HomePageComponent,
+  ItensCardComponent
 ];
 
 @NgModule({
