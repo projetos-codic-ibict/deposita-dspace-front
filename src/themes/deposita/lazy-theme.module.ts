@@ -65,13 +65,15 @@ import { TopLevelCommunityListComponent } from './app/home-page/top-level-commun
 import { SearchFormComponent } from './app/shared/search-form/search-form.component';
 import { HomePageComponent } from './app/home-page/home-page.component';
 import { ItensCardComponent } from './app/home-page/itens-card/itens-card.component';
+import { PartnerBoxComponent } from './app/home-page/partner-box/partner-box.component';
 
 
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
   SearchFormComponent,
   HomePageComponent,
-  ItensCardComponent
+  ItensCardComponent,
+  PartnerBoxComponent
 ];
 
 @NgModule({
