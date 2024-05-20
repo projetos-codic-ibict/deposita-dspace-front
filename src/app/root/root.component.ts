@@ -1,6 +1,6 @@
 import { map, startWith } from 'rxjs/operators';
-import { Component, Inject, Input, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, Inject, Input, OnInit, Renderer2 } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 import { combineLatest as combineLatestObservable, Observable, of } from 'rxjs';
 import { Store } from '@ngrx/store';
@@ -56,7 +56,8 @@ export class RootComponent implements OnInit {
     private router: Router,
     private cssService: CSSVariableService,
     private menuService: MenuService,
-    private windowService: HostWindowService
+    private windowService: HostWindowService,
+    private renderer: Renderer2
   ) {
     this.notificationOptions = environment.notifications;
   }
@@ -77,5 +78,22 @@ export class RootComponent implements OnInit {
     if (this.router.url === getPageInternalServerErrorRoute()) {
       this.shouldShowRouteLoader = false;
     }
+
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        const url = event.urlAfterRedirects;
+
+        if (url.startsWith('/home')) {
+          this.renderer.addClass(document.body, 'home-page');
+          this.renderer.removeClass(document.body, 'search-page');
+        } else if (url.startsWith('/search')) {
+          this.renderer.addClass(document.body, 'search-page');
+          this.renderer.removeClass(document.body, 'home-page');
+        } else {
+          this.renderer.removeClass(document.body, 'home-page');
+          this.renderer.removeClass(document.body, 'search-page');
+        }
+      }
+    });
   }
 }

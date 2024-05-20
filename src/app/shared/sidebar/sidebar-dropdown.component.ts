@@ -10,6 +10,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
  * The options should still be provided in the content.
  */
 export class SidebarDropdownComponent {
+  @Input() style: string;
   @Input() id: string;
   @Input() label: string;
   @Output() change: EventEmitter<any> = new EventEmitter<number>();

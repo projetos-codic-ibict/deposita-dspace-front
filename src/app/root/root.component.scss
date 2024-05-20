@@ -1,0 +1,9 @@
+::ng-deep body.home-page .inner-wrapper,
+body.home-page .main-content {
+  background-color: white !important;
+}
+
+::ng-deep body.search-page .inner-wrapper,
+body.search-page .main-content {
+  background-color: #F6F7F7 !important;
+}

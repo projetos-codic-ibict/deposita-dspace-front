@@ -17,7 +17,7 @@ export class PaginationComponentOptions extends NgbPaginationConfig {
   /**
    * Maximum number of pages to display.
    */
-  maxSize = 10;
+  maxSize = 5;
 
   /**
    * A number array that represents options for a context pagination limit.

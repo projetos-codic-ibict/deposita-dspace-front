@@ -67,6 +67,19 @@ import { HomePageComponent } from './app/home-page/home-page.component';
 import { ItensCardComponent } from './app/home-page/itens-card/itens-card.component';
 import { PartnerBoxComponent } from './app/home-page/partner-box/partner-box.component';
 import { LoginPageComponent } from './app/login-page/login-page.component';
+import { SearchPageComponent } from './app/search-page/search-page.component';
+import { ConfigurationSearchPageComponent } from './app/search-page/configuration-search-page.component';
+
+import { SearchFiltersComponent } from './app/shared/search/search-filters/search-filters.component';
+import { SearchResultsComponent } from './app/shared/search/search-results/search-results.component';
+import { SearchSidebarComponent } from './app/shared/search/search-sidebar/search-sidebar.component';
+import { SearchSettingsComponent } from './app/shared/search/search-settings/search-settings.component';
+import { SearchComponent } from './app/shared/search/search.component';
+
+import { ObjectListComponent } from './app/shared/object-list/object-list.component';
+import { CommunityListElementComponent } from './app/shared/object-list/community-list-element/community-list-element.component';
+import { ItemSearchResultListElementComponent } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
+import { PublicationSidebarSearchListElementComponent } from './app/shared/object-list/sidebar-search-list-element/item-types/publication-sidebar-search-list-element.component';
 
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
@@ -74,7 +87,18 @@ const DECLARATIONS = [
   HomePageComponent,
   ItensCardComponent,
   PartnerBoxComponent,
-  LoginPageComponent
+  LoginPageComponent,
+  SearchPageComponent,
+  ConfigurationSearchPageComponent,
+  SearchFiltersComponent,
+  SearchResultsComponent,
+  SearchSidebarComponent,
+  SearchSettingsComponent,
+  SearchComponent,
+  ObjectListComponent,
+  CommunityListElementComponent,
+  ItemSearchResultListElementComponent,
+  PublicationSidebarSearchListElementComponent
 ];
 
 @NgModule({
