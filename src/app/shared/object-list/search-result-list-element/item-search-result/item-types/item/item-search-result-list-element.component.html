@@ -42,7 +42,7 @@
       <div class="d-flex tags">
         <div class=" d-flex infos">
           <img src="assets/deposita/images/li_book.svg" alt="livrinho" class="type-img">
-          <span *ngIf="dso.firstMetadataValue('dc.type')" class="item-list-handle" [innerHTML]="firstMetadataValue('dc.type')"></span>
+          <span *ngIf="dso.firstMetadataValue('dc.type')" class="item-list-handle" [innerHTML]="firstMetadataValue('dc.type') | translate"></span>
           <div class="separator">|</div>
           <p class="published">Publicado em: </p>
           <span *ngIf="dso.firstMetadataValue('dc.date.issued')" class="" [innerHTML]="firstMetadataValue('dc.date.issued')"></span>
