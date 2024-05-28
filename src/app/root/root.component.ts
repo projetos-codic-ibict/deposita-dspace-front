@@ -75,25 +75,31 @@ export class RootComponent implements OnInit {
         startWith(true),
       );
 
-    if (this.router.url === getPageInternalServerErrorRoute()) {
-      this.shouldShowRouteLoader = false;
+      if (this.router.url === getPageInternalServerErrorRoute()) {
+        this.shouldShowRouteLoader = false;
+      }
+
+      // Adicionar a classe correta no ngOnInit
+      this.applyBodyClass(this.router.url);
+
+      // Inscrever-se em eventos de navegação para aplicar a classe correta
+      this.router.events.subscribe(event => {
+        if (event instanceof NavigationEnd) {
+          this.applyBodyClass(event.urlAfterRedirects);
+        }
+      });
     }
 
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
-        const url = event.urlAfterRedirects;
-
-        if (url.startsWith('/home')) {
-          this.renderer.addClass(document.body, 'home-page');
-          this.renderer.removeClass(document.body, 'search-page');
-        } else if (url.startsWith('/search')) {
-          this.renderer.addClass(document.body, 'search-page');
-          this.renderer.removeClass(document.body, 'home-page');
-        } else {
-          this.renderer.removeClass(document.body, 'home-page');
-          this.renderer.removeClass(document.body, 'search-page');
-        }
+    private applyBodyClass(url: string) {
+      if (url.startsWith('/home')) {
+        this.renderer.addClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'search-page');
+      } else if (url.startsWith('/search')) {
+        this.renderer.addClass(document.body, 'search-page');
+        this.renderer.removeClass(document.body, 'home-page');
+      } else {
+        this.renderer.removeClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'search-page');
       }
-    });
+    }
   }
-}

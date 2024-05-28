@@ -6834,5 +6834,41 @@
 
   "book": "Livro",
 
-  "bookPart": "Capítulo de Livro"
+  "bookPart": "Capítulo de Livro",
+
+  "metadataKeys": {
+    "dc.contributor.advisor": "Consultor colaborador",
+    "dc.contributor.advisorLattes": "Lattes do Orientador",
+    "dc.contributor.author": "Autor",
+    "dc.contributor.authorLattes": "Lattes do Autor",
+    "dc.date.accessioned": "Data de Acesso",
+    "dc.date.issued": "Data de Emissão",
+    "dc.description.abstract": "Resumo",
+    "dc.description.provenance": "Proveniência",
+    "dc.description.resumo": "Resumo",
+    "dc.description.sponsorship": "Patrocínio",
+    "dc.format": "Formato",
+    "dc.identifier.uri": "URI",
+    "dc.identifier.isbn": "Identificador ISBN",
+    "dc.language": "Idioma",
+    "dc.publisher": "Editora",
+    "dc.publisher.country": "País da Editora",
+    "dc.publisher.department": "Departamento da Editora",
+    "dc.publisher.program": "Programa da Editora",
+    "dc.rights": "Direitos",
+    "dc.subject": "Assunto",
+    "dc.subject.cnpq": "Assunto CNPq",
+    "dc.title": "Título",
+    "dc.type": "Tipo"
+  },
+
+  "languages": {
+    "por": "Português",
+    "eng": "Inglês",
+    "es": "Espanhol",
+    "null": "",
+    "*": ""
+  },
+
+  "search.browse.item-back": "Voltar aos resultados"
 }
