@@ -81,6 +81,12 @@ import { CommunityListElementComponent } from './app/shared/object-list/communit
 import { ItemSearchResultListElementComponent } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
 import { PublicationSidebarSearchListElementComponent } from './app/shared/object-list/sidebar-search-list-element/item-types/publication-sidebar-search-list-element.component';
 
+import { ItemPageComponent } from './app/item-page/simple/item-page.component';
+import { AdminToolsComponent } from './app/admin-tools/admin-tools.component';
+import { FullItemPageComponent } from './app/item-page/full/full-item-page.component';
+import { FullFileSectionComponent } from './app/item-page/full/field-components/file-section/full-file-section.component';
+import { HorizontalNavComponent } from './app/horizontal-nav/horizontal-nav.component';
+import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
   SearchFormComponent,
@@ -98,7 +104,13 @@ const DECLARATIONS = [
   ObjectListComponent,
   CommunityListElementComponent,
   ItemSearchResultListElementComponent,
-  PublicationSidebarSearchListElementComponent
+  PublicationSidebarSearchListElementComponent,
+  ItemPageComponent,
+  AdminToolsComponent,
+  FullItemPageComponent,
+  FullFileSectionComponent,
+  HorizontalNavComponent,
+  UntypedItemComponent
 ];
 
 @NgModule({

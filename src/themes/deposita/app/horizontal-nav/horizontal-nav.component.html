@@ -1,0 +1,7 @@
+<div class="horizontal-nav">
+  <a class="nav-item" [class.active]="isActive('/item-register')" (click)="register()">Registro do item</a>
+  <a class="nav-item" [class.active]="isActive('/usage-stats')" (click)="statistics()">Estatísticas de uso</a>
+  <a class="nav-item" [class.active]="isActive('/thermometer')" [routerLink]="'/thermometer'">Termômetro</a>
+  <a class="nav-item" [class.active]="isActive('/request-edit')" [routerLink]="'/request-edit'">Solicitar edição da revista</a>
+  <a class="nav-item" [class.active]="isActive('/edit-record-data')" (click)="edit()">Editar dados do registro</a>
+</div>

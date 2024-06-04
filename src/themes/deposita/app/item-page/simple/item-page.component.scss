@@ -1,0 +1,31 @@
+@include media-breakpoint-down(md) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.container {
+  display: flex;
+  max-width: 1924px;
+  min-height: 100vh;
+}
+
+.item-page-container {
+  display: flex;
+  align-items: flex-start;
+  width: 1924px;
+  position: relative;
+  right: 1rem;
+}
+
+ds-admin-tools {
+  flex: 0 0 250px; /* Define a largura fixa para a barra de ferramentas */
+  margin-right: 85px; /* Espaço entre a barra de ferramentas e o conteúdo */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.item-page-content {
+  flex: 1 0 auto; /* O conteúdo da página ocupa o espaço restante */
+}

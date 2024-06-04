@@ -94,12 +94,19 @@ export class RootComponent implements OnInit {
       if (url.startsWith('/home')) {
         this.renderer.addClass(document.body, 'home-page');
         this.renderer.removeClass(document.body, 'search-page');
+        this.renderer.removeClass(document.body, 'items-page');
       } else if (url.startsWith('/search')) {
         this.renderer.addClass(document.body, 'search-page');
         this.renderer.removeClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'items-page');
+      } else if (url.startsWith('/items')) {
+        this.renderer.addClass(document.body, 'items-page');
+        this.renderer.removeClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'search-page');
       } else {
         this.renderer.removeClass(document.body, 'home-page');
         this.renderer.removeClass(document.body, 'search-page');
+        this.renderer.removeClass(document.body, 'items-page');
       }
     }
   }
