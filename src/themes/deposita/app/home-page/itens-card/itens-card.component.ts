@@ -53,6 +53,10 @@ export class ItensCardComponent implements OnInit {
     });
   }
 
+  redirect(tipo: string): void {
+    window.location.href = '/search?query=dc.type:' + tipo;
+  }
+
   ngOnInit(): void {
     this.getItensQtd();
   }

@@ -64,7 +64,7 @@ export class SearchComponent implements OnInit {
     };
 
     const typeFilter = typeMap[selectedValue] || '';
-    const searchUrl = `http://localhost:4000/search?query=dc.type:${typeFilter}`;
+    const searchUrl = `/search?query=dc.type:${typeFilter}`;
     window.location.href = searchUrl;
   }
 
