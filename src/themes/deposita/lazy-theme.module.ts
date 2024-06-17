@@ -87,6 +87,8 @@ import { FullItemPageComponent } from './app/item-page/full/full-item-page.compo
 import { FullFileSectionComponent } from './app/item-page/full/field-components/file-section/full-file-section.component';
 import { HorizontalNavComponent } from './app/horizontal-nav/horizontal-nav.component';
 import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
+
+import { AuthNavMenuComponent } from './app/shared/auth-nav-menu/auth-nav-menu.component';
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
   SearchFormComponent,
@@ -110,7 +112,8 @@ const DECLARATIONS = [
   FullItemPageComponent,
   FullFileSectionComponent,
   HorizontalNavComponent,
-  UntypedItemComponent
+  UntypedItemComponent,
+  AuthNavMenuComponent
 ];
 
 @NgModule({
