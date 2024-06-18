@@ -1,6 +1,6 @@
 import { map, startWith } from 'rxjs/operators';
-import { Component, Inject, Input, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, Inject, Input, OnInit, Renderer2 } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 import { combineLatest as combineLatestObservable, Observable, of } from 'rxjs';
 import { Store } from '@ngrx/store';
@@ -56,7 +56,8 @@ export class RootComponent implements OnInit {
     private router: Router,
     private cssService: CSSVariableService,
     private menuService: MenuService,
-    private windowService: HostWindowService
+    private windowService: HostWindowService,
+    private renderer: Renderer2
   ) {
     this.notificationOptions = environment.notifications;
   }
@@ -74,8 +75,38 @@ export class RootComponent implements OnInit {
         startWith(true),
       );
 
-    if (this.router.url === getPageInternalServerErrorRoute()) {
-      this.shouldShowRouteLoader = false;
+      if (this.router.url === getPageInternalServerErrorRoute()) {
+        this.shouldShowRouteLoader = false;
+      }
+
+      // Adicionar a classe correta no ngOnInit
+      this.applyBodyClass(this.router.url);
+
+      // Inscrever-se em eventos de navegação para aplicar a classe correta
+      this.router.events.subscribe(event => {
+        if (event instanceof NavigationEnd) {
+          this.applyBodyClass(event.urlAfterRedirects);
+        }
+      });
+    }
+
+    private applyBodyClass(url: string) {
+      if (url.startsWith('/home')) {
+        this.renderer.addClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'search-page');
+        this.renderer.removeClass(document.body, 'items-page');
+      } else if (url.startsWith('/search')) {
+        this.renderer.addClass(document.body, 'search-page');
+        this.renderer.removeClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'items-page');
+      } else if (url.startsWith('/items')) {
+        this.renderer.addClass(document.body, 'items-page');
+        this.renderer.removeClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'search-page');
+      } else {
+        this.renderer.removeClass(document.body, 'home-page');
+        this.renderer.removeClass(document.body, 'search-page');
+        this.renderer.removeClass(document.body, 'items-page');
+      }
     }
   }
-}

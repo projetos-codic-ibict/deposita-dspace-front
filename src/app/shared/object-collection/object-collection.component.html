@@ -24,7 +24,8 @@
                 (contentChange)="contentChange.emit($event)"
                 (prev)="goPrev()"
                 (next)="goNext()"
-                *ngIf="(currentMode$ | async) === viewModeEnum.ListElement">
+                *ngIf="(currentMode$ | async) === viewModeEnum.ListElement"
+                style="{{style}}">
 </ds-themed-object-list>
 
 <ds-object-grid [config]="config"

@@ -5,4 +5,62 @@
     .dropdown-item {
         padding-left: 20px;
     }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: space-between;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .pagination-custom {
+      display: flex;
+      padding-left: 0;
+      list-style: none;
+      border-radius: 0.25rem;
+      justify-content: right;
+    }
+
+    .pagination-info {
+      top: 0.3rem;
+      left: 5rem;
+    }
+
+    ngb-pagination {
+      max-height: 50px;
+     }
+
+      ngb-pagination::ng-deep ul.pagination {
+        gap: 8px;
+      }
+
+      ngb-pagination::ng-deep ul.pagination > li.page-item > a {
+        color: #0F49BD;
+        background-color: transparent;
+        border: 2px solid #0F49BD;
+        border-radius: 4px;
+        height: 38px;
+        width: 38px;
+      }
+
+      ngb-pagination::ng-deep ul.pagination > li.page-item.active > a {
+        color: white;
+        background-color: #0F49BD;
+        height: 38px;
+        width: 38px;
+      }
+
+
+     div.div-pagination {
+       padding-inline: 0 !important;
+
+       label#paginationInputLabel {
+        color: white;
+        background-color: #0F49BD;
+        margin-inline: 0 !important;
+        padding-inline: 10px;
+       }
+     }
 }

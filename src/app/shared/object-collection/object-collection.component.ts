@@ -33,6 +33,7 @@ import { isPlatformBrowser } from '@angular/common';
   templateUrl: './object-collection.component.html',
 })
 export class ObjectCollectionComponent implements OnInit {
+  @Input() style: string;
   /**
    * The list of listable objects to render in this component
    */

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'ds-itens-card',
@@ -16,39 +17,44 @@ export class ItensCardComponent implements OnInit {
   dissertacao_qtd = 0;
 
   async getItensQtd(): Promise<any> {
-    const tiposItens = ['Artigos_de_revistas', 'Artigos_de_Conferencias', 'Livros', 'Capitulos_de_Livros', 'TCCs', 'Teses', 'Dissertacoes'];
+    const tiposItens = ['Article', 'conference_object', 'book', 'book_part', 'Trabalho_de_conclusao_de_curso', 'thesis', 'Dissertação'];
     const promises = tiposItens.map(tipo => {
-      return fetch(`http://192.168.1.22:9080/server/api/discover/facets/has_content_in_original_bundle?query=${tipo}`).then(res => res.json());
+      return fetch(environment.apiUrl + `/server/api/discover/facets/has_content_in_original_bundle?query=dc.type:${tipo}`).then(res => res.json());
     });
     const results = await Promise.all(promises);
-    console.log(results[0]._embedded.values[0].count);
+    console.log(results);
+    // console.log(results[0]._embedded.values[0].count);
 
     // Atualiza as variáveis com a quantidade de cada tipo de item
     results.forEach((result, index) => {
       switch (tiposItens[index]) {
-        case 'Artigos_de_revistas':
+        case 'Article':
           this.artigo_revista_qtd = result._embedded.values[0].count;
           break;
-        case 'Artigos_de_Conferencias':
+        case 'conference_object':
           this.artigo_conferencia_qtd = result._embedded.values[0].count;
           break;
-        case 'Livros':
+        case 'book':
           this.livro_qtd = result._embedded.values[0].count;
           break;
-        case 'Capitulos_de_Livros':
+        case 'book_part':
           this.capitulo_livro_qtd = result._embedded.values[0].count;
           break;
-        case 'TCCs':
+        case 'Trabalho_de_conclusao_de_curso':
           this.tcc_qtd = result._embedded.values[0].count;
           break;
-        case 'Teses':
+        case 'thesis':
           this.tese_qtd = result._embedded.values[0].count;
           break;
-        case 'Dissertacoes':
+        case 'Dissertação':
           this.dissertacao_qtd = result._embedded.values[0].count;
           break;
       }
     });
+  }
+
+  redirect(tipo: string): void {
+    window.location.href = '/search?query=dc.type:' + tipo;
   }
 
   ngOnInit(): void {

@@ -3,6 +3,8 @@ nav.navbar {
   border-bottom: 1px #F6F7F7 solid;
 }
 
+
+
 .navbar-nav {
   width: 100%; /* Faz com que a lista de navegação use todo o espaço disponível no container */
   position: relative; /* Permite posicionar o pseudo-elemento */
@@ -13,7 +15,7 @@ nav.navbar {
     color: #6A6A6A;
     font-size: 20px;
     text-decoration: none;
-    padding-bottom: 38px; /* Adiciona padding inferior para criar espaço para a barra */
+    padding-bottom: 35px; /* Adiciona padding inferior para criar espaço para a barra */
     position: relative; /* Permite posicionar o pseudo-elemento */
   }
 
