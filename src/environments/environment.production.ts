@@ -11,5 +11,5 @@ export const environment: Partial<BuildConfig> = {
   },
 
   apiUrl: 'http://172.16.24.33:9080',
-  communityEndpoint: '/communities/23ea3a15-eb4d-4f8f-a6e6-284e9532dae1'
+  communityEndpoint: '/communities/e6468bf0-8b08-46ef-8d88-0f2f79dea03b'
 };
