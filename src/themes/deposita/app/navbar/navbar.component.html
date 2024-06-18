@@ -27,12 +27,9 @@
             <a routerLink="" class="nav-link-custom">Contatos</a>
           </div>
           <div class="text-md-center">
-            <a routerLink="" class="nav-link-enter">Entrar</a>
+            <ds-auth-nav-menu class="nav-link-enter"></ds-auth-nav-menu>
           </div>
        </li>
-        <!-- <ng-container *ngFor="let section of (sections | async)">
-          <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
-        </ng-container> -->
       </ul>
     </div>
   </div>

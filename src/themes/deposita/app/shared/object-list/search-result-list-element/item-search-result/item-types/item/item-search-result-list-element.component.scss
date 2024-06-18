@@ -1,0 +1,41 @@
+@import '../../../../../../../../../styles/variables';
+
+.item-list-supervision {
+    a {
+        cursor: pointer;
+    }
+}
+
+.item-container {
+  background-color: red;
+  padding: 24px, 40px, 24px, 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  .text-divider {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+
+  .item-list-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .item-list-publisher,
+  .item-list-date {
+    font-style: italic;
+    margin-right: 5px;
+  }
+
+  .item-list-authors {
+    font-style: italic;
+  }
+
+  .item-list-abstract {
+    margin-top: 10px;
+  }
+}

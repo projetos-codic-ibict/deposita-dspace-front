@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 80rem;
+}
+
+.card-custom {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 16px;
+  background-color: #f5f6f7;
+  width: 380px;
+  height: 128px;
+  cursor: pointer;
+}
+
+.icon {
+  border-radius: 48.6875px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19.475000381469727px;
+  gap: 8.114583969116211px;
+  background-color: #fdfdfd;
+}
+.img-1 {
+  height: 32px;
+  width: 32px;
+  background-color: #ffffff;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+.tit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  height: 10px;
+}
+.text-2 {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 24px;
+  font-family: Open Sans;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: #2c3237;
+}
+.valores {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  height: 18px;
+}
+.text-3 {
+  text-align: right;
+  vertical-align: middle;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: #0fbc9f;
+}
+
+//
+.card-tcc {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 16px;
+  background-color: #f5f6f7;
+  width: 380px;
+  height: 128px;
+  cursor: pointer;
+}
+
+.card-tcc .group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.card-tcc .tit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  height: 30px;
+}
+
+.card-tcc .valores {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+

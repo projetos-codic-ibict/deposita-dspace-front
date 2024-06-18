@@ -1,0 +1,101 @@
+<div class="container">
+  <div class="card-custom" (click)="redirect('article')">
+    <div class="icon">
+      <img src="assets/deposita/images/li_file.svg" />
+    </div>
+    <div class="group">
+      <div class="tit">
+        <p class="text-2">Artigo de revista</p>
+      </div>
+      <div class="valores">
+        <p class="text-3">{{artigo_revista_qtd}} • publicados</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-custom" (click)="redirect('Conference')">
+    <div class="icon">
+      <img src="assets/deposita/images/li_file.svg" />
+    </div>
+    <div class="group">
+      <div class="tit">
+        <p class="text-2">Artigo de conferência</p>
+      </div>
+      <div class="valores">
+        <p class="text-3">{{artigo_conferencia_qtd}} • publicados</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-custom" (click)="redirect('Book')">
+    <div class="icon">
+      <img src="assets/deposita/images/li_file.svg" />
+    </div>
+    <div class="group">
+      <div class="tit">
+        <p class="text-2">Livros</p>
+      </div>
+      <div class="valores">
+        <p class="text-3">{{livro_qtd}} • publicados</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-custom" (click)="redirect('Book_part')">
+    <div class="icon">
+      <img src="assets/deposita/images/li_file.svg" />
+    </div>
+    <div class="group">
+      <div class="tit">
+        <p class="text-2">Capítulo de livro</p>
+      </div>
+      <div class="valores">
+        <p class="text-3">{{capitulo_livro_qtd}} • publicados</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-tcc" (click)="redirect('Trabalho_de_conclucao_de_curso')">
+    <div class="icon">
+      <img src="assets/deposita/images/li_file.svg" />
+    </div>
+    <div class="group">
+      <div class="tit">
+        <p class="text-2">Trabalho de conclusão de curso</p>
+      </div>
+      <div class="valores">
+        <p class="text-3">{{tcc_qtd}} • publicados</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-custom" (click)="redirect('Thesis')">
+    <div class="icon">
+      <img src="assets/deposita/images/li_file.svg" />
+    </div>
+    <div class="group">
+      <div class="tit">
+        <p class="text-2">Tese</p>
+      </div>
+      <div class="valores">
+        <p class="text-3">{{tese_qtd}} • publicados</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-custom" (click)="redirect('dissertação')">
+    <div class="icon">
+      <img src="assets/deposita/images/li_file.svg" />
+    </div>
+    <div class="group">
+      <div class="tit">
+        <p class="text-2">Dissertação</p>
+      </div>
+      <div class="valores">
+        <p class="text-3">{{dissertacao_qtd}} • publicados</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+

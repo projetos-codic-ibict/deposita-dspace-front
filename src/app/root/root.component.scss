@@ -1,0 +1,20 @@
+::ng-deep body.home-page .inner-wrapper,
+::ng-deep body.home-page .main-content {
+  background-color: white !important;
+}
+
+::ng-deep body.search-page .inner-wrapper,
+::ng-deep body.search-page .main-content {
+  background-color: #F6F7F7 !important;
+}
+
+::ng-deep body.items-page .inner-wrapper,
+::ng-deep body.items-page .main-content {
+  background-color: #F6F7F7 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+::ng-deep body.items-page .admin-tools-container {
+  padding: 49px 20px !important;
+}

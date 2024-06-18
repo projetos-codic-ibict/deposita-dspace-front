@@ -1,0 +1,80 @@
+:host {
+  div.simple-view-link {
+      text-align: center;
+      a {
+          min-width: 25%;
+      }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw; /* Faz com que o container preencha toda a largura da tela */
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  flex: 1; /* Faz com que o main-content preencha todo o espaço disponível */
+}
+
+.admin-tools {
+  flex: 0 0 250px; /* Largura fixa para a coluna de ferramentas de administração */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Para garantir que os itens se alinhem ao topo e ao fundo */
+}
+
+.header-nav {
+  background-color: white;
+  padding: 8px 0;
+}
+
+.horizontal-nav {
+  position: relative;
+  top: 21px;
+}
+
+.content-area {
+  flex: 1; /* Faz com que a área de conteúdo preencha todo o espaço disponível à direita */
+  display: flex;
+  flex-direction: column;
+}
+
+.item-details {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto; /* Adiciona scroll se o conteúdo for maior que a área disponível */
+}
+
+::ng-deep .table-striped tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
+
+::ng-deep .table th, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+::ng-deep .table-responsive {
+  position: relative;
+  left: 2rem;
+  width: 95%;
+  border-radius: 4px;
+}
+
+.key {
+  font-weight: bold;
+  font-size: 20px;
+  width: 20%;
+}
+
+.value {
+  font-size: 16px;
+}
+
+

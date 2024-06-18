@@ -1,8 +1,10 @@
 :host {
+
   .container {
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    justify-content: space-between;
+    height: 208vh;
   }
 
   .random-highlights {
@@ -10,7 +12,7 @@
     flex-direction: row;
     position: relative;
     right: 26rem;
-    top: 9rem;
+    top: -1rem;
     width: 1980px;
     height: auto;
   }
@@ -79,5 +81,16 @@
     text-align: center;
     top: 7rem;
     position: relative;
+  }
+
+  .item-box {
+    background-color: $blue;
+  }
+
+  .itens-box {
+    position: relative;
+    max-width: 100rem;
+    width: 100rem;
+    right: 15rem;
   }
 }
