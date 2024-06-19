@@ -15,7 +15,7 @@
 </ds-page-with-sidebar>
 
 <ng-template #searchContent>
-    <div class="row" style="right: 10rem; position: relative">
+    <div class="row" style="right: 7rem; position: relative">
         <div class="col-12" *ngIf="!(isXsOrSm$ | async)">
             <ng-template *ngTemplateOutlet="searchForm"></ng-template>
             <ng-content select="[additionalSearchOptions]"></ng-content>

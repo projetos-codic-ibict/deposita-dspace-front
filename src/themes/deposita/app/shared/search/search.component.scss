@@ -9,6 +9,11 @@
     margin-bottom: var(--bs-spacer);
 }
 
+.container {
+  position: relative;
+  left: 2rem;
+}
+
 .filter-title {
     font-size: 16px;
     font-weight: 500;
