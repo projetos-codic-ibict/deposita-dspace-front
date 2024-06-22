@@ -5,6 +5,12 @@
   }
 }
 
+:host ::ng-deep .search-form {
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+}
+
 ::ng-deep .search-controls {
     margin-bottom: var(--bs-spacer);
 }

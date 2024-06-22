@@ -81,20 +81,17 @@
 </ng-template>
 
 <ng-template #searchForm>
-  <h2 class="filter-title">
-    Filtro para busca
-  </h2>
-  <div class="search-filter">
-    <select class="form-control" (change)="onFilterChange($event.target.value)">
-      <option disabled selected>Buscar por:</option>
-      <option value="Artigos">Artigos de revista</option>
-      <option value="Artigos_de_conferencia">Artigos de conferência</option>
-      <option value="Livros">Livros</option>
-      <option value="Capitulo_de_livro">Capítulo de livro</option>
-      <option value="Tcc">Trabalho de conclusão de curso</option>
-      <option value="Teses">Teses</option>
-      <option value="Dissertacoes">Dissertações</option>
-    </select>
-    <img src="assets/deposita/images/down-arrow-svgrepo-com.svg" alt="" class="arrow-icon">
-  </div>
+  <ds-themed-search-form *ngIf="searchEnabled" id="search-form"
+                    [query]="(searchOptions$ | async)?.query"
+                    [scope]="(searchOptions$ | async)?.scope"
+                    [currentUrl]="searchLink"
+                    [showScopeSelector]="showScopeSelector"
+                    [inPlaceSearch]="inPlaceSearch"
+                    [searchPlaceholder]="searchFormPlaceholder | translate">
+    </ds-themed-search-form>
+    <div class="row mb-3 mb-md-1">
+        <div class="labels col-sm-9">
+            <ds-search-labels *ngIf="searchEnabled" [inPlaceSearch]="inPlaceSearch"></ds-search-labels>
+        </div>
+    </div>
 </ng-template>

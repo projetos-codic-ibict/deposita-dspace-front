@@ -1,37 +1,37 @@
-@include media-breakpoint-down(md) {
-  .container {
-    width: 100%;
-    max-width: none;
-  }
-}
+// @include media-breakpoint-down(md) {
+//   .container {
+//     width: 100%;
+//     max-width: none;
+//   }
+// }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  max-width: 1747px;
-  min-height: 100vh;
-}
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   max-width: 1747px;
+//   min-height: 100vh;
+// }
 
-.item-page {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  flex: 1;
-  margin-left: 10rem;
-}
+// .item-page {
+//   margin-top: 40px;
+//   margin-bottom: 40px;
+//   flex: 1;
+//   margin-left: 10rem;
+// }
 
-.item-page-container {
-  display: flex;
-  flex: 1;
-  align-items: flex-start;
-  width: 100%;
-}
+// .item-page-container {
+//   display: flex;
+//   flex: 1;
+//   align-items: flex-start;
+//   width: 100%;
+// }
 
-ds-admin-tools {
-  flex: 0 0 250px; /* Define a largura fixa para a barra de ferramentas */
-  margin-right: 1rem; /* Espaço entre a barra de ferramentas e o conteúdo */
-  min-height: 100%; /* Garante que o admin-tools ocupe toda a altura */
-}
+// ds-admin-tools {
+//   flex: 0 0 250px; /* Define a largura fixa para a barra de ferramentas */
+//   margin-right: 1rem; /* Espaço entre a barra de ferramentas e o conteúdo */
+//   min-height: 100%; /* Garante que o admin-tools ocupe toda a altura */
+// }
 
-.item-page-content {
-  flex: 1; /* O conteúdo da página ocupa o espaço restante */
-}
+// .item-page-content {
+//   flex: 1; /* O conteúdo da página ocupa o espaço restante */
+// }
