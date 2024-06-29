@@ -201,6 +201,8 @@ export class SubmissionFormComponent implements OnChanges, OnDestroy {
         (section) => isEqual(section.sectionType, SectionsType.Collection)
       );
 
+      console.log('submissionSectionModel', submissionSectionModel);
+
    return isNotUndefined(submissionSectionModel.visibility) ? submissionSectionModel.visibility : null;
   }
 

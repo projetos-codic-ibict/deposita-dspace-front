@@ -31,14 +31,11 @@
   .sidebar-content {
     background-color: white;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
     z-index: var(--bs-zindex-sticky);
     padding: var(--ds-content-spacing);
     margin-top: calc(-1* var(--ds-content-spacing));
     align-self: flex-start;
-    display: block;
-    height: 139.5rem;
     padding-left: 3rem;
   }
 }

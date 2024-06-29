@@ -9,6 +9,10 @@
   right: 0 !important;
   bottom: 0 !important;
   width: 100% !important;
+
+  .input-box {
+    width: 67% !important;
+  }
 }
 
 ::ng-deep .search-controls {
