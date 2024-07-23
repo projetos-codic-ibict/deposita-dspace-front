@@ -19,6 +19,14 @@ input[type="text"] {
   }
 }
 
+::ng-deep .fas {
+  color: #0F49BD;
+}
+
+::ng-deep .navbar-dark .navbar-nav .nav-link {
+  color: #F6F7F7;
+}
+
 @media screen and (max-width: map-get($grid-breakpoints, md)) {
   .query:focus {
     max-width: 250px !important;

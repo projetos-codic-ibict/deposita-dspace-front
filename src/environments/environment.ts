@@ -16,7 +16,7 @@ export const environment: Partial<BuildConfig> = {
   },
 
   apiUrl: 'http://localhost:9080',
-  communityEndpoint: '/communities/e6468bf0-8b08-46ef-8d88-0f2f79dea03b'
+  communityEndpoint: '/communities/8193ffed-2e68-45e3-8320-1b196481615c'
 };
 
 /*
