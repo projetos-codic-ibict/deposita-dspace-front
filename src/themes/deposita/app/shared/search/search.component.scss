@@ -15,6 +15,10 @@
   }
 }
 
+:host ::ng-deep .item-container {
+  width: 43rem !important;
+}
+
 ::ng-deep .search-controls {
     margin-bottom: var(--bs-spacer);
 }
