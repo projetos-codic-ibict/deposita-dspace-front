@@ -10,7 +10,6 @@
 .item-container {
   background-color: #FEFEFE;
   padding: 24px 40px 24px 40px;
-  border: 1px solid #FEFEFE;
   border-radius: 8px;
   margin-bottom: 10px;
 
@@ -26,8 +25,6 @@
     margin-bottom: 5px;
     color: #0F49BD;
     font-size: 24px;
-    border-bottom: 2px solid #E6E6E6;
-    padding-bottom: 15px;
   }
 
   .item-list-publisher,
@@ -43,14 +40,12 @@
   }
 
   ::ng-deep .clamp-default-1 {
-    border-bottom: 2px solid #E6E6E6;
     padding: 3px 0 6px 0;
   }
 
   .item-list-abstract {
     margin-top: 10px;
     color: #6A6A6A;
-    border-bottom: 2px solid #E6E6E6;
     padding-bottom: 15px;
   }
 
@@ -62,6 +57,11 @@
       position: relative;
       height: 30px;
       top: 7px;
+      background-color: #0F49BD;
+      padding: 2px 7px 2px 7px;
+      border-radius: 4px;
+      color: white;
+      margin-bottom: 10px;
     }
 
     .type-img {

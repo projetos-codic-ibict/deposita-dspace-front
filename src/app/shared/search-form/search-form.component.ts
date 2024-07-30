@@ -23,6 +23,7 @@ import { DSONameService } from '../../core/breadcrumbs/dso-name.service';
  * Component that represents the search form
  */
 export class SearchFormComponent implements OnChanges {
+  @Input() showAdvancedSearch: boolean;
   /**
    * The search query
    */

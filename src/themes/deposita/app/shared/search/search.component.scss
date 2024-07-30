@@ -6,17 +6,124 @@
 }
 
 :host ::ng-deep .search-form {
-  right: 0 !important;
+  right: 2rem !important;
   bottom: 0 !important;
-  width: 100% !important;
+  width: 136% !important;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
+  border: 0;
+
+  .form-control {
+    border: 0 solid #999999 !important;
+    border-radius: 0 !important;
+  }
 
   .input-box {
     width: 67% !important;
+    border-radius: 0 !important;
+    border: 1px solid #999999 !important;
+    margin-right: 0 !important;
+  }
+
+  .input-group-prepend {
+
+    .btn-outline-secondary {
+      color: #6A6A6A;
+      border-color: #999999;
+    }
+
+    .btn-outline-secondary:hover {
+      color: #FEFEFE;
+      background-color: #0F49BD;
+      border-color: #0F49BD;
+    }
+
+    .btn-outline-secondary:focus {
+      color: #FEFEFE;
+      background-color: #0F49BD;
+      border-color: #0F49BD;
+    }
+
+    .btn-outline-secondary:active {
+      color: #FEFEFE;
+      background-color: #0F49BD;
+      border-color: #0F49BD;
+    }
+
+    &:hover {
+      color: #6A6A6A;
+      border-color: #999999;
+    }
+  }
+
+  .input-group-append {
+
+    .btn-primary {
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+    }
+  }
+
+  ds-view-mode-switch {
+    margin-left: 1rem !important;
+
+    .btn {
+      padding: 0.460rem 0.80rem;
+    }
+
+    .btn-secondary {
+      background-color: #FEFEFE;
+      border-color: #0F49BD;
+
+      &:hover {
+        background-color: #0F49BD;
+        border-color: #0F49BD;
+
+        .fas {
+          color: #FEFEFE;
+        }
+      }
+    }
+
+    .btn-secondary:not(:disabled):not(.disabled).active {
+      background-color: #0F49BD;
+      border-color: #0F49BD;
+
+      .fas {
+        color: #FEFEFE;
+      }
+    }
+  }
+
+}
+
+:host ::ng-deep ds-pagination {
+
+  .container {
+    left: 16.5rem !important;
   }
 }
 
-:host ::ng-deep .item-container {
-  width: 43rem !important;
+:host ::ng-deep ds-item-search-result-list-element .row {
+  background-color: #FEFEFE !important;
+  width: 100% !important;
+  height: 16rem;
+
+  .item-container {
+    padding: 10px 10px 24px 10px !important;
+    border-radius: 8px !important;
+    margin-bottom: 0 !important;
+    height: 16rem;
+    width: 60rem !important;
+  }
+
+  ds-thumbnail {
+    position: relative;
+    top: 3rem;
+  }
+}
+
+:host ::ng-deep #search-content {
+  padding: 0 !important;
 }
 
 ::ng-deep .search-controls {
@@ -26,61 +133,5 @@
 .container {
   position: relative;
   left: 2rem;
-}
-
-.filter-title {
-    font-size: 16px;
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.search-filter {
-  .form-control {
-    background-color: white; /* Define a cor de fundo */
-    border: 1px solid #E6E6E6; /* Adiciona uma borda */
-    border-radius: 4px; /* Arredonda as bordas */
-    padding: 5px 12px; /* Adiciona espaçamento interno */
-    width: 51.7rem; /* Define a largura */
-    font-size: 16px; /* Define o tamanho da fonte */
-    outline: none; /* Remove o contorno ao focar */
-    margin-right: 10px; /* Define a margem direita */
-
-    &:hover {
-      cursor: pointer; /* Muda o cursor ao passar por cima */
-    }
-
-    &:focus {
-      border-color: #80bdff; /* Muda a cor da borda ao focar */
-      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Adiciona um efeito de destaque */
-    }
-
-    /* Adiciona a seta personalizada */
-    background-image: url('/src/themes/deposita/assets/images/down-arrow-svgrepo-com.svg');
-    background-repeat: no-repeat;
-    background-position: right 10px center; /* Posiciona a seta à direita com um espaçamento */
-    background-size: 14px; /* Define o tamanho da imagem da seta */
-    -webkit-appearance: none; /* Remove a seta padrão do Safari */
-    -moz-appearance: none; /* Remove a seta padrão do Firefox */
-    appearance: none; /* Remove a seta padrão de outros navegadores */
-  }
-}
-
-.search-filter {
-  position: relative;
-  display: inline-block;
-}
-
-.form-control {
-  padding-right: 30px; // Ajuste conforme necessário para dar espaço para a seta
-}
-
-.arrow-icon {
-  position: absolute;
-  top: 50%;
-  right: 20px; // Ajuste conforme necessário para a posição desejada
-  transform: translateY(-50%);
-  width: 12px; // Ajuste conforme necessário
-  height: auto; // Ajuste conforme necessário
 }
 

@@ -12,12 +12,15 @@
              attr.aria-label="{{ searchPlaceholder }}" [attr.data-test]="'search-box' | dsBrowserOnly"
              [placeholder]="searchPlaceholder">
 
-      <a href="/search" class="input-advanced-search-link">Busca avançada</a>
+      <a *ngIf="showAdvancedSearch" href="/search" class="input-advanced-search-link">Busca avançada</a>
     </div>
     <div class="input-group-append">
       <button type="submit" class="btn btn-primary" [attr.data-test]="'search-button' | dsBrowserOnly">
         Buscar
       </button>
+    </div>
+    <div *ngIf="showModeViewSwitch" class="input-group-mode-switch">
+      <ds-view-mode-switch></ds-view-mode-switch>
     </div>
   </div>
 </form>

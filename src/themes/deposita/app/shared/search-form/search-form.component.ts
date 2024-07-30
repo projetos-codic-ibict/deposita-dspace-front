@@ -23,6 +23,10 @@ import { currentPath } from 'src/app/shared/utils/route.utils';
  * Component that represents the search form
  */
 export class SearchFormComponent implements OnChanges {
+  showAdvancedSearch = true;
+  showModeViewSwitch = false;
+
+
   /**
    * The search query
    */
@@ -86,6 +90,14 @@ export class SearchFormComponent implements OnChanges {
     if (isNotEmpty(this.scope)) {
       this.dsoService.findById(this.scope).pipe(getFirstSucceededRemoteDataPayload())
         .subscribe((scope: DSpaceObject) => this.selectedScope.next(scope));
+    }
+
+    if (window.location.href.includes('search')) {
+      this.showAdvancedSearch = false;
+    }
+
+    if (window.location.href.includes('search')) {
+      this.showModeViewSwitch = true;
     }
   }
 

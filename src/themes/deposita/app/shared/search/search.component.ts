@@ -51,7 +51,6 @@ import { COMMUNITY_MODULE_PATH } from 'src/app/community-page/community-page-rou
  * This component renders a sidebar, a search input bar and the search results.
  */
 export class SearchComponent implements OnInit {
-
   onFilterChange(selectedValue: string): void {
     const typeMap = {
       'Artigos': 'Article',
