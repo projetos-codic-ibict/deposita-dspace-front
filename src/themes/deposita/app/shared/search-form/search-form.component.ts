@@ -25,6 +25,7 @@ import { currentPath } from 'src/app/shared/utils/route.utils';
 export class SearchFormComponent implements OnChanges {
   showAdvancedSearch = true;
   showModeViewSwitch = false;
+  showFormTitle = false;
 
 
   /**
@@ -98,6 +99,7 @@ export class SearchFormComponent implements OnChanges {
 
     if (window.location.href.includes('search')) {
       this.showModeViewSwitch = true;
+      this.showFormTitle = true;
     }
   }
 

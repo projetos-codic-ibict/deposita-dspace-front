@@ -135,3 +135,62 @@
   left: 2rem;
 }
 
+:host ::ng-deep ds-search-filters {
+  .facet-filter {
+    background-color: #FEFEFE !important;
+  }
+
+  .filter-name {
+    border: 0 !important;
+    padding: 14px !important;
+    background:  #FFFFFF !important;
+    width: 100% !important;
+    border-radius: 4px !important;
+    border: 1px solid #E8E8E8 !important;
+  }
+
+  .filter-name h5 {
+    color: #0F49BD;
+    font-size: 1.4rem;
+  }
+
+  .filter-name .fas {
+    color: #0F49BD;
+  }
+
+  button:active {
+    background: #0F49BD !important;
+
+    .fas {
+      color: #FEFEFE;
+    }
+
+    h5 {
+      color: #FEFEFE;
+    }
+  }
+
+  button:focus {
+    background: #0F49BD !important;
+
+    .fas {
+      color: #FEFEFE;
+    }
+
+    h5 {
+      color: #FEFEFE;
+    }
+  }
+
+  ds-search-facet-filter-wrapper ds-search-range-filter nouislider .noUi-connect{
+    background: #0F49BD !important;
+  }
+
+  a.btn-primary{
+    background-color: #0F49BD;
+
+    i {
+      color: #FEFEFE;
+    }
+  }
+}

@@ -1,3 +1,4 @@
+<p *ngIf="showFormTitle" class="form-title">Filtre sua busca</p>
 <form #form="ngForm" (ngSubmit)="onSubmit(form.value)" action="/search" class="search-form">
   <div class="input-group">
     <div *ngIf="showScopeSelector" class="input-group-prepend">

@@ -1,6 +1,7 @@
 <div class="d-flex justify-content-between">
   <ds-search-export-csv *ngIf="showCsvExport" [searchConfig]="searchConfig"></ds-search-export-csv>
 </div>
+<p class="result-title">Resultados de busca</p>
 <div *ngIf="searchResults && searchResults?.hasSucceeded && !searchResults?.isLoading && searchResults?.payload?.page.length > 0" @fadeIn>
   <ds-viewable-collection
           [config]="searchConfig.pagination"

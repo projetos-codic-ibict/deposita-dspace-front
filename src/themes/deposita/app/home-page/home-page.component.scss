@@ -110,3 +110,17 @@
   margin: 0 auto;
   right: 10rem;
 }
+
+:host ::ng-deep ds-recent-item-list {
+
+    .btn-primary {
+      background-color: #0F49BD;
+      border-color: #0F49BD;
+
+      &:hover {
+        background-color: #4178e5;
+        border-color: #0F49BD;
+      }
+
+  }
+}
