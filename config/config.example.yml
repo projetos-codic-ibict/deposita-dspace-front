@@ -75,7 +75,7 @@ cache:
     anonymousCache:
       # Maximum number of pages to cache. Default is zero (0) which means anonymous user cache is disabled.
       # As all pages are cached in server memory, increasing this value will increase memory needs.
-      # Individual cached pages are usually small (<100KB), so a value of max=1000 would only require ~100MB of memory. 
+      # Individual cached pages are usually small (<100KB), so a value of max=1000 would only require ~100MB of memory.
       max: 0
       # Amount of time after which cached pages are considered stale (in ms). After becoming stale, the cached
       # copy is automatically refreshed on the next request.
@@ -161,7 +161,7 @@ submission:
           style: text-muted
 
 #  Default Language in which the UI will be rendered if the user's browser language is not an active language
-defaultLanguage: en
+defaultLanguage: pt-BR
 
 # Languages. DSpace Angular holds a message catalog for each of the following languages.
 # When set to active, users will be able to switch to the use of this language in the user interface.
@@ -259,7 +259,7 @@ communityList:
 homePage:
   recentSubmissions:
     # The number of item showing in recent submission components
-    pageSize: 5
+    pageSize: 4
     # Sort record of recent submission
     sortField: 'dc.date.accessioned'
   topLevelCommunityList:
@@ -376,7 +376,7 @@ vocabularies:
     vocabulary: 'srsc'
     enabled: true
 
-# Default collection/community sorting order at Advanced search, Create/update community and collection when there are not a query. 
+# Default collection/community sorting order at Advanced search, Create/update community and collection when there are not a query.
 comcolSelectionSort:
   sortField: 'dc.title'
   sortDirection: 'ASC'

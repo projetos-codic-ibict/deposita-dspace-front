@@ -18,13 +18,16 @@ export class AdminToolsComponent {
 
   exportItem() {
     // Lógica para exportar item
+    void window.open(`/processes/new?script=metadata-export&itemId=${this.itemId}`, '_blank');
   }
 
   migrateItem() {
     // Lógica para migrar item
+    void window.open(`/processes/new?script=metadata-migration&itemId=${this.itemId}`, '_blank');
   }
 
   exportMetadata() {
-    // Lógica para exportar metadados
+    // Lógica para exportar metadatos
+    void window.open(`/processes/new?script=metadata-export&itemId=${this.itemId}`, '_blank');
   }
 }

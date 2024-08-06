@@ -1,0 +1,26 @@
+h2 {
+  color: #0F49BD;
+}
+
+.listable-object-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+:host ::ng-deep ds-item-search-result-list-element {
+  .item-container {
+    background-color: #F6F7F7 !important;
+    padding: 0 !important;
+  }
+
+  .row {
+    background-color: #F6F7F7 !important;
+    padding: 1rem !important;
+    border-radius: 2rem;
+  }
+}

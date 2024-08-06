@@ -4,8 +4,8 @@
     <ds-view-tracker [object]="site"></ds-view-tracker>
   </ng-container>
   <ds-themed-search-form [large]="true" [inPlaceSearch]="false" [searchPlaceholder]="'Pesquisar por Artigos, livros ....'"></ds-themed-search-form>
-  <!-- <ds-themed-top-level-community-list></ds-themed-top-level-community-list>
-  <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list> -->
+
+  <!-- <ds-themed-top-level-community-list></ds-themed-top-level-community-list> -->
 
   <div class="random-highlights">
     <img class="img-fluid-1" src="assets/deposita/images/random-line-left.svg">
@@ -22,9 +22,12 @@
     <img class="img-fluid-2" src="assets/deposita/images/random-line-right.svg">
   </div>
 
+
   <div class="itens-box">
     <ds-itens-card></ds-itens-card>
   </div>
+
+  <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
 
   <div class="partner-container">
     <ds-partner-box></ds-partner-box>

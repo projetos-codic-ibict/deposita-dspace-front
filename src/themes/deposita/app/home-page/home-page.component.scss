@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 208vh;
+    height: fit-content;
+    gap: 1rem;
   }
 
   .random-highlights {
@@ -12,7 +13,7 @@
     flex-direction: row;
     position: relative;
     right: 26rem;
-    top: -1rem;
+    top: 7rem;
     width: 1980px;
     height: auto;
   }
@@ -92,5 +93,34 @@
     max-width: 100rem;
     width: 100rem;
     right: 15rem;
+    margin-top: 9rem;
+  }
+}
+
+:host ::ng-deep .search-form {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 60px #074E8E33;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1000;
+  bottom: 0 !important;
+  width: 130%;
+  max-width: 1440px;
+  margin: 0 auto;
+  right: 10rem;
+}
+
+:host ::ng-deep ds-recent-item-list {
+
+    .btn-primary {
+      background-color: #0F49BD;
+      border-color: #0F49BD;
+
+      &:hover {
+        background-color: #4178e5;
+        border-color: #0F49BD;
+      }
+
   }
 }

@@ -12,7 +12,7 @@
     }
 
     div > img {
-      height: var(--ds-footer-logo-height);
+      height: 60%;
     }
 
 
@@ -42,6 +42,14 @@
       color: #999999;
       font-size: 16px;
     }
+  }
+
+  .link-container {
+    background-color: #0F49BD;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px 8px 0px;
+    gap: 32px;
   }
 }
 

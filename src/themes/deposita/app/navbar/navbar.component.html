@@ -12,7 +12,7 @@
         </li>
         <li class="nav-item d-flex align-items-center">
           <div class="text-md-center">
-            <a routerLink="/home" class="nav-link-custom">Inicial</a>
+            <a routerLink="/community-list" class="nav-link-custom">Comunidades e Coleções</a>
           </div>
           <div class="text-md-center">
             <a routerLink="/search" class="nav-link-custom">Navegar</a>
@@ -21,12 +21,11 @@
             <a routerLink={{communityEndpoint}} class="nav-link-custom">O Deposita</a>
           </div>
           <div class="text-md-center">
-            <a routerLink="" class="nav-link-custom">FAQ</a>
-          </div>
-          <div class="text-md-center">
             <a routerLink="" class="nav-link-custom">Contatos</a>
           </div>
-          <div class="text-md-center">
+          <div class="text-md-center action-links">
+            <ds-search-navbar></ds-search-navbar>
+            <ds-lang-switch></ds-lang-switch>
             <ds-auth-nav-menu class="nav-link-enter"></ds-auth-nav-menu>
           </div>
        </li>

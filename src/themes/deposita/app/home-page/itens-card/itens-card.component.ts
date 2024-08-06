@@ -22,7 +22,6 @@ export class ItensCardComponent implements OnInit {
       return fetch(environment.apiUrl + `/server/api/discover/facets/has_content_in_original_bundle?query=dc.type:${tipo}`).then(res => res.json());
     });
     const results = await Promise.all(promises);
-    console.log(results);
     // console.log(results[0]._embedded.values[0].count);
 
     // Atualiza as variáveis com a quantidade de cada tipo de item

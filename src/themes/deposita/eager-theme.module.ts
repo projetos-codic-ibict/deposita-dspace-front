@@ -10,6 +10,7 @@ import { NavbarModule } from '../../app/navbar/navbar.module';
 import { SharedBrowseByModule } from '../../app/shared/browse-by/shared-browse-by.module';
 import { ResultsBackButtonModule } from '../../app/shared/results-back-button/results-back-button.module';
 import { FooterComponent } from './app/footer/footer.component';
+import { SearchModule } from "../../app/shared/search/search.module";
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -34,7 +35,8 @@ const DECLARATIONS = [
     ResultsBackButtonModule,
     RootModule,
     NavbarModule,
-  ],
+    SearchModule
+],
   declarations: DECLARATIONS,
   providers: [
     ...ENTRY_COMPONENTS.map((component) => ({provide: component}))

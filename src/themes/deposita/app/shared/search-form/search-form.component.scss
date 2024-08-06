@@ -42,6 +42,15 @@
   border-radius: 4px !important;
 }
 
+.form-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2C3238;
+  display: flex;
+  position: relative;
+  right: 2rem;
+}
+
 /* Media query para telas com resolução de 1366x768 */
 @media (max-width: 1366px) {
   .search-form {
