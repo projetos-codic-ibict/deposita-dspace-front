@@ -86,7 +86,7 @@ export class FullItemPageComponent extends ItemPageComponent implements OnInit, 
     // });
 
     for (const key in metadata) {
-      if (metadata.hasOwnProperty(key) && key !== 'dc.contributor.authorID' ) {
+      if (metadata.hasOwnProperty(key) && key !== 'dc.contributor.authorID' && key !== 'dc.title') {
         organizedMetadata[key] = metadata[key];
       }
     }

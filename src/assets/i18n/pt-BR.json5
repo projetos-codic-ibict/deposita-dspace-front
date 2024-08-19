@@ -3082,7 +3082,7 @@
   "item.page.journal-title": "Título da Revista",
 
   // "item.page.publisher": "Publisher",
-  "item.page.publisher": "Editor",
+  "item.page.publisher": "Instituição",
 
   // "item.page.titleprefix": "Item: ",
   "item.page.titleprefix": "Item: ",
@@ -3106,7 +3106,7 @@
   "item.page.abstract": "Resumo",
 
   // "item.page.author": "Authors",
-  "item.page.author": "Autores",
+  "item.page.author": "Autor (es)",
 
   // "item.page.citation": "Citation",
   "item.page.citation": "Citação",
@@ -3121,7 +3121,7 @@
   "item.page.collections.load-more": "Carregar mais",
 
   // "item.page.date": "Date",
-  "item.page.date": "Data",
+  "item.page.date": "Ano de publicação",
 
   // "item.page.edit": "Edit this item",
   "item.page.edit": "Editar este item",
@@ -3217,7 +3217,7 @@
   "item.preview.dc.identifier.uri": "Identificador:",
 
   // "item.preview.dc.contributor.author": "Authors:",
-  "item.preview.dc.contributor.author": "Autores:",
+  "item.preview.dc.contributor.author": "Autor (es):",
 
   // "item.preview.dc.date.issued": "Published date:",
   "item.preview.dc.date.issued": "Data de publicação:",
