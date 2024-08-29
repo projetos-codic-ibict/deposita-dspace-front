@@ -121,6 +121,9 @@
         background-color: #4178e5;
         border-color: #0F49BD;
       }
+    }
 
-  }
+    .clamp-default-3 .content:after {
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), #F6F7F7);
+    }
 }

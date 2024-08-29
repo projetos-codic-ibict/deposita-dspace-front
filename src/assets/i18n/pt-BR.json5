@@ -3082,7 +3082,7 @@
   "item.page.journal-title": "Título da Revista",
 
   // "item.page.publisher": "Publisher",
-  "item.page.publisher": "Editor",
+  "item.page.publisher": "Instituição",
 
   // "item.page.titleprefix": "Item: ",
   "item.page.titleprefix": "Item: ",
@@ -3106,7 +3106,7 @@
   "item.page.abstract": "Resumo",
 
   // "item.page.author": "Authors",
-  "item.page.author": "Autores",
+  "item.page.author": "Autor (es)",
 
   // "item.page.citation": "Citation",
   "item.page.citation": "Citação",
@@ -3121,7 +3121,7 @@
   "item.page.collections.load-more": "Carregar mais",
 
   // "item.page.date": "Date",
-  "item.page.date": "Data",
+  "item.page.date": "Ano de publicação",
 
   // "item.page.edit": "Edit this item",
   "item.page.edit": "Editar este item",
@@ -3217,7 +3217,7 @@
   "item.preview.dc.identifier.uri": "Identificador:",
 
   // "item.preview.dc.contributor.author": "Authors:",
-  "item.preview.dc.contributor.author": "Autores:",
+  "item.preview.dc.contributor.author": "Autor (es):",
 
   // "item.preview.dc.date.issued": "Published date:",
   "item.preview.dc.date.issued": "Data de publicação:",
@@ -4027,7 +4027,7 @@
   "nav.main.description": "Barra de navegação principal",
 
   // "nav.mydspace": "MyDSpace",
-  "nav.mydspace": "MeuDSpace",
+  "nav.mydspace": "Meu Deposita",
 
   // "nav.profile": "Profile",
   "nav.profile": "Perfil",
@@ -4646,10 +4646,10 @@
   "repository.image.logo": "Logo do Repositório",
 
   // "repository.title.prefix": "DSpace Angular :: ",
-  "repository.title.prefix": "DSpace Angular :: ",
+  "repository.title.prefix": "Deposita :: ",
 
   // "repository.title.prefixDSpace": "DSpace Angular ::",
-  "repository.title.prefixDSpace": "DSpace Angular ::",
+  "repository.title.prefixDSpace": "Deposita ::",
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "Adicionar",
@@ -6836,6 +6836,8 @@
 
   "bookPart": "Capítulo de Livro",
 
+  "info.about.title": "Contato",
+
   "metadataKeys": {
     "dc.contributor.advisor": "Consultor colaborador",
     "dc.contributor.advisorLattes": "Lattes do Orientador",
@@ -6843,7 +6845,7 @@
     "dc.contributor.authorLattes": "Lattes do Autor",
     "dc.date.accessioned": "Data de Acesso",
     "dc.date.issued": "Data de Emissão",
-    "dc.description.abstract": "Resumo",
+    "dc.description.abstract": "Abstrato",
     "dc.description.provenance": "Proveniência",
     "dc.description.resumo": "Resumo",
     "dc.description.sponsorship": "Patrocínio",
@@ -6856,10 +6858,22 @@
     "dc.publisher.department": "Departamento da Editora",
     "dc.publisher.program": "Programa da Editora",
     "dc.rights": "Direitos",
-    "dc.subject": "Assunto",
+    "dc.subject": "Palavra Chave",
     "dc.subject.cnpq": "Assunto CNPq",
     "dc.title": "Título",
-    "dc.type": "Tipo"
+    "dc.type": "Tipo",
+    "dc.identifier.issn": "Identificador Issn",
+    "dc.title.alternative": "Titúlo Alternativo",
+    "dc.citation.epage": "Página final",
+    "dc.citation.spage": "Página inicial",
+    "dc.citation.volume": "Volume",
+    "dc.relation.ispartof": "É parte de",
+    "dc.identifier.citation": "Citação",
+    "dc.identifier.doi": "DOI (Identificador de Objeto Digital)",
+    "dc.contributor.referees1": "Avaliador 1",
+    "dc.relation.references": "Referências",
+    "dc.rights.uri": "URL dos Direitos",
+    "dc.thumbnail.url": "URL da Miniatura"
   },
 
   "languages": {

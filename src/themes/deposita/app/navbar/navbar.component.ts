@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavbarComponent as BaseComponent } from '../../../../app/navbar/navbar.component';
-import { slideMobileNav } from '../../../../app/shared/animations/slide';
+import { slide, slideMobileNav } from '../../../../app/shared/animations/slide';
 import { environment } from 'src/environments/environment';
 
 /**
@@ -10,8 +10,29 @@ import { environment } from 'src/environments/environment';
   selector: 'ds-navbar',
   styleUrls: ['./navbar.component.scss'],
   templateUrl: './navbar.component.html',
-  animations: [slideMobileNav]
+  animations: [slideMobileNav, slide]
 })
 export class NavbarComponent extends BaseComponent {
   communityEndpoint = environment.communityEndpoint;
+  isDropdownNavegarOpen = false;
+  isDropdownODepositaOpen = false;
+
+
+  openDropdownNavegar() {
+    this.isDropdownNavegarOpen = true;
+  }
+
+  closeDropdownNavegar() {
+    this.isDropdownNavegarOpen = false;
+  }
+
+
+  openDropdownODeposita() {
+    this.isDropdownODepositaOpen = true;
+  }
+
+  closeDropdownODeposita() {
+    this.isDropdownODepositaOpen = false;
+  }
+
 }

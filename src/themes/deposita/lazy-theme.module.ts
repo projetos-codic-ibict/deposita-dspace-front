@@ -89,6 +89,9 @@ import { HorizontalNavComponent } from './app/horizontal-nav/horizontal-nav.comp
 import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
 
 import { AuthNavMenuComponent } from './app/shared/auth-nav-menu/auth-nav-menu.component';
+import { ExpandableNavbarSectionComponent } from './app/navbar/expandable-navbar-section/expandable-navbar-section.component';
+import { AboutPageComponent } from './app/about-page/about-page.component';
+
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
   SearchFormComponent,
@@ -113,7 +116,9 @@ const DECLARATIONS = [
   FullFileSectionComponent,
   HorizontalNavComponent,
   UntypedItemComponent,
-  AuthNavMenuComponent
+  AuthNavMenuComponent,
+  ExpandableNavbarSectionComponent,
+  AboutPageComponent
 ];
 
 @NgModule({
