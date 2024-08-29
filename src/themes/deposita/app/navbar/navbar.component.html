@@ -16,11 +16,11 @@
           </div>
           <div class="text-md-center">
 
-            <div class="dropdown" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()">
+            <div class="dropdown" (mouseenter)="openDropdownNavegar()" (mouseleave)="closeDropdownNavegar()">
               <button class="btn btn-navigation dropdown-toggle">
                 Navegar
               </button>
-              <div *ngIf="isDropdownOpen" class="dropdown-menu show">
+              <div *ngIf="isDropdownNavegarOpen" class="dropdown-menu show">
                 <a class="dropdown-item" routerLink="/browse/author">Por Autor</a>
                 <a class="dropdown-item" routerLink="/browse/areaconhecimento">Por Área do conhecimento</a>
                 <a class="dropdown-item" routerLink="/browse/subject">Por Assunto</a>
@@ -34,10 +34,19 @@
 
           </div>
           <div class="text-md-center">
-            <a routerLink={{communityEndpoint}} class="nav-link-custom">O Deposita</a>
+            <div class="dropdown" (mouseenter)="openDropdownODeposita()" (mouseleave)="closeDropdownODeposita()">
+              <button class="btn btn-navigation dropdown-toggle">
+                O Deposita
+              </button>
+              <div *ngIf="isDropdownODepositaOpen" class="dropdown-menu show">
+                <a class="dropdown-item" routerLink="">Apresentação</a>
+                <a class="dropdown-item" routerLink="">Política do Repositório</a>
+                <a class="dropdown-item" routerLink="">Cartilha de depósito</a>
+              </div>
+            </div>
           </div>
           <div class="text-md-center">
-            <a routerLink="" class="nav-link-custom">Contatos</a>
+            <a routerLink="/info/about" class="nav-link-custom">Contatos</a>
           </div>
           <div class="text-md-center action-links">
             <ds-search-navbar></ds-search-navbar>

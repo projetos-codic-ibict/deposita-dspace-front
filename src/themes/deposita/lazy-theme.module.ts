@@ -90,6 +90,8 @@ import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-
 
 import { AuthNavMenuComponent } from './app/shared/auth-nav-menu/auth-nav-menu.component';
 import { ExpandableNavbarSectionComponent } from './app/navbar/expandable-navbar-section/expandable-navbar-section.component';
+import { AboutPageComponent } from './app/about-page/about-page.component';
+
 const DECLARATIONS = [
   TopLevelCommunityListComponent,
   SearchFormComponent,
@@ -115,7 +117,8 @@ const DECLARATIONS = [
   HorizontalNavComponent,
   UntypedItemComponent,
   AuthNavMenuComponent,
-  ExpandableNavbarSectionComponent
+  ExpandableNavbarSectionComponent,
+  AboutPageComponent
 ];
 
 @NgModule({

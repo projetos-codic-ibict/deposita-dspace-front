@@ -13,15 +13,26 @@ import { environment } from 'src/environments/environment';
   animations: [slideMobileNav, slide]
 })
 export class NavbarComponent extends BaseComponent {
-  isDropdownOpen = false;
   communityEndpoint = environment.communityEndpoint;
+  isDropdownNavegarOpen = false;
+  isDropdownODepositaOpen = false;
 
-  openDropdown() {
-    this.isDropdownOpen = true;
+
+  openDropdownNavegar() {
+    this.isDropdownNavegarOpen = true;
   }
 
-  closeDropdown() {
-    this.isDropdownOpen = false;
+  closeDropdownNavegar() {
+    this.isDropdownNavegarOpen = false;
+  }
+
+
+  openDropdownODeposita() {
+    this.isDropdownODepositaOpen = true;
+  }
+
+  closeDropdownODeposita() {
+    this.isDropdownODepositaOpen = false;
   }
 
 }
