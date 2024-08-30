@@ -6830,7 +6830,7 @@
 
   "article": "Artigo de Revista",
 
-  "conferenceObject": "Artigo de Conferência",
+  "conferenceObject": "Artigo de Evento",
 
   "book": "Livro",
 
@@ -6845,7 +6845,7 @@
     "dc.contributor.authorLattes": "Lattes do Autor",
     "dc.date.accessioned": "Data de Acesso",
     "dc.date.issued": "Data de Emissão",
-    "dc.description.abstract": "Abstrato",
+    "dc.description.abstract": "Abstract",
     "dc.description.provenance": "Proveniência",
     "dc.description.resumo": "Resumo",
     "dc.description.sponsorship": "Patrocínio",
