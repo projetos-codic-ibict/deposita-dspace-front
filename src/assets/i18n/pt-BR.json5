@@ -1013,11 +1013,27 @@
   // "browse.back.all-results": "All browse results",
   "browse.back.all-results": "Todos os resultados",
 
+  "browse.taxonomy.button" : "Pesquisar",
+
   // "browse.comcol.by.author": "By Author",
   "browse.comcol.by.author": "Por Autor",
 
   // "browse.comcol.by.dateissued": "By Issue Date",
   "browse.comcol.by.dateissued": "Por Data de Publicação",
+
+  "browse.comcol.by.dateaccessioned": "Por Data de Acesso",
+
+ "browse.comcol.by.language": "Por Idioma",
+
+ "browse.comcol.by.knowledgearea": "Por Área de Conhecimento",
+
+ "browse.comcol.by.documenttype": "Por Tipo de Documento",
+
+ "browse.comcol.by.institution": "Por Instituição",
+
+ "browse.comcol.by.keyword": "Por Palavra-chave",
+
+ "browse.comcol.by.srsc" : "Por Assuntos de Pesquisa",
 
   // "browse.comcol.by.subject": "By Subject",
   "browse.comcol.by.subject": "Por Assunto",
@@ -1043,17 +1059,41 @@
   // "browse.metadata.title": "Title",
   "browse.metadata.title": "Título",
 
+  "browse.metadata.knowledgearea": "Área de Conhecimento",
+
+  "browse.metadata.documenttype": "Tipo de Documento",
+
+  "browse.metadata.institution": "Instituição",
+
+  "browse.metadata.language" : "Idioma de publicação",
+
+  "browse.metadata.keyword" : "Palavra-chave",
+
   // "browse.metadata.author.breadcrumbs": "Browse by Author",
   "browse.metadata.author.breadcrumbs": "Pesquisar por Autor",
 
   // "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
   "browse.metadata.dateissued.breadcrumbs": "Pesquisar por Data",
 
+  "browse.metadata.dateaccessioned.breadcrumbs": "Pesquisar por Data de acesso",
+
   // "browse.metadata.subject.breadcrumbs": "Browse by Subject",
   "browse.metadata.subject.breadcrumbs": "Pesquisar por Assunto",
 
   // "browse.metadata.title.breadcrumbs": "Browse by Title",
   "browse.metadata.title.breadcrumbs": "Pesquisar por Título",
+
+   "browse.metadata.knowledgearea.breadcrumbs": "Pesquisar por Área de Conhecimento",
+
+   "browse.metadata.documenttype.breadcrumbs": "Pesquisar por Tipo de Documento",
+
+   "browse.metadata.institution.breadcrumbs": "Pesquisar por Instituição",
+
+   "browse.metadata.language.breadcrumbs": "Pesquisar por Idioma de publicação",
+
+   "browse.metadata.keyword.breadcrumbs": "Pesquisar por Palavra-chave",
+
+   "browse.metadata.srsc.breadcrumbs": "Pesquisar por Assuntos de Pesquisa",
 
   // "pagination.next.button": "Next",
   "pagination.next.button": "Próximo",
@@ -2413,6 +2453,8 @@
 
   // "home.top-level-communities.head": "Communities in DSpace",
   "home.top-level-communities.head": "Comunidades no DSpace",
+
+  "info.about.breadcrumbs": "Contatos",
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Selecione uma comunidade para navegar por suas coleções",
@@ -6343,6 +6385,8 @@
 
   // "vocabulary-treeview.tree.description.srsc": "Research Subject Categories",
   "vocabulary-treeview.tree.description.srsc": "Categorias de Assuntos de Pesquisa",
+
+  "vocabulary-treeview.info": "Assuntos de Pesquisa",
 
   // "uploader.browse": "browse",
   "uploader.browse": "Navegar",

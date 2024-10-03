@@ -34,7 +34,7 @@
     top: 0;
     z-index: var(--bs-zindex-sticky);
     padding: var(--ds-content-spacing);
-    margin-top: calc(-1* var(--ds-content-spacing));
+    margin-top: calc(0* var(--ds-content-spacing));
     align-self: flex-start;
     padding-left: 3rem;
   }
