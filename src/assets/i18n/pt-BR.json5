@@ -6882,6 +6882,18 @@
 
   "info.about.title": "Contato",
 
+  "info.presentation": "Apresentação",
+
+  "info.presentation.breadcrumbs" : "Apresentação",
+
+  "info.presentation.title" : "Apresentação",
+
+  "info.repository-policy": "Política do Repositório",
+
+  "info.repository-policy.breadcrumbs" : "Política do Repositório",
+
+  "info.repository-policy.title" : "Política do Repositório",
+
   "metadataKeys": {
     "dc.contributor.advisor": "Consultor colaborador",
     "dc.contributor.advisorLattes": "Lattes do Orientador",
