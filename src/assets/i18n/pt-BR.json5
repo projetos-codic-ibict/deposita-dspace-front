@@ -4924,6 +4924,8 @@
   // "search.filters.applied.f.withdrawn": "Withdrawn",
   "search.filters.applied.f.withdrawn": "Retirado",
 
+   "search.filters.filter.documenttype.head": " Tipo de documento",
+
   // "search.filters.filter.author.head": "Author",
   "search.filters.filter.author.head": "Autor",
 
@@ -4939,8 +4941,12 @@
   // "search.filters.filter.birthDate.placeholder": "Birth Date",
   "search.filters.filter.birthDate.placeholder": "Data de nascimento",
 
+  "search.filters.filter.documenttype.placeholder": "Tipo de documento",
+
   // "search.filters.filter.birthDate.label": "Search birth date",
   "search.filters.filter.birthDate.label": "Procurar por data de nascimento",
+
+  "search.filters.filter.documenttype.label": "Procurar por tipo de documento",
 
   // "search.filters.filter.collapse": "Collapse filter",
   "search.filters.filter.collapse": "Fechar filtro",
