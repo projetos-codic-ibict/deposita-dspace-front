@@ -15,7 +15,7 @@ export const environment: Partial<BuildConfig> = {
     time: false
   },
 
-  apiUrl: 'http://localhost:9080',
+  apiUrl: 'http://localhost:8080',
   communityEndpoint: '/communities/8193ffed-2e68-45e3-8320-1b196481615c'
 };
 

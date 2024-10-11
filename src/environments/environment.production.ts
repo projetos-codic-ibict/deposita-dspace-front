@@ -10,6 +10,6 @@ export const environment: Partial<BuildConfig> = {
     time: false
   },
 
-  apiUrl: 'http://172.16.24.33:9080',
+  apiUrl: 'http://172.16.24.33:8080',
   communityEndpoint: '/communities/23ea3a15-eb4d-4f8f-a6e6-284e9532dae1'
 };
