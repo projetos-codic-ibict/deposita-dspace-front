@@ -4926,6 +4926,8 @@
 
    "search.filters.filter.documenttype.head": " Tipo de documento",
 
+  "search.filters.filter.keyword.head": "Palavra-chave",
+
   // "search.filters.filter.author.head": "Author",
   "search.filters.filter.author.head": "Autor",
 
@@ -5143,6 +5145,11 @@
   "search.filters.filter.name.label": "Procurar por instituição",
 
   "search.filters.filter.name.placeholder": "Instituição",
+
+
+  "search.filters.filter.keyword.label": "Procurar por palavra-chave",
+
+  "search.filters.filter.keyword.placeholder" : "Palavra-chave",
 
 
   // "search.filters.filter.subject.placeholder": "Subject",
