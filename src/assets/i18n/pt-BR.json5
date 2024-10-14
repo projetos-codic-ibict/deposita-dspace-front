@@ -5119,14 +5119,37 @@
   // "search.filters.filter.show-more": "Show more",
   "search.filters.filter.show-more": "Mostrar mais",
 
+  "search.filters.filter.show-tree": "Mostrar árvore hierárquica ",
+
   // "search.filters.filter.subject.head": "Subject",
   "search.filters.filter.subject.head": "Assunto",
+
+  "search.filters.filter.cnpq.head": "Área de conhecimento",
+
+  "search.filters.filter.cnpq.label": "Procurar por área de conhecimento",
+
+  "search.filters.filter.cnpq.placeholder": "Área de conhecimento",
+
+
+  "search.filters.filter.language.head": "Idioma de publicação",
+
+  "search.filters.filter.language.label": "Procurar por idioma de publicação",
+
+  "search.filters.filter.language.placeholder": "Idioma de publicação",
+
+
+  "search.filters.filter.name.head": "Instituição",
+
+  "search.filters.filter.name.label": "Procurar por instituição",
+
+  "search.filters.filter.name.placeholder": "Instituição",
+
 
   // "search.filters.filter.subject.placeholder": "Subject",
   "search.filters.filter.subject.placeholder": "Assunto",
 
   // "search.filters.filter.subject.label": "Search subject",
-  "search.filters.filter.subject.label": "Procurar assunto",
+  "search.filters.filter.subject.label": "Procurar por assunto",
 
   // "search.filters.filter.submitter.head": "Submitter",
   "search.filters.filter.submitter.head": "Submetedor",
@@ -6942,6 +6965,7 @@
     "por": "Português",
     "eng": "Inglês",
     "es": "Espanhol",
+    "fra": "Francês",
     "null": "",
     "*": ""
   },
