@@ -6969,10 +6969,10 @@
   },
 
   "languages": {
-    "Português": "Português",
-    "Inglês": "Inglês",
-    "Espanhol": "Espanhol",
-    "Francês": "Francês",
+    "por": "Português",
+    "eng": "Inglês",
+    "es": "Espanhol",
+    "fra": "Francês",
     "null": "",
     "*": ""
   },
