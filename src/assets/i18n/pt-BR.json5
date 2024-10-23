@@ -2699,6 +2699,7 @@
   // "item.edit.tabs.disabled.tooltip": "You're not authorized to access this tab",
   "item.edit.tabs.disabled.tooltip": "Você não está autorizado a acessar esta guia",
 
+ " item.edit.tabs.access-control.head ": "Controle de acesso",
 
   // "item.edit.tabs.mapper.head": "Collection Mapper",
   "item.edit.tabs.mapper.head": "Mapeamento de Coleção",
@@ -3878,6 +3879,8 @@
   // "menu.section.statistics": "Statistics",
   "menu.section.statistics": "Estatísticas",
 
+ "menu.section.system-wide-alert": "Alerta em todo sistema",
+
   // "menu.section.statistics_task": "Statistics Task",
   "menu.section.statistics_task": "Tarefas de Estatísticas",
 
@@ -4049,6 +4052,12 @@
 
   // "mydspace.view-btn": "View",
   "mydspace.view-btn": "Ver",
+
+  "nav.subscriptions": "Assinaturas",
+
+  "subscriptions.title": "Assinaturas",
+
+  "subscriptions.table.empty.message": "Nenhuma assinatura",
 
   // "nav.browse.header": "All of DSpace",
   "nav.browse.header": "Tudo no DSpace",
@@ -4422,6 +4431,8 @@
 
   // "profile.security.form.label.password": "Password",
   "profile.security.form.label.password": "Senha",
+
+  "profile.security.form.label.current-password": "Senha atual",
 
   // "profile.security.form.label.passwordrepeat": "Retype to confirm",
   "profile.security.form.label.passwordrepeat": "Redigite para confirmar",
