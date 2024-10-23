@@ -6947,6 +6947,8 @@
 
   "info.repository-policy.title" : "Política do Repositório",
 
+  "cookies.consent.ok" : "Aceitar cookies",
+
   "metadataKeys": {
     "dc.contributor.advisor": "Consultor colaborador",
     "dc.contributor.advisorLattes": "Lattes do Orientador",
