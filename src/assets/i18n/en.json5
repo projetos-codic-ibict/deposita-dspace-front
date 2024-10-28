@@ -778,6 +778,20 @@
 
   "browse.comcol.by.dateissued": "By Issue Date",
 
+ "browse.comcol.by.dateaccessioned": "By Date Acessioned",
+
+ "browse.comcol.by.language": "By Language",
+
+ "browse.comcol.by.knowledgearea": "By Knowledge Area",
+
+ "browse.comcol.by.documenttype": "By Document Type",
+
+ "browse.comcol.by.institution": "By Institution",
+
+ "browse.comcol.by.keyword": "By Keyword",
+
+
+
   "browse.comcol.by.subject": "By Subject",
 
   "browse.comcol.by.srsc": "By Subject Category",
@@ -796,6 +810,10 @@
 
   "browse.metadata.title": "Title",
 
+  "browse.metadata.knowledgearea": "Knowledge Area",
+
+  "browse.metadata.institution": "Institution",
+
   "browse.metadata.author.breadcrumbs": "Browse by Author",
 
   "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
@@ -805,6 +823,14 @@
   "browse.metadata.srsc.breadcrumbs": "Browse by Subject Category",
 
   "browse.metadata.title.breadcrumbs": "Browse by Title",
+
+  "browse.metadata.knowledgearea.breadcrumbs": "Browse by Knowledge Area",
+
+  "browse.metadata.institution.breadcrumbs": "Browse by Institution",
+
+  "browse.metadata.documenttype.breadcrumbs": "Browse by Document Type",
+
+  "browse.metadata.language.breadcrumbs": "Browse by Language",
 
   "pagination.next.button": "Next",
 
@@ -3634,6 +3660,8 @@
 
   "search.filters.applied.f.has_content_in_original_bundle": "Has files",
 
+  
+
   "search.filters.applied.f.itemtype": "Type",
 
   "search.filters.applied.f.namedresourcetype": "Status",
@@ -5215,5 +5243,39 @@
   "access-control-option-end-date": "Grant access until",
 
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
+
+  "randomTextHighlight": "Random Highlight",
+
+  "communityList": "Communities and Collections",
+  "navigate": "Browse",
+  "byAuthor": "By Author",
+  "byKnowledgeArea": "By Knowledge Area",
+  "bySubject": "By Subject",
+  "byInstitution": "By Institution",
+  "byDocumentType": "By Document Type",
+  "byLanguage": "By Publication Language",
+  "byYear": "By Year of Publication",
+  "deposita": "The Deposita",
+  "presentation": "Presentation",
+  "repositoryPolicy": "Repository Policy",
+  "depositGuide": "Deposit Guide",
+  "contacts": "Contacts",
+
+  "filterSearch": "Filter your search",
+
+  "advancedSearch": "Advanced search",
+
+  "search": "Search",
+
+  "article": "Article",
+  "conferencePaper": "Conference Object",
+  "book": "Book",
+  "bookChapter": "Book chapter",
+  "thesis": "Doctoral Thesis",
+  "dissertation": "Masther Theis",
+  "tcc": "Bacharelor Thesis",
+  "published": "published",
+
+
 
 }

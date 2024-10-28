@@ -11,7 +11,7 @@
     <img class="img-fluid-1" src="assets/deposita/images/random-line-left.svg">
     <a [routerLink]="[link]">
         <div class="random-card">
-            <span class="random-text">Destaque randômico</span>
+            <span class="random-text">{{ 'randomTextHighlight' | translate }}</span>
             <ng-container *ngIf="title && description">
                 <span class="random-title" [textContent]="title"></span>
                 <span class="random-description" [textContent]="description"></span>

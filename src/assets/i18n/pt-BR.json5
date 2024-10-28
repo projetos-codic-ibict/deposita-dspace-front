@@ -6949,6 +6949,38 @@
 
   "cookies.consent.ok" : "Aceitar cookies",
 
+  "randomTextHighlight": "Destaque randômico",
+
+  "communityList": "Comunidades e Coleções",
+  "navigate": "Navegar",
+  "byAuthor": "Por Autor",
+  "byKnowledgeArea": "Por Área do conhecimento",
+  "bySubject": "Por Assunto",
+  "byInstitution": "Por Instituição",
+  "byDocumentType": "Por Tipo de documento",
+  "byLanguage": "Por Idioma de publicação",
+  "byYear": "Por Ano de publicação",
+  "deposita": "O Deposita",
+  "presentation": "Apresentação",
+  "repositoryPolicy": "Política do Repositório",
+  "depositGuide": "Cartilha de depósito",
+  "contacts": "Contatos",
+
+  "filterSearch": "Filtre sua busca",
+
+  "advancedSearch": "Busca avançada",
+
+  "search": "Buscar",
+
+  "article": "Artigo de revista",
+  "conferencePaper": "Artigo de evento",
+  "book": "Livro",
+  "bookChapter": "Capítulo de livro",
+  "thesis": "Tese",
+  "dissertation": "Dissertação",
+  "tcc": "Trabalho de conclusão de curso",
+  "published": "publicados",
+
   "metadataKeys": {
     "dc.contributor.advisor": "Consultor colaborador",
     "dc.contributor.advisorLattes": "Lattes do Orientador",

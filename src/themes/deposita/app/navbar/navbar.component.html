@@ -12,41 +12,40 @@
         </li>
         <li class="nav-item d-flex align-items-center">
           <div class="text-md-center">
-            <a routerLink="/community-list" class="nav-link-custom">Comunidades e Coleções</a>
+            <a routerLink="/community-list" class="nav-link-custom">{{ 'communityList' | translate }}</a>
           </div>
           <div class="text-md-center">
-
-            <div class="dropdown" (mouseenter)="openDropdownNavegar()" (mouseleave)="closeDropdownNavegar()">
-              <button class="btn btn-navigation dropdown-toggle">
-                Navegar
-              </button>
-              <div *ngIf="isDropdownNavegarOpen" class="dropdown-menu show">
-                <a class="dropdown-item" routerLink="/browse/author">Por Autor</a>
-                <a class="dropdown-item" routerLink="/browse/knowledgearea">Por Área do conhecimento</a>
-                <a class="dropdown-item" routerLink="/browse/subject">Por Assunto</a>
-                <a class="dropdown-item" routerLink="/browse/institution">Por Instituição</a>
-                <a class="dropdown-item" routerLink="/browse/documenttype">Por Tipo de documento</a>
-                <a class="dropdown-item" routerLink="/browse/language">Por Idioma de publicação</a>
-                <a class="dropdown-item" routerLink="/browse/dateissued">Por Ano de publicação</a>
-              </div>
-            </div>
-
+             <div class="dropdown" (mouseenter)="openDropdownNavegar()" (mouseleave)="closeDropdownNavegar()">
+                <button class="btn btn-navigation dropdown-toggle">
+                   {{ 'navigate' | translate }}
+                </button>
+                <div *ngIf="isDropdownNavegarOpen" class="dropdown-menu show">
+                   <a class="dropdown-item" routerLink="/browse/author">{{ 'byAuthor' | translate }}</a>
+                   <a class="dropdown-item" routerLink="/browse/knowledgearea">{{ 'byKnowledgeArea' | translate }}</a>
+                   <a class="dropdown-item" routerLink="/browse/subject">{{ 'bySubject' | translate }}</a>
+                   <a class="dropdown-item" routerLink="/browse/institution">{{ 'byInstitution' | translate }}</a>
+                   <a class="dropdown-item" routerLink="/browse/documenttype">{{ 'byDocumentType' | translate }}</a>
+                   <a class="dropdown-item" routerLink="/browse/language">{{ 'byLanguage' | translate }}</a>
+                   <a class="dropdown-item" routerLink="/browse/dateissued">{{ 'byYear' | translate }}</a>
+                </div>
+             </div>
           </div>
           <div class="text-md-center">
-            <div class="dropdown" (mouseenter)="openDropdownODeposita()" (mouseleave)="closeDropdownODeposita()">
-              <button class="btn btn-navigation dropdown-toggle">
-                O Deposita
-              </button>
-              <div *ngIf="isDropdownODepositaOpen" class="dropdown-menu show">
-                <a class="dropdown-item" routerLink="/info/presentation">Apresentação</a>
-                <a class="dropdown-item" routerLink="/info/repository-policy">Política do Repositório</a>
-                <a class="dropdown-item" routerLink="">Cartilha de depósito</a>
-              </div>
-            </div>
+             <div class="dropdown" (mouseenter)="openDropdownODeposita()" (mouseleave)="closeDropdownODeposita()">
+                <button class="btn btn-navigation dropdown-toggle">
+                   {{ 'deposita' | translate }}
+                </button>
+                <div *ngIf="isDropdownODepositaOpen" class="dropdown-menu show">
+                   <a class="dropdown-item" routerLink="/info/presentation">{{ 'presentation' | translate }}</a>
+                   <a class="dropdown-item" routerLink="/info/repository-policy">{{ 'repositoryPolicy' | translate }}</a>
+                   <a class="dropdown-item" routerLink="">{{ 'depositGuide' | translate }}</a>
+                </div>
+             </div>
           </div>
           <div class="text-md-center">
-            <a routerLink="/info/about" class="nav-link-custom">Contatos</a>
+             <a routerLink="/info/about" class="nav-link-custom">{{ 'contacts' | translate }}</a>
           </div>
+          
           <div class="text-md-center action-links">
             <ds-search-navbar></ds-search-navbar>
             <ds-lang-switch></ds-lang-switch>

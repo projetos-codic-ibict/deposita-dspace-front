@@ -1,4 +1,4 @@
-<p *ngIf="showFormTitle" class="form-title">Filtre sua busca</p>
+<p *ngIf="showFormTitle" class="form-title">{{ 'filterSearch' | translate }}</p>
 <form #form="ngForm" (ngSubmit)="onSubmit(form.value)" action="/search" class="search-form">
   <div class="input-group">
     <div *ngIf="showScopeSelector" class="input-group-prepend">
@@ -11,13 +11,13 @@
     <div class="input-box">
       <input type="text" [(ngModel)]="query" name="query" class="form-control"
              attr.aria-label="{{ searchPlaceholder }}" [attr.data-test]="'search-box' | dsBrowserOnly"
-             [placeholder]="'Pesquisar no repositório...'">
+             [placeholder]="'home.search-form.placeholder' | translate">
 
-      <a *ngIf="showAdvancedSearch" href="/search" class="input-advanced-search-link">Busca avançada</a>
+      <a *ngIf="showAdvancedSearch" href="/search" class="input-advanced-search-link">{{ 'advancedSearch' | translate }}</a>
     </div>
     <div class="input-group-append">
       <button type="submit" class="btn btn-primary" [attr.data-test]="'search-button' | dsBrowserOnly">
-        Buscar
+        {{ 'search' | translate }}
       </button>
     </div>
     <div *ngIf="showModeViewSwitch" class="input-group-mode-switch">
