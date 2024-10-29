@@ -6998,8 +6998,9 @@
   "dissertation": "Dissertação",
 
   "tcc": "Trabalho de conclusão de curso",
-  
-  "published": "publicados",
+
+  "item-published" : "publicado",
+  "items-published" : "publicados",
 
   "repository_policy": {
     "title": "Política do Repositório",
@@ -7019,7 +7020,7 @@
     "license": "Ao submeter seu trabalho ao <strong>Deposita</strong>, os autores concordam com a licença de uso atribuída ao repositório, que assegura o compartilhamento e a preservação do material."
   },
 
-  
+
   "contact.title": "Contato",
 
   "contact.address": "Endereço",
@@ -7045,7 +7046,7 @@
   "contact.message": "Mensagem",
 
   "contact.yourMessage": "Sua mensagem",
-  
+
   "contact.sendButton": "Enviar",
 
 
