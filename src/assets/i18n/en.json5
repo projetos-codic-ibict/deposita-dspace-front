@@ -1866,6 +1866,14 @@
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
+  "info.about.breadcrumbs": "Contacts",
+
+  "info.repository-policy": "Repository Policy",
+
+  "info.repository-policy.breadcrumbs" : "Repository Policy",
+
+  "info.repository-policy.title" : "Repository Policy",
+
   "info.end-user-agreement.accept": "I have read and I agree to the End User Agreement",
 
   "info.end-user-agreement.accept.error": "An error occurred accepting the End User Agreement",
@@ -5248,17 +5256,29 @@
 
   "communityList": "Communities and Collections",
   "navigate": "Browse",
+
   "byAuthor": "By Author",
+
   "byKnowledgeArea": "By Knowledge Area",
+
   "bySubject": "By Subject",
+
   "byInstitution": "By Institution",
+
   "byDocumentType": "By Document Type",
+
   "byLanguage": "By Publication Language",
+
   "byYear": "By Year of Publication",
+
   "deposita": "The Deposita",
+
   "presentation": "Presentation",
+
   "repositoryPolicy": "Repository Policy",
+
   "depositGuide": "Deposit Guide",
+
   "contacts": "Contacts",
 
   "filterSearch": "Filter your search",
@@ -5268,14 +5288,65 @@
   "search": "Search",
 
   "article": "Article",
+
   "conferencePaper": "Conference Object",
+
   "book": "Book",
+
   "bookChapter": "Book chapter",
+
   "thesis": "Doctoral Thesis",
+
   "dissertation": "Masther Theis",
+
   "tcc": "Bacharelor Thesis",
+
   "published": "published",
 
+  "repository_policy": {
+    "title": "Repository Policy",
+    "mission": "<strong>Deposita</strong> has the mission to ensure open access and preservation of academic and scientific production from Brazilian institutions. This repository follows the guidelines established by <strong>IBICT</strong> and is committed to the principles of <em>Open Access</em>, encouraging the broad and democratic dissemination of knowledge.",
+    "principles_title": "The repository policy is based on the following pillars:",
+    "pillars": {
+      "open_access": "Open Access: All content available on Deposita is free and unrestricted, in line with the Open Access policy.",
+      "preservation": "Preservation: We ensure long-term digital preservation of documents, following international preservation standards.",
+      "inclusion": "Inclusion: Any academic or research institution can submit its scientific production, provided it meets the repository's established criteria.",
+      "quality": "Quality: The submitted content undergoes a verification process to ensure its integrity and scientific relevance."
+    },
+    "supervision": "IBICT is responsible for coordinating and overseeing the development and management of Deposita, ensuring that preservation and access policies follow international best practices."
+  },
+  "copyright": {
+    "title": "Copyright",
+    "content": "The content deposited in the repository is protected by copyright laws. However, authors retain their rights over the works, allowing their use for research and educational purposes, provided they are properly cited.",
+    "license": "By submitting their work to <strong>Deposita</strong>, authors agree to the license of use attributed to the repository, which ensures the sharing and preservation of the material."
+  },
 
+  "contact.title": "Contact",
+  
+  "contact.address": "Address",
+  
+  "contact.addressText": "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT), Brasília, DF, Brasil",
+  
+  "contact.phone": "Phone",
+  
+  "contact.phoneNumber": "+55 (61) 1234-5678",
+  
+  "contact.email": "Email",
+
+  "contact.yourEmail": "Your email",
+  
+  "contact.emailAddress": "contato@ibict.br",
+  
+  "contact.name": "Name",
+
+  "contact.yourName": "Your name",
+  
+  "contact.subject": "Subject",
+  
+  "contact.message": "Message",
+
+  "contact,yourMessage": "Your message",
+  
+  "contact.sendButton": "Send",
 
 }

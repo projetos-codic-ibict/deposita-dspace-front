@@ -6952,18 +6952,31 @@
   "randomTextHighlight": "Destaque randômico",
 
   "communityList": "Comunidades e Coleções",
+
   "navigate": "Navegar",
+
   "byAuthor": "Por Autor",
+
   "byKnowledgeArea": "Por Área do conhecimento",
+
   "bySubject": "Por Assunto",
+
   "byInstitution": "Por Instituição",
+
   "byDocumentType": "Por Tipo de documento",
+
   "byLanguage": "Por Idioma de publicação",
+
   "byYear": "Por Ano de publicação",
+
   "deposita": "O Deposita",
+
   "presentation": "Apresentação",
+
   "repositoryPolicy": "Política do Repositório",
+
   "depositGuide": "Cartilha de depósito",
+
   "contacts": "Contatos",
 
   "filterSearch": "Filtre sua busca",
@@ -6973,13 +6986,68 @@
   "search": "Buscar",
 
   "article": "Artigo de revista",
+
   "conferencePaper": "Artigo de evento",
+
   "book": "Livro",
+
   "bookChapter": "Capítulo de livro",
+
   "thesis": "Tese",
+
   "dissertation": "Dissertação",
+
   "tcc": "Trabalho de conclusão de curso",
+  
   "published": "publicados",
+
+  "repository_policy": {
+    "title": "Política do Repositório",
+    "mission": "O <strong>Deposita</strong> tem como missão garantir o acesso aberto e a preservação da produção acadêmica e científica das instituições brasileiras. Este repositório segue as diretrizes estabelecidas pelo <strong>IBICT</strong> e se compromete com os princípios do <em>Acesso Aberto</em>, incentivando a disseminação do conhecimento de forma ampla e democrática.",
+    "principles_title": "A política do repositório baseia-se nos seguintes pilares:",
+    "pillars": {
+      "open_access": "<strong>Acesso Livre:</strong> Todo o conteúdo disponibilizado no Deposita é de acesso gratuito e irrestrito, em conformidade com a política de Acesso Aberto.",
+      "preservation": "<strong>Preservação:</strong> Garantimos a preservação digital de longo prazo dos documentos, seguindo padrões internacionais de preservação.",
+      "inclusion": "<strong>Inclusão:</strong> Qualquer instituição acadêmica ou de pesquisa pode submeter sua produção científica, desde que atenda aos critérios estabelecidos pelo repositório.",
+      "quality": "<strong>Qualidade:</strong> O conteúdo submetido passa por um processo de verificação para garantir sua integridade e relevância científica."
+    },
+    "supervision": "O IBICT é responsável por coordenar e supervisionar o desenvolvimento e a gestão do Deposita, garantindo que as políticas de preservação e acesso sigam as melhores práticas internacionais."
+  },
+  "copyright": {
+    "title": "Direitos Autorais",
+    "content": "O conteúdo depositado no repositório é protegido por leis de direitos autorais. No entanto, os autores mantêm seus direitos sobre as obras, permitindo o uso para fins de pesquisa e educação, desde que devidamente citados.",
+    "license": "Ao submeter seu trabalho ao <strong>Deposita</strong>, os autores concordam com a licença de uso atribuída ao repositório, que assegura o compartilhamento e a preservação do material."
+  },
+
+  
+  "contact.title": "Contato",
+
+  "contact.address": "Endereço",
+
+  "contact.addressText": "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT), Brasília, DF, Brasil",
+
+  "contact.phone": "Telefone",
+
+  "contact.phoneNumber": "+55 (61) 1234-5678",
+
+  "contact.email": "Email",
+
+  "contact.yourEmail": "Seu email",
+
+  "contact.emailAddress": "contato@ibict.br",
+
+  "contact.name": "Nome",
+
+  "contact.yourName": "Seu nome",
+
+  "contact.subject": "Assunto",
+
+  "contact.message": "Mensagem",
+
+  "contact.yourMessage": "Sua mensagem",
+  
+  "contact.sendButton": "Enviar",
+
 
   "metadataKeys": {
     "dc.contributor.advisor": "Consultor colaborador",
