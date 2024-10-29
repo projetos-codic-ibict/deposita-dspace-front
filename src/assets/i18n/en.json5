@@ -5289,17 +5289,22 @@
 
   "article": "Article",
 
-  "conferencePaper": "Conference Object",
+  "conferenceObject": "Conference Object",
 
   "book": "Book",
 
-  "bookChapter": "Book chapter",
+  "bookPart": "Book chapter",
 
-  "thesis": "Doctoral Thesis",
+  "masterThesis": "Doctoral Thesis",
 
   "dissertation": "Masther Theis",
 
-  "tcc": "Bacharelor Thesis",
+  "doctoralThesis": "Doctoral Thesis",
+
+  "masterThesis": "Master Thesis",
+
+  "bachelorThesis": "Bachelor Thesis",
+
 
   "published": "published",
 

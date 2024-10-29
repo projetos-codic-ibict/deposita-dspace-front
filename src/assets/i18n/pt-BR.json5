@@ -6921,9 +6921,6 @@
   // "home.recent-submissions.head": "Recent Submissions",
   "home.recent-submissions.head": "Submissões Recentes",
 
-  "doctoralThesis": "Tese de Doutorado",
-
-  "mastherThesis": "Tese de Mestrado",
 
   "article": "Artigo de Revista",
 
@@ -6987,17 +6984,18 @@
 
   "article": "Artigo de revista",
 
-  "conferencePaper": "Artigo de evento",
+  "conferenceObject": "Artigo de evento",
 
   "book": "Livro",
 
-  "bookChapter": "Capítulo de livro",
+  "bookPart": "Capítulo de livro",
 
-  "thesis": "Tese",
+  "doctoralThesis": "Tese",
 
-  "dissertation": "Dissertação",
+  "masterThesis": "Dissertação",
 
-  "tcc": "Trabalho de conclusão de curso",
+  "bachelorThesis": "Trabalho de conclusão de curso",
+
 
   "item-published" : "publicado",
   "items-published" : "publicados",
