@@ -6996,9 +6996,18 @@
 
   "bachelorThesis": "Trabalho de conclusão de curso",
 
-
   "item-published" : "publicado",
+
   "items-published" : "publicados",
+
+   "about": {
+    "title": "Sobre Nós",
+    "description1": "O <strong>Deposita</strong> é o repositório institucional desenvolvido pelo <strong>IBICT</strong>, com o objetivo de promover o depósito, a preservação e a disseminação da produção científica brasileira. Seu propósito é facilitar o acesso ao conhecimento, fortalecer o movimento de <em>Acesso Aberto</em> e estimular a democratização da informação científica no Brasil e no mundo.",
+    "description2": "O repositório busca contribuir para o desenvolvimento social, econômico e tecnológico, fornecendo visibilidade à produção acadêmica e científica de instituições de ensino e pesquisa do Brasil.",
+    "description3": "O material disponível é organizado em <em>comunidades</em> e <em>subcomunidades</em>, permitindo a navegação por coleções que incluem dissertações, teses, artigos, imagens, vídeos, entre outros conteúdos digitais.",
+    "team_title": "Equipe",
+    "team_description": "A equipe responsável pelo <strong>Deposita</strong> é composta por especialistas em biblioteconomia e tecnologia da informação que trabalham de forma colaborativa para garantir a qualidade e a preservação dos conteúdos depositados."
+  },
 
   "repository_policy": {
     "title": "Política do Repositório",

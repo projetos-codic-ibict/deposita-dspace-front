@@ -1,17 +1,10 @@
 <div class="container my-5">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="mb-4">Sobre Nós</h2>
-        <p>
-          O <strong>Deposita</strong> é o repositório institucional desenvolvido pelo <strong>IBICT</strong>, com o objetivo de promover o depósito, a preservação e a disseminação da produção científica brasileira. 
-          Seu propósito é facilitar o acesso ao conhecimento, fortalecer o movimento de <em>Acesso Aberto</em> e estimular a democratização da informação científica no Brasil e no mundo.
-        </p>
-        <p>
-          O repositório busca contribuir para o desenvolvimento social, econômico e tecnológico, fornecendo visibilidade à produção acadêmica e científica de instituições de ensino e pesquisa do Brasil.
-        </p>
-        <p>
-          O material disponível é organizado em <em>comunidades</em> e <em>subcomunidades</em>, permitindo a navegação por coleções que incluem dissertações, teses, artigos, imagens, vídeos, entre outros conteúdos digitais.
-        </p>
+        <h2 class="mb-4">{{ 'about.title' | translate }}</h2>
+        <p [innerHTML]="'about.description1' | translate"></p>
+        <p [innerHTML]="'about.description2' | translate"></p>
+        <p [innerHTML]="'about.description3' | translate"></p>
       </div>
     </div>
   
@@ -19,10 +12,8 @@
   
     <div class="row">
       <div class="col-md-12">
-        <h3 class="mb-4">Equipe</h3>
-        <p>
-          A equipe responsável pelo <strong>Deposita</strong> é composta por especialistas em biblioteconomia e tecnologia da informação que trabalham de forma colaborativa para garantir a qualidade e a preservação dos conteúdos depositados.
-        </p>
+        <h3 class="mb-4">{{ 'about.team_title' | translate }}</h3>
+        <p [innerHTML]="'about.team_description' | translate"></p>
       </div>
     </div>
   </div>

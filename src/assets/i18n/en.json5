@@ -5305,8 +5305,18 @@
 
   "bachelorThesis": "Bachelor Thesis",
 
+  "item-published" : "published",
 
-  "published": "published",
+  "items-published" : "published",
+
+  "about": {
+    "title": "About Us",
+    "description1": "<strong>Deposita</strong> is the institutional repository developed by <strong>IBICT</strong> to promote the deposit, preservation, and dissemination of Brazilian scientific production. Its purpose is to facilitate access to knowledge, strengthen the <em>Open Access</em> movement, and stimulate the democratization of scientific information in Brazil and around the world.",
+    "description2": "The repository seeks to contribute to social, economic, and technological development by providing visibility to the academic and scientific production of Brazilian educational and research institutions.",
+    "description3": "The available material is organized into <em>communities</em> and <em>subcommunities</em>, allowing navigation through collections that include dissertations, theses, articles, images, videos, and other digital content.",
+    "team_title": "Team",
+    "team_description": "The team responsible for <strong>Deposita</strong> consists of specialists in library science and information technology who work collaboratively to ensure the quality and preservation of deposited content."
+  },
 
   "repository_policy": {
     "title": "Repository Policy",
