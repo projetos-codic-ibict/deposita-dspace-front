@@ -11,7 +11,7 @@ echo "Running pm2 stop deposita"
 pm2 stop deposita || true
 
 echo "copy env"
-rm config/config.prod.yml
+rm config/config.prod.yml ||  true
 cp config/config.example.yml  config/config.prod.yml
 
 echo "yarn deploy"
