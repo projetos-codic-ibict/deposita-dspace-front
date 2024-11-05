@@ -22,4 +22,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          echo '${{secrets.SUDO_PASSWORD }}' |  sh deploy.sh
+          sh deploy.sh

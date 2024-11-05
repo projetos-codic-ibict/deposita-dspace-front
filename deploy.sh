@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-echo "Node version"
+echo "node version >>"
 node -v
 
-echo "Running yarn install"
+echo "running yarn install"
 yarn
 
 echo "Running pm2 stop deposita"
