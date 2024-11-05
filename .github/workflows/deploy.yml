@@ -20,6 +20,14 @@ jobs:
       url: "http://172.16.24.33:5000"
 
     steps:
+    - name: Print environment variables
+      run: |
+        echo "HOST: $HOST"
+        echo "PORT: $PORT"
+        echo "REST_HOST: $REST_HOST"
+        echo "REST_PORT: $REST_PORT"
+
+      
       - uses: actions/checkout@v3
         with:
           node-version: "19"
