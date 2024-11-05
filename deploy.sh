@@ -7,6 +7,9 @@ node -v
 echo "running yarn install"
 yarn
 
+echo "running pm2 install"
+npm install pm2@latest -g
+
 echo "Running pm2 stop deposita"
 pm2 stop deposita || true
 
@@ -18,6 +21,6 @@ echo "yarn deploy"
 yarn deploy
 
 echo "pm2 save"
-pm2 save
+pm2 save 
 
 echo "finished!"
