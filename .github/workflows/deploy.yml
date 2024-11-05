@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  HOST: ${{ secrets.HOST }}
+  PORT: ${{ secrets.PORT }}
+  REST_HOST: ${{ secrets.REST_HOST }}
+  REST_PORT: ${{ secrets.REST_PORT }}
+
+jobs:
+  dev:
+    runs-on: [self-hosted, Linux, x64, dev]
+    environment:
+      name: dev
+      url: 'http://172.16.24.33:5000'
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo '${{secrets.SUDO_PASSWORD }}' | sudo -S sh deploy.sh
