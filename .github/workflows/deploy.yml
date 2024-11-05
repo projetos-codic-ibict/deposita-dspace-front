@@ -17,9 +17,11 @@ jobs:
     runs-on: [self-hosted, Linux, x64, dev]
     environment:
       name: dev
-      url: 'http://172.16.24.33:5000'
+      url: "http://172.16.24.33:5000"
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          node-version: "19"
       - run: |
           sh deploy.sh
