@@ -12,7 +12,7 @@ env:
   DSPACE_REST_HOST: ${{ secrets.DSPACE_REST_HOST }}
   DSPACE_REST_PORT: ${{ secrets.DSPACE_REST_PORT }}
   DSPACE_REST_SSL: ${{ secrets.DSPACE_REST_SSL }}
-  # DSPACE_SSL: ${{ secrets.DSPACE_SSL }}
+  DSPACE_SSL: ${{ secrets.DSPACE_SSL }}
 
 jobs:
   dev:
