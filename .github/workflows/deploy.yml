@@ -13,7 +13,6 @@ env:
   DSPACE_REST_PORT: ${{ secrets.DSPACE_REST_PORT }}
   DSPACE_REST_SSL: ${{ secrets.DSPACE_REST_SSL }}
 
-
 jobs:
   dev:
     runs-on: [self-hosted, Linux, x64, dev]
@@ -24,6 +23,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          node-version: "19"
+          node-version: "18"
       - run: |
           sh deploy.sh
