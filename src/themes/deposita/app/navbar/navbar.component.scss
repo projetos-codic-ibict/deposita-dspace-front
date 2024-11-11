@@ -199,14 +199,100 @@ a.navbar-brand img {
     }
   }
 
-  /* Se as imagens estiverem em lados opostos, você pode precisar de seletores mais específicos */
+  
   .navbar-brand:first-child img {
-    margin-left: 7rem; /* Apenas a margem esquerda para o logo no canto esquerdo */
+    margin-left: 7rem; 
   }
 
   .navbar-brand:last-child img {
-    margin-right: 7rem; /* Apenas a margem direita para o logo no canto direito */
+    margin-right: 7rem; 
   }
 }
 
 
+@media (max-width: 768px) {
+  .nav-item.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 4rem;
+  }
+
+
+  .navbar {
+    width: 100%;
+    background-color: var(--bs-white);
+    position: absolute;
+    overflow: hidden;
+    padding-top: 1rem; 
+  }
+
+
+  .navbar-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+  }
+
+ 
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    padding: 0;
+    gap: 1rem; 
+  }
+
+  
+  .navbar-nav a.nav-link-custom,
+  .navbar-nav a.nav-link-enter {
+    color: #6A6A6A;
+    font-size: 18px;
+    padding: 10px 0; 
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .navbar-nav a.nav-link-enter {
+    color: #0F49BD;
+  }
+
+  .navbar-nav a.nav-link-custom:hover,
+  .navbar-nav a.nav-link-enter:hover {
+    color: #0F49BD;
+  }
+
+  .btn-navigation {
+    color: #6A6A6A;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .btn-navigation:hover {
+    color: #0F49BD;
+  }
+
+ 
+  .action-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .navbar-brand img {
+    display: none;
+  }
+
+  ::ng-deep a.nav-link-custom::after,
+  ::ng-deep a.nav-link-enter::after {
+    display: none;
+  }
+}

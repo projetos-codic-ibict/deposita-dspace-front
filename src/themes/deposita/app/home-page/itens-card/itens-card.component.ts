@@ -22,7 +22,7 @@ export class ItensCardComponent implements OnInit {
   }
 
   async getItensQtd(): Promise<any> {
-    const tiposItens = ['article', 'conferenceObject', 'bookPart', 'masterThesis', 'book', 'doctoralThesis', 'bachelorThesis']
+    const tiposItens = ["Dissertação", "Tese", "Livro", "Capítulo de livro", "Artigo", "Trabalho de conclusão de curso", "Artigo de evento"]
 
     const promises = tiposItens.map(tipo => {
       return fetch(environment.apiUrl + `/server/api/discover/facets/has_content_in_original_bundle?query=dc.type:${tipo}`).then(res => res.json());

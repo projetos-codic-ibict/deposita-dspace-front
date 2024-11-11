@@ -24,3 +24,29 @@ h2 {
     border-radius: 2rem;
   }
 }
+
+@media (max-width: 768px) {
+  .listable-object-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 1rem; 
+    padding: 5px;
+  }
+
+  .row {
+    background-color: #F6F7F7 !important;
+    padding: 0.5rem !important;
+    border-radius: 1rem; 
+  }
+
+  :host ::ng-deep ds-item-search-result-list-element .item-container {
+    background-color: #F6F7F7 !important;
+    padding: 0.5rem !important; 
+  }
+
+  h2 {
+    font-size: 24px; 
+  }
+}

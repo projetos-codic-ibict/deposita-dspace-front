@@ -18,12 +18,12 @@
     height: auto;
   }
 
-  .img-fluid-1{
+  .img-fluid-1 {
     width: 36rem;
     height: 20rem;
   }
 
-  .img-fluid-2{
+  .img-fluid-2 {
     width: 36rem;
     height: 30rem;
   }
@@ -37,55 +37,44 @@
     margin: 2px;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0px 0px 54px rgba(0.050999999046325684, 0.24366676807403564, 0.6290000081062317, 0.1599999964237213);
+    box-shadow: 0px 0px 54px rgba(0.051, 0.244, 0.629, 0.16);
     overflow: hidden;
+  }
+
+  .random-text, .random-title, .random-description, .loading-text {
+    color: rgba(44, 50, 55, 1);
+    font-family: Open Sans;
+    opacity: 1;
+    text-align: left;
   }
 
   .random-text {
     width: 269px;
-    color: rgba(44,50,55,1);
-    font-family: Open Sans;
-    font-weight: SemiBold;
+    font-weight: 600;
     font-size: 16px;
-    opacity: 1;
-    text-align: left;
   }
 
   .random-title {
     width: 658px;
-    color: rgba(15,73,188,1);
-    font-family: Open Sans;
-    font-weight: Bold;
+    color: rgba(15, 73, 188, 1);
+    font-weight: bold;
     font-size: 32px;
-    opacity: 1;
-    text-align: left;
   }
 
   .random-description {
     width: 658px;
-    color: rgba(44,50,55,1);
-    font-family: Open Sans;
-    font-weight: Regular;
+    font-weight: 400;
     font-size: 24px;
-    opacity: 1;
-    text-align: left;
   }
 
   .loading-text {
     width: 100%;
     height: 17rem;
-    color: rgb(44, 50, 55);
-    font-family: Open Sans;
-    font-weight: SemiBold;
+    font-weight: 600;
     font-size: 32px;
-    opacity: 1;
     text-align: center;
     top: 7rem;
     position: relative;
-  }
-
-  .item-box {
-    background-color: $blue;
   }
 
   .itens-box {
@@ -111,19 +100,64 @@
   right: 10rem;
 }
 
-:host ::ng-deep ds-recent-item-list {
+:host ::ng-deep ds-recent-item-list .btn-primary {
+  background-color: #0F49BD;
+  border-color: #0F49BD;
 
-    .btn-primary {
-      background-color: #0F49BD;
-      border-color: #0F49BD;
+  &:hover {
+    background-color: #4178e5;
+    border-color: #0F49BD;
+  }
+}
 
-      &:hover {
-        background-color: #4178e5;
-        border-color: #0F49BD;
-      }
+@media (max-width: 768px) {
+  :host {
+    .random-highlights {
+      flex-direction: column;
+      align-items: center;
+      right: 0;
+      top: 2rem;
+      width: 100%;
+      justify-content: center;  
+      gap: 1rem;               
+      padding: 1rem;           
     }
 
-    .clamp-default-3 .content:after {
-      background: linear-gradient(to right, rgba(255, 255, 255, 0), #F6F7F7);
+    .img-fluid-1, .img-fluid-2 {
+      width: 80%;
+      height: auto;
     }
+
+    .random-card {
+      width: 90%;
+      padding: 20px;
+      text-align: center;
+      justify-content: center; 
+      margin: 0 auto;          
+    }
+
+    .random-text, .random-title, .random-description, .loading-text {
+      width: 100%;
+      text-align: center;
+    }
+
+    .itens-box {
+      width: 100%;
+      right: 0;
+      margin-top: 2rem;
+    }
+  }
+
+  :host ::ng-deep .search-form {
+   height: 4.5rem;
+  }
+
+  :host ::ng-deep .input-group {
+    flex-wrap: nowrap;
+  } 
+
+  :host ::ng-deep .input-advanced-search-link[_ngcontent-dspace-angular-c372]{
+    top: 125%;
+    right: 40%;
+}
 }

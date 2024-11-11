@@ -15,7 +15,6 @@
       height: 60%;
     }
 
-
     .top-footer {
       background-color: var(--ds-top-footer-bg);
       padding: var(--ds-footer-padding);
@@ -42,6 +41,44 @@
       color: #999999;
       font-size: 16px;
     }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      footer {
+        padding: 1rem;
+      }
+
+      .top-footer {
+        margin: 0;
+        padding: 1rem;
+      }
+
+      .footer-content {
+        flex-direction: row;
+        align-items: center;
+        margin: 16px auto;
+        max-width: 100%; 
+      }
+
+      .footer-text-1,
+      .footer-text-2 {
+        font-size: 14px; 
+        text-align: center;
+        margin-top: 8px; 
+      }
+
+      div > img {
+        height: auto;
+        width: 80%;
+        max-width: 200px; 
+      }
+
+      .link-container {
+        flex-direction: row; 
+        gap: 16px; 
+        padding: 16px 0; 
+      }
+    }
   }
 
   .link-container {
@@ -52,5 +89,3 @@
     gap: 32px;
   }
 }
-
-
