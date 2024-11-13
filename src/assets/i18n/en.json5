@@ -5335,6 +5335,10 @@
     "content": "The content deposited in the repository is protected by copyright laws. However, authors retain their rights over the works, allowing their use for research and educational purposes, provided they are properly cited.",
     "license": "By submitting their work to <strong>Deposita</strong>, authors agree to the license of use attributed to the repository, which ensures the sharing and preservation of the material."
   },
+ "footer": {
+    "text1": "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)",
+    "text2": "SAUS Quadra 5 • Lote 6 Bloco H • Asa Sul • CEP: 70.070-912 - Brasília - DF"
+  },
 
   "contact.title": "Contact",
   
