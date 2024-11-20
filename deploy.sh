@@ -8,7 +8,7 @@ echo "Running pm2 stop deposita"
 pm2 stop deposita || true
 
 echo "Encerrando processos da porta 5000"
-kill $(lsof -t -i:5000)
+kill $(lsof -t -i:5000) || true
 
 echo "running yarn install"
 yarn
