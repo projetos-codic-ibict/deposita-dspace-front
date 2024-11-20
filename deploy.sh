@@ -11,10 +11,9 @@ echo "running yarn install"
 yarn
 
 echo "copy env"
-rm config/config.prod.yml ||  true
 rm config/config.yml ||  true
 cp config/config.example.yml  config/config.yml
-cp config/config.example.yml  config.production.yaml
+
 
 echo "yarn build"
 yarn build:prod
