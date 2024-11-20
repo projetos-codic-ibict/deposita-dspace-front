@@ -7,9 +7,10 @@ export const environment: Partial<BuildConfig> = {
   universal: {
     preboot: true,
     async: true,
-    time: false
+    time: false,
   },
 
+  //@ts-ignore
   apiUrl: 'http://172.16.24.33:8080',
-  communityEndpoint: '/communities/23ea3a15-eb4d-4f8f-a6e6-284e9532dae1'
+  communityEndpoint: '/communities/23ea3a15-eb4d-4f8f-a6e6-284e9532dae1',
 };
