@@ -1,5 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { Location } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 import { MetadataValuesComponent } from '../metadata-values/metadata-values.component';
 import { MetadataValue } from '../../../core/shared/metadata.models';
@@ -16,9 +15,8 @@ import { MetadataValue } from '../../../core/shared/metadata.models';
   styleUrls: ['./metadata-uri-values.component.scss'],
   templateUrl: './metadata-uri-values.component.html'
 })
-export class MetadataUriValuesComponent extends MetadataValuesComponent implements OnInit {
+export class MetadataUriValuesComponent extends MetadataValuesComponent {
 
-  handleURI: string;
   /**
    * Optional text to replace the links with
    * If undefined, the metadata value (uri) is displayed
@@ -39,29 +37,4 @@ export class MetadataUriValuesComponent extends MetadataValuesComponent implemen
    * The label for this iteration of metadata values
    */
   @Input() label: string;
-
-
-
-
-  ngOnInit(): void {
-
-    // Verifica se mdValues está definido e possui pelo menos um valor
-    const baseUrl = `${window.location.protocol}//${window.location.host}`;
-
-    // Verifica se mdValues está definido e possui pelo menos um valor
-    if (this.mdValues && this.mdValues.length > 0) {
-      // Extrair o itemId do value atual
-      const itemId = this.extractItemId(this.mdValues[0].value);
-
-      // Modificar o valor com a base da URL e o ID extraído
-      this.handleURI = `${baseUrl}/handle/deposita/${itemId}`;
-    }
-  }
-
-  // Função para extrair o ID da string de value
-  extractItemId(url: string): string {
-    // Pegamos o último valor após a última barra "/"
-    return url.substring(url.lastIndexOf('/') + 1);
-  }
-
 }

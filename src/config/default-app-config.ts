@@ -26,8 +26,6 @@ import { DiscoverySortConfig } from './discovery-sort.config';
 export class DefaultAppConfig implements AppConfig {
   production = false;
 
-  apiUrl: string;
-  communityEndpoint: string;
   // NOTE: will log all redux actions and transfers in console
   debug = false;
 
@@ -212,7 +210,7 @@ export class DefaultAppConfig implements AppConfig {
   };
 
   // Default Language in which the UI will be rendered if the user's browser language is not an active language
-  defaultLanguage = 'pt-BR';
+  defaultLanguage = 'en';
 
   // Languages. DSpace Angular holds a message catalog for each of the following languages.
   // When set to active, users will be able to switch to the use of this language in the user interface.
@@ -354,27 +352,28 @@ export class DefaultAppConfig implements AppConfig {
           tagName: 'link',
           attributes: {
             'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.ico',
-            'sizes': 'any',
+            'href': 'assets/images/favicon.ico',
+            'sizes': 'ico',
           }
         },
-        {
-          // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.svg" type="image/svg+xml"/> into the <head> of the page.
-          tagName: 'link',
-          attributes: {
-            'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.svg',
-            'type': 'image/svg+xml',
-          }
-        },
-        {
-          // Insert <link rel="apple-touch-icon" href="assets/dspace/images/favicons/apple-touch-icon.png"/> into the <head> of the page.
-          tagName: 'link',
-          attributes: {
-            'rel': 'apple-touch-icon',
-            'href': 'assets/dspace/images/favicons/apple-touch-icon.png',
-          }
-        },
+
+        // {
+        //   // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.svg" type="image/svg+xml"/> into the <head> of the page.
+        //   tagName: 'link',
+        //   attributes: {
+        //     'rel': 'icon',
+        //     'href': 'assets/dspace/images/favicons/favicon.svg',
+        //     'type': 'image/svg+xml',
+        //   }
+        // },
+        // {
+        //   // Insert <link rel="apple-touch-icon" href="assets/dspace/images/favicons/apple-touch-icon.png"/> into the <head> of the page.
+        //   tagName: 'link',
+        //   attributes: {
+        //     'rel': 'apple-touch-icon',
+        //     'href': 'assets/dspace/images/favicons/apple-touch-icon.png',
+        //   }
+        // },
         {
           // Insert <link rel="manifest" href="assets/dspace/images/favicons/manifest.webmanifest"/> into the <head> of the page.
           tagName: 'link',

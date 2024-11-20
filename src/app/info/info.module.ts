@@ -13,10 +13,7 @@ import { FeedbackFormComponent } from './feedback/feedback-form/feedback-form.co
 import { ThemedFeedbackFormComponent } from './feedback/feedback-form/themed-feedback-form.component';
 import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
 import { FeedbackGuard } from '../core/feedback/feedback.guard';
-import { TranslateModule } from '@ngx-translate/core';
-import { RepositoryPolicyPageComponent } from './repository-policy-page/repository-policy-page.component';
-import { AboutPageComponent } from './about-page/about-page.component';
-import { PresentationPageComponent } from './presentation-page/presentation-page.component';
+
 
 const DECLARATIONS = [
   EndUserAgreementComponent,
@@ -28,10 +25,7 @@ const DECLARATIONS = [
   FeedbackComponent,
   FeedbackFormComponent,
   ThemedFeedbackFormComponent,
-  ThemedFeedbackComponent,
-  RepositoryPolicyPageComponent,
-  AboutPageComponent,
-  PresentationPageComponent
+  ThemedFeedbackComponent
 ];
 
 @NgModule({
@@ -39,7 +33,6 @@ const DECLARATIONS = [
     CommonModule,
     SharedModule,
     InfoRoutingModule,
-    TranslateModule,
   ],
   declarations: [
     ...DECLARATIONS

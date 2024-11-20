@@ -112,7 +112,7 @@
                     }
 
                     &.active > .sidebar-collapsible > .nav-link {
-                        color: #056bdd;
+                        color: var(--bs-navbar-dark-active-color);
                     }
                 }
             }

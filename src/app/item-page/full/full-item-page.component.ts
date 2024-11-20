@@ -60,48 +60,13 @@ export class FullItemPageComponent extends ItemPageComponent implements OnInit, 
     super(route, router, items, authService, authorizationService, responseService, signpostingDataService, linkHeadService, platformId);
   }
 
-
-
-  /**
-   * Organize the metadata as needed.
-   */
-  organizeMetadata(metadata: MetadataMap): MetadataMap {
-
-    // Cria um novo objeto para os metadados organizados
-    const organizedMetadata: MetadataMap = {};
-
-    // Adiciona o título primeiro
-    if (metadata['dc.title']) {
-      organizedMetadata['dc.title'] = metadata['dc.title'];
-      organizedMetadata['dc.contributor.author'] = metadata['dc.contributor.author'];
-    }
-
-    console.log(metadata);
-
-    // Adiciona os outros metadados
-    // Object.keys(metadata).forEach(key => {
-    //   if (key !== 'dc.title') {
-    //     organizedMetadata[key] = metadata[key];
-    //   }
-    // });
-
-    for (const key in metadata) {
-      if (metadata.hasOwnProperty(key) && key !== 'dc.contributor.authorID' && key !== 'dc.title') {
-        organizedMetadata[key] = metadata[key];
-      }
-    }
-
-    return organizedMetadata;
-  }
-
   /*** AoT inheritance fix, will hopefully be resolved in the near future **/
   ngOnInit(): void {
     super.ngOnInit();
     this.metadata$ = this.itemRD$.pipe(
       map((rd: RemoteData<Item>) => rd.payload),
       filter((item: Item) => hasValue(item)),
-      map((item: Item) => this.organizeMetadata(item.metadata)),
-    );
+      map((item: Item) => item.metadata),);
 
     this.subs.push(this.route.data.subscribe((data: Data) => {
         this.fromSubmissionObject = hasValue(data.wfi) || hasValue(data.wsi);

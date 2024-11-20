@@ -28,8 +28,6 @@ export class ThemedSearchFormComponent extends ThemedComponent<SearchFormCompone
 
   @Input() showScopeSelector: boolean;
 
-  @Input() showAdvancedSearch: boolean;
-
   @Output() submitSearch: EventEmitter<any> = new EventEmitter();
 
   protected inAndOutputNames: (keyof SearchFormComponent & keyof this)[] = [

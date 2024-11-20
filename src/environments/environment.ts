@@ -12,11 +12,12 @@ export const environment: Partial<BuildConfig> = {
   universal: {
     preboot: false,
     async: true,
-    time: false
+    time: false,
   },
 
+  //@ts-ignore
   apiUrl: 'http://localhost:8080',
-  communityEndpoint: '/communities/8193ffed-2e68-45e3-8320-1b196481615c'
+  communityEndpoint: '/communities/8193ffed-2e68-45e3-8320-1b196481615c',
 };
 
 /*
