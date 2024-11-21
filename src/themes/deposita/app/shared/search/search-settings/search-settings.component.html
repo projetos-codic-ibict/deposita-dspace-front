@@ -1,9 +1,8 @@
 <ng-container>
-  <span>{{ "search.sidebar.settings.title" | translate }}</span>
+  <h3>{{ "search.sidebar.settings.title" | translate }}</h3>
   <div class="result-order-settings">
     <ds-sidebar-dropdown
       *ngIf="sortOptionsList"
-      [style]="{ left: 0 }"
       [id]="'search-sidebar-sort'"
       [label]="'search.sidebar.settings.sort-by'"
       (change)="reloadOrder($event)"
@@ -27,4 +26,5 @@
       </option>
     </ds-sidebar-dropdown>
   </div>
+  <ds-page-size-selector></ds-page-size-selector>
 </ng-container>
