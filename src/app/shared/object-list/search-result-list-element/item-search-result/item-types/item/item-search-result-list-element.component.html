@@ -12,7 +12,13 @@
   </div>
   <div [ngClass]="showThumbnails ? 'col-9' : 'col-md-12'">
     <div class="d-flex">
-      <span *ngIf="dso.firstMetadataValue('dc.type')" class="badge badge-info" [innerHTML]="firstMetadataValue('dc.type') | translate"></span>
+      <span 
+  *ngIf="dso.firstMetadataValue('dc.type')" 
+  [ngClass]="getBadgeClass(dso.firstMetadataValue('dc.type'))" 
+  class="badge" 
+  [innerHTML]="dso.firstMetadataValue('dc.type') | translate">
+</span>
+
     </div>
 
     <ds-truncatable [id]="dso.id" *ngIf="object !== undefined && object !== null">

@@ -21,6 +21,27 @@ export class ItemSearchResultListElementComponent extends SearchResultListElemen
    * Route to the item's page
    */
   itemPageRoute: string;
+  getBadgeClass(type: string): string {
+    switch (type) {
+      case 'Artigo de revista':
+        return 'badge-primary'; // Azul
+      case 'Trabalho de conclusão de curso':
+        return 'badge-secondary'; // Cinza
+      case 'Livro':
+        return 'badge-success'; // Verde
+      case 'Capítulo de livro':
+        return 'badge-danger'; // Vermelho
+      case 'Artigo de evento':
+        return 'badge-warning'; // Amarelo
+      case 'Tese':
+        return 'badge-info'; // Azul claro
+      case 'Dissertação':
+        return 'badge-dark'; // Preto
+      default:
+        return 'badge-light'; // Branco
+    }
+  }
+  
 
   ngOnInit(): void {
     super.ngOnInit();
