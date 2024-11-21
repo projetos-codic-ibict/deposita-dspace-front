@@ -4893,7 +4893,7 @@
   // "search.filters.applied.f.author": "Author",
   "search.filters.applied.f.author": "Autor",
 
-  "search.filters.applied.f.cnpq": "Área de conhecimento",
+  "search.filters.applied.f.cnpq": "Ár",
 
   "search.filters.applied.f.language": "Idioma de publicação",
 
@@ -7060,6 +7060,8 @@
     "text1": "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)",
     "text2": "SAUS Quadra 5 • Lote 6 Bloco H • Asa Sul • CEP: 70.070-912 - Brasília - DF"
   },
+
+  "refine.search" : "Refinar busca",
 
 
   "metadataKeys": {

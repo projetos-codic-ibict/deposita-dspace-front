@@ -136,9 +136,6 @@
 }
 
 :host ::ng-deep ds-search-filters {
-  .facet-filter {
-    background-color: #FEFEFE !important;
-  }
 
   .filter-name {
     border: 0 !important;
@@ -151,7 +148,7 @@
 
   .filter-name h5 {
     color: #0F49BD;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .filter-name .fas {

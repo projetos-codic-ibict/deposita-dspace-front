@@ -3690,6 +3690,8 @@
 
   "search.filters.filter.author.head": "Author",
 
+  
+
   "search.filters.filter.author.placeholder": "Author name",
 
   "search.filters.filter.author.label": "Search author name",
@@ -3755,6 +3757,10 @@
   "search.filters.filter.expand": "Expand filter",
 
   "search.filters.filter.has_content_in_original_bundle.head": "Has files",
+  
+  "search.filters.filter.cnpq.head": "Knowledgearea",
+
+  "search.filters.filter.name.head": "Institution",
 
   "search.filters.filter.itemtype.head": "Type",
 
@@ -5339,6 +5345,9 @@
     "text1": "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)",
     "text2": "SAUS Quadra 5 • Lote 6 Bloco H • Asa Sul • CEP: 70.070-912 - Brasília - DF"
   },
+
+    "refine.search" : "Refine search",
+
 
   "contact.title": "Contact",
   
