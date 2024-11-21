@@ -4893,7 +4893,7 @@
   // "search.filters.applied.f.author": "Author",
   "search.filters.applied.f.author": "Autor",
 
-  "search.filters.applied.f.cnpq": "Ár",
+  "search.filters.applied.f.cnpq": "Área de conhecimento",
 
   "search.filters.applied.f.language": "Idioma de publicação",
 
@@ -7110,6 +7110,8 @@
     "null": "",
     "*": ""
   },
+  
+  "search.results": "Resultados de busca",
 
   "search.browse.item-back": "Voltar aos resultados"
 }

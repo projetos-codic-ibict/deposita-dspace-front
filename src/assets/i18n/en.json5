@@ -5315,6 +5315,8 @@
 
   "items-published" : "published",
 
+  "search.results": "Search results",
+
   "about": {
     "title": "About Us",
     "description1": "<strong>Deposita</strong> is the institutional repository developed by <strong>IBICT</strong> to promote the deposit, preservation, and dissemination of Brazilian scientific production. Its purpose is to facilitate access to knowledge, strengthen the <em>Open Access</em> movement, and stimulate the democratization of scientific information in Brazil and around the world.",
