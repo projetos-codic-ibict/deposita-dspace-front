@@ -11,6 +11,9 @@
   margin: 0 auto; /* Centraliza o formulário na tela */
 }
 
+.input-group{
+  flex-wrap: nowrap;
+}
 /* Estilos para a caixa de entrada de texto */
 .input-box {
   position: relative;
