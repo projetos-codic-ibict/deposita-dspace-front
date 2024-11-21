@@ -6,37 +6,41 @@
         color: #0F49BD;
     }
 }
+.badge{
+  font-size: 0.9rem;
+}
+
 .badge-primary {
-  background-color: #0056b3; /* Azul escuro */
-  color: #ffffff; /* Branco */
+  background-color: #0056b3;
+  color: #ffffff; 
 }
 .badge-secondary {
-  background-color: #6c757d; /* Cinza escuro */
-  color: #ffffff; /* Branco */
+  background-color: #6c757d; 
+  color: #ffffff; 
 }
 .badge-success {
-  background-color: #218838; /* Verde escuro */
-  color: #ffffff; /* Branco */
+  background-color: #218838; 
+  color: #ffffff;
 }
 .badge-danger {
-  background-color: #c82333; /* Vermelho escuro */
-  color: #ffffff; /* Branco */
+  background-color: #c82333; 
+  color: #ffffff; 
 }
 .badge-warning {
-  background-color: #e0a800; /* Amarelo dourado */
-  color: #ffffff; /* Branco */
+  background-color: #e0a800; 
+  color: #ffffff;
 }
 .badge-info {
-  background-color: #17a2b8; /* Azul claro */
-  color: #ffffff; /* Branco */
+  background-color: #17a2b8; 
+  color: #ffffff; 
 }
 .badge-dark {
-  background-color: #343a40; /* Preto fosco */
-  color: #ffffff; /* Branco */
+  background-color: #343a40;
+  color: #ffffff;
 }
 .badge-light {
-  background-color: #69a9e9; /* Cinza muito claro */
-  color: #343a40; /* Preto suave */
+  background-color: #69a9e9; 
+  color: #343a40; 
 }
 
 .item-container {
