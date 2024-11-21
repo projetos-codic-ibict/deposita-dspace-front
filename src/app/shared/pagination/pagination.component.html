@@ -17,10 +17,6 @@
           "pagination.showing.label" | translate
         }}</span>
         <ds-page-size-selector></ds-page-size-selector>
-        <ds-themed-search-settings
-          [currentSortOption]="currentSortOption"
-          [sortOptionsList]="sortOptionsList"
-        ></ds-themed-search-settings>
         <span class="align-middle">{{
           "pagination.showing.detail"
             | translate : (getShowingDetails(collectionSize) | async)
