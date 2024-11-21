@@ -13,6 +13,7 @@
 
   @include media-breakpoint-up(md) {
     display: flex;
+    gap: 1rem;
   }
 
   @include media-breakpoint-down(sm) {
@@ -49,6 +50,5 @@
     align-self: flex-start;
     display: block;
     position: relative;
-    right: 10rem;
   }
 }
