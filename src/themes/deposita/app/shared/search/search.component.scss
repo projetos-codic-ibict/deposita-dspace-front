@@ -104,26 +104,24 @@
 }
 
 :host ::ng-deep ds-item-search-result-list-element .row {
-  background-color: #FEFEFE !important;
-  width: 100% !important;
-  height: 16rem;
+  background-color: #FEFEFE;
+  width: 100%;
+  padding: 1rem 0;
 
   .item-container {
-    padding: 10px 10px 24px 10px !important;
-    border-radius: 8px !important;
-    margin-bottom: 0 !important;
-    height: 16rem;
-    width: 60rem !important;
+    padding: 10px 10px 24px 10px;
+    border-radius: 8px;
+    margin-bottom: 0;
+    width: 60rem;
   }
 
   ds-thumbnail {
     position: relative;
-    top: 3rem;
   }
 }
 
 :host ::ng-deep #search-content {
-  padding: 0 !important;
+  padding: 0;
 }
 
 ::ng-deep .search-controls {
