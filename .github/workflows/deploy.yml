@@ -8,7 +8,7 @@ on:
 
 env:
   DSPACE_HOST: ${{ secrets.DSPACE_HOST }}
-
+  DSPACE_PORT: ${{ secrets.DSPACE_PORT }}
   DSPACE_REST_HOST: ${{ secrets.DSPACE_REST_HOST }}
   DSPACE_REST_PORT: ${{ secrets.DSPACE_REST_PORT }}
   DSPACE_REST_SSL: ${{ secrets.DSPACE_REST_SSL }}
@@ -18,7 +18,7 @@ jobs:
     runs-on: [self-hosted, Linux, x64, dev]
     environment:
       name: dev
-      url: "https://hmfdeposita.ibict.br/"
+      url: "http://172.16.24.33:5000"
 
     steps:
       - uses: actions/checkout@v3
