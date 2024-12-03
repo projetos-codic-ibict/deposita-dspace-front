@@ -5279,8 +5279,9 @@
 
   "deposita": "The Deposita",
 
-  "presentation": "Presentation",
+  "presentationPage": "Presentation",
 
+  "info.presentationPage.breadcrumbs": "Presentation",
   "repositoryPolicy": "Repository Policy",
 
   "depositGuide": "Deposit Guide",
