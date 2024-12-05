@@ -18,7 +18,7 @@ jobs:
     runs-on: [self-hosted, Linux, x64, dev]
     environment:
       name: dev
-      url: "http://172.16.24.33:5000"
+      url: "https://hmfdeposita.ibict.br/"
 
     steps:
       - uses: actions/checkout@v3
