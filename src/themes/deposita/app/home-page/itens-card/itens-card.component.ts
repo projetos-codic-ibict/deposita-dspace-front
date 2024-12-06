@@ -6,26 +6,37 @@ import { environment } from 'src/environments/environment';
   templateUrl: './itens-card.component.html',
   styleUrls: ['./itens-card.component.scss'],
 })
-
 export class ItensCardComponent implements OnInit {
-  quantidades = {}
-  objectEntries = Object.entries
-  iconePadrao = "assets/deposita/images/li_file.svg"
+  quantidades = {};
+  objectEntries = Object.entries;
+  iconePadrao = 'assets/deposita/images/li_file.svg';
   icones = {
-    "Artigo": "assets/deposita/images/li_file.svg",
-    "Conference": "assets/deposita/images/text-cursor.svg",
-    "Livro": "assets/deposita/images/book.svg",
-    "Capítulo de livro": "assets/deposita/images/bookmark.svg",
-    "Trabalho de conclusão de curso": "assets/deposita/images/book.svg",
-    "Tese": "assets/deposita/images/edit.svg",
-    "Dissertação": "assets/deposita/images/quote.svg",
-  }
+    Artigo: 'assets/deposita/images/li_file.svg',
+    Conference: 'assets/deposita/images/text-cursor.svg',
+    Livro: 'assets/deposita/images/book.svg',
+    'Capítulo de livro': 'assets/deposita/images/bookmark.svg',
+    'Trabalho de conclusão de curso': 'assets/deposita/images/book.svg',
+    Tese: 'assets/deposita/images/edit.svg',
+    Dissertação: 'assets/deposita/images/quote.svg',
+  };
 
   async getItensQtd(): Promise<any> {
-    const tiposItens = ["Dissertação", "Tese", "Livro", "Capítulo de livro", "Artigo", "Trabalho de conclusão de curso", "Artigo de evento"]
+    const tiposItens = [
+      'Dissertação',
+      'Tese',
+      'Livro',
+      'Capítulo de livro',
+      'Artigo',
+      'Trabalho de conclusão de curso',
+      'Artigo de evento',
+    ];
 
-    const promises = tiposItens.map(tipo => {
-      return fetch(environment.apiUrl + `/server/api/discover/facets/has_content_in_original_bundle?query=dc.type:${tipo}`).then(res => res.json());
+    const promises = tiposItens.map((tipo) => {
+      console.log('environment: ', environment);
+      return fetch(
+        environment.apiUrl +
+          `/server/api/discover/facets/has_content_in_original_bundle?query=dc.type:${tipo}`
+      ).then((res) => res.json());
     });
     const results = await Promise.all(promises);
 
