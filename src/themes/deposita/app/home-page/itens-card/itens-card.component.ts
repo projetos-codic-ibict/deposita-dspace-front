@@ -32,10 +32,9 @@ export class ItensCardComponent implements OnInit {
     ];
 
     const promises = tiposItens.map((tipo) => {
-      console.log('environment: ', environment);
       return fetch(
-        environment.apiUrl +
-          `/server/api/discover/facets/has_content_in_original_bundle?query=dc.type:${tipo}`
+        environment.rest.baseUrl +
+          `/api/discover/facets/has_content_in_original_bundle?query=dc.type:${tipo}`
       ).then((res) => res.json());
     });
     const results = await Promise.all(promises);

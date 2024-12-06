@@ -22,10 +22,9 @@ export class HomePageComponent implements OnInit {
   }
 
   async getRandomHighlight(): Promise<any> {
-    console.log('environment: ', environment);
     const highlights = await fetch(
-      environment.apiUrl +
-        '/server/api/discover/browses/title/items?scope=7bc8d2d1-5e3a-495c-bfff-13e846fca9d5&sort=dc.title,ASC&page=0&size=20'
+      environment.rest.baseUrl +
+        '/api/discover/browses/title/items?scope=7bc8d2d1-5e3a-495c-bfff-13e846fca9d5&sort=dc.title,ASC&page=0&size=20'
     ).then((res) => res.json());
     return highlights;
   }

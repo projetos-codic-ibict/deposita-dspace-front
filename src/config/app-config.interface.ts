@@ -24,7 +24,6 @@ import { FilterVocabularyConfig } from './filter-vocabulary-config';
 import { DiscoverySortConfig } from './discovery-sort.config';
 
 interface AppConfig extends Config {
-  apiUrl: string;
   communityEndpoint: string;
   ui: UIServerConfig;
   rest: ServerConfig;

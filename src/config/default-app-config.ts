@@ -26,7 +26,6 @@ import { DiscoverySortConfig } from './discovery-sort.config';
 export class DefaultAppConfig implements AppConfig {
   production = false;
 
-  apiUrl: string;
   communityEndpoint: string;
   // NOTE: will log all redux actions and transfers in console
   debug = false;
