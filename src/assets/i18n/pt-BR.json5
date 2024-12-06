@@ -6968,7 +6968,7 @@
 
   "deposita": "O Deposita",
 
-  "presentation": "Apresentação",
+  "presentationPage": "Apresentação",
 
   "repositoryPolicy": "Política do Repositório",
 
@@ -7115,5 +7115,103 @@
 
    "dso-selector.set-scope.community.or-divider": "ou",
 
-  "search.browse.item-back": "Voltar aos resultados"
+  "search.browse.item-back": "Voltar aos resultados",
+
+  "submission.sections.license.granted-label": "Eu confirmo com a licença acima",
+
+
+  "presentation": {
+    "description1": "O Repositório Comum do Brasil (Deposita) foi desenvolvido pelo IBICT. Sua primeira versão foi oficialmente lançada em 2015, com a última atualização ocorrendo em 2024. O Deposita é uma base de dados dedicada a reunir e disponibilizar as produções científicas de pesquisadores de instituições brasileiras que ainda não têm repositórios institucionais próprios. Além disso, também serve como um recurso para pesquisadores brasileiros que realizam pós-graduação em outros países, permitindo que suas publicações fiquem acessíveis à comunidade científica nacional.",
+    "description2": "Os repositórios digitais podem ser entendidos como sistemas web que facilitam o depósito e o acesso às publicações digitais, destinado ao gerenciamento e a preservação da documentação científica, ao reunir, organizar e tornar mais acessível às produções científicas, além de, ser um sistema flexível que se adequa as variáveis finalidade das instituições. O nome do repositório, Deposita, foi escolhido com o intuito de atrair os pesquisadores brasileiros a realizar o auto depósito dos resultados de seus trabalhos.",
+    "description3": "Para participar do Deposita, o autor ou um dos coautores deve submeter o trabalho científico por meio do autoarquivamento, após um cadastro simples no campo “meu espaço”, localizado no menu do portal. A equipe gestora do repositório é responsável pela curadoria dos dados seguindo padrões internacionais de base de dados de acesso aberto e a política do repositório. Após essa análise, o documento em conformidade com essas diretrizes é aprovado.",
+    "description4": "A produção científica disponível no Deposita torna-se amplamente visível na internet. Os trabalhos depositados no repositório são automaticamente coletados pelo Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr). No caso de teses e dissertações, esses documentos também são coletados pela Biblioteca Digital Brasileira de Teses e Dissertações (BDTD), garantindo assim o acesso a pesquisadores e à sociedade em geral.",
+    "description5": "O objetivo do Deposita é tornar a produção científica brasileira mais acessível e visível, além de promover e incentivar a criação de repositórios em universidades e institutos de pesquisa que ainda não implementaram esse serviço. Os benefícios do Deposita são diversos, tanto para os pesquisadores quanto para a ciência brasileira, e incluem (Ibict, 2015):",
+    "benefits_researchers_title": "Benefícios para os pesquisadores",
+    "benefits_researchers": {
+      "item1": "Disponibilizar livremente sua produção científica na Internet.",
+      "item2": "Tornar a sua produção mais visível pelos motores de busca na Internet.",
+      "item3": "Possibilitar o aumento das citações e do impacto da produção.",
+      "item4": "Garantir a preservação da produção em um ambiente digital.",
+      "item5": "Oferecer um endereço eletrônico confiável e único para a produção, garantindo o acesso permanente."
+    },
+    "benefits_science_title": "Benefícios para a ciência brasileira",
+    "benefits_science": {
+      "item1": "Organizar e ampliar a sua visibilidade.",
+      "item2": "Permitir que a produção científica realizada no Brasil seja acessada de qualquer lugar do mundo e a qualquer hora de forma livre e sem nenhum custo para o usuário.",
+      "item3": "Preservar a produção científica realizada no Brasil.",
+      "item4": "Fornecer dados para a gestão da ciência brasileira.",
+      "item5": "Promover a criação de repositórios institucionais, que permitirão a gestão organizacional dos recursos de pesquisa."
+    },
+    "description6": "Na sua última atualização, o Deposita, de acordo com a nova política do repositório, passou a aceitar os seguintes tipos de documentos: artigo de revista, artigo de evento, livro, capítulo de livro, trabalho de conclusão de curso, dissertação e tese. A evolução da plataforma é resultado de um trabalho de customização realizado pelo IBICT sobre o software DSpace.",
+    "description7": "O software DSpace consiste em um software livre de código aberto, o qual é um dos softwares mais utilizados mundialmente para construir e gerenciar repositórios digitais de forma simples, mas com muitos recursos personalizáveis para atender à necessidade do usuário.",
+    "description8": "Ao depositar um documento no software DSpace, é necessário que se aceite uma licença. No caso do Deposita, a licença de distribuição é Não-Exclusiva, em que o autor concede ao repositório o direito não-exclusivo de reproduzir, traduzir e distribuir a publicação depositada, em qualquer formato e meio, essa licença deve ser concedida antes de iniciar o depósito, juntamente com a seleção da Licença Creative Commons (CC), que não é obrigatória, mas, é altamente recomendada para o repositório (Ibict, 2015).",
+    "contact": "Em caso de dúvidas, entre em contato com a Equipe Deposita por meio do e-mail: deposita@ibict.br"
+  },
+
+   "policy.title": "Política Institucional - Repositório Comum do Brasil (Deposita)",
+  "policy.chapter1.title": "CAPÍTULO I - DISPOSIÇÕES GERAIS",
+  "policy.chapter1.article1": "Art. 1º - O Repositório Comum do Brasil (Deposita) é uma base de dados de acesso aberto criada e mantida pelo Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica de pesquisadores brasileiros vinculados a instituições que ainda não possuem seus próprios repositórios institucionais e/ou de pesquisadores brasileiros que executaram suas produções científicas em instituições estrangeiras de ensino e pesquisa.",
+  "policy.chapter1.article1.paragraph": "Parágrafo único - Para efeito desta política, produção científica são todos os documentos resultantes de pesquisa científica e que passaram pelo processo de avaliação por pares.",
+  "policy.chapter1.article2": "Art. 2º - O objetivo do Deposita é reunir e divulgar a produção científica de pesquisadores brasileiros vinculados a instituições que ainda não possuem seus próprios repositórios institucionais e/ou de pesquisadores brasileiros que executaram suas pesquisas em instituições estrangeiras de ensino e pesquisa.",
+  "policy.chapter1.article3": "Art. 3º - São finalidades do Deposita:",
+  "policy.chapter1.article3.item1": "§ 1º - Tornar acessível e dar visibilidade à produção científica elaborada no âmbito de instituições brasileiras de ensino e pesquisa que não possuem seus próprios repositórios institucionais.",
+  "policy.chapter1.article3.item2": "§ 2º - Promover a criação de repositórios institucionais em instituições de ensino e pesquisa que ainda não possuem este tipo de serviço.",
+  "policy.chapter1.article3.item3": "§ 3º - Possibilitar que pesquisadores brasileiros atuantes em instituições estrangeiras de ensino e pesquisa possam disponibilizar suas produções científicas em território nacional e em acesso aberto.",
+  "policy.chapter1.article3.item4": "§ 4º - Possibilitar que pesquisadores brasileiros independentes (sem vínculo institucional) possam disponibilizar suas produções científicas em acesso aberto.",
+  "policy.chapter2.title": "CAPÍTULO II - DO DEPÓSITO",
+  "policy.chapter2.article4": "Art. 4º - O povoamento do Deposita será realizado exclusivamente por meio de autoarquivamento por parte dos autores, salvo acordo previamente estabelecido.",
+  "policy.chapter2.article4.paragraph1": "§ 1º - Em caso de documento que possuam coautoria, o depósito poderá ser feito por qualquer um dos autores.",
+  "policy.chapter2.article4.paragraph2": "§ 2º - Após a realização do autoarquivamento será de responsabilidade do Ibict a verificação, correção e aceite da produção científica depositada.",
+  "policy.chapter2.article4.paragraph3": "§ 3º - O Ibict resguarda o direito de rejeitar as submissões auto-arquivadas no Deposita quando estas estiverem em desacordo com o disposto nesta política.",
+  "policy.chapter2.article5": "Art. 5º - Nenhum dos autores do documento pode ser filiado à instituição brasileira de ensino e pesquisa que já possua seu próprio repositório institucional ou estrutura similar.",
+  "policy.chapter2.article5.paragraph": "Parágrafo único - Caso a instituição de afiliação do(s) autor(es) possua um repositório institucional ou estrutura similar e esta apresente algum tipo de restrição ao depósito da produção científica, o autor(es) deve(m) entrar em contato com a equipe Deposita para análise do caso em questão.",
+  "policy.chapter2.article6": "Art. 6º - O depósito não pode ser feito por editoras comerciais com o intuito de utilizar o Deposita como canal inicial de publicação dos documentos editados.",
+  "policy.chapter2.article8": "Art. 8º - É indispensável que todos os autores de documentos auto-arquivados no Deposita tenham cadastro vigente no Currículo Lattes.",
+  "policy.chapter3.title": "CAPÍTULO III - DOS DIREITOS DE USO",
+  "policy.chapter3.article9": "Art. 9º - Os autores deverão ceder ao Deposita, gratuita e não exclusivamente, os direitos de utilização não comercial das obras intelectuais durante o prazo de vigência dos direitos autorais, conforme disposto na Licença de distribuição concedida no momento de depósito.",
+  "policy.chapter3.article9.paragraph1": "§ 1º - A cessão feita ao Deposita pelos autores autorizará a utilização não comercial, gratuita, não exclusiva, em caráter permanente e irrevogável, da obra disponível no Repositório Comum do Brasil (Deposita), por qualquer pessoa, física ou jurídica.",
+  "policy.chapter3.article9.paragraph2": "§ 2º - A permissão de uso inclui os direitos de reproduzir, exibir, executar, declamar, expor, arquivar, inserir em bancos de dados, difundir, distribuir, divulgar, disponibilizar, emprestar, traduzir, incluir em novas obras ou coletâneas, ou qualquer forma de utilizar o material disponibilizado, desde que não haja finalidade comercial e sejam respeitados os direitos morais, dando-se os devidos créditos aos autores originais.",
+  "policy.chapter3.article9.paragraph3": "§ 3º - Será possível, desde que assim solicitado pelo autor, e definido no seu termo de cessão, a disponibilização da obra intelectual no Repositório Comum do Brasil (Deposita) com uma cessão mais ampla, que inclua, por exemplo, os usos comerciais.",
+  "policy.chapter3.article9.paragraph4": "§ 4º - As obras intelectuais depositadas, em acesso aberto, no Repositório Comum do Brasil (Deposita), poderão ser utilizadas gratuitamente por qualquer pessoa física ou jurídica, para fins privados, pessoais, educacionais, de pesquisa, científicos, informativos, de arquivamento, preservação, difusão, divulgação, demonstração, disponibilização ou quaisquer outras finalidades não comerciais.",
+  "policy.chapter3.article10": "Art. 10 - Ficam reservados aos autores todos os direitos morais, bem como os usos comerciais sobre as obras de sua autoria, salvo as exceções previstas em lei ou em instrumentos contratuais.",
+  "policy.chapter3.article11": "Art. 11 - Todos os documentos depositados estarão disponíveis em acesso aberto imediatamente após a aprovação do registro.",
+  "policy.chapter4.title": "CAPÍTULO IV - DA TIPIFICAÇÃO DOS DOCUMENTOS DEPOSITADOS",
+  "policy.chapter4.article8": "Art. 8º - Todos os documentos depositados devem ser de caráter acadêmico-científico, considerando os seguintes critérios:",
+  "policy.chapter4.article8.item1.title": "I - Artigo científico",
+  "policy.chapter4.article8.item1.a": "a) Ter sido previamente publicado em revista e/ou evento científico que declare realizar processo de avaliação por pares.",
+  "policy.chapter4.article8.item1.b": "b) A revista ou evento científico deve indicar em sua página que possui conselho editorial e/ou científico responsável pela avaliação dos documentos.",
+  "policy.chapter4.article8.item1.c": "c) Em caso de artigo de evento científico, a página do evento deve indicar a apresentação do trabalho.",
+  "policy.chapter4.article8.item2.title": "II - Tese, dissertação e monografia/trabalho de conclusão de curso",
+  "policy.chapter4.article8.item2.a": "a) Ter sido apresentado/defendido em instituição de ensino superior reconhecida pelo Ministério da Educação ou entidade equivalente em âmbito internacional.",
+  "policy.chapter4.article8.item2.b": "b) Ter sido aprovado por banca examinadora composta por pesquisadores especialistas na área.",
+  "policy.chapter4.article8.item2.c": "c) Constar, no corpo do documento, ata de aprovação com o nome e assinatura dos membros integrantes da banca examinadora.",
+  "policy.chapter4.article8.item3.title": "III - Livro e capítulo de livro",
+  "policy.chapter4.article8.item3.a": "a) Ter sido publicado por editora científica, instituição de ensino superior ou instituto de pesquisa.",
+  "policy.chapter4.article8.item3.b": "b) Possuir conselho editorial composto por pesquisadores especialistas na área.",
+  "policy.chapter4.article8.item3.c": "c) Apresentar e possuir registro de ISBN.",
+  "policy.chapter5.title": "CAPÍTULO V - DA INTEROPERABILIDADE",
+  "policy.chapter5.article9": "Art. 9º - O Deposita deverá ser interoperável com outros sistemas agregadores, nacionais e internacionais, observando-se o uso de padrões e protocolos de interoperabilidade.",
+  "policy.chapter5.article9.paragraph1": "§ 1º - Todos os conteúdos do Deposita serão periodicamente coletados pelo Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr).",
+  "policy.chapter5.article9.paragraph2": "§ 2º - As teses e dissertações concebidas no âmbito do sistema stricto sensu também serão periodicamente coletadas pela Biblioteca Digital Brasileira de Teses e Dissertações (BDTD).",
+  "policy.chapter5.article9.paragraph3": "§ 3º - Por sua vez, os conteúdos coletados pelo Oasisbr e pela BDTD também são coletados por outros sistemas agregadores internacionais, como Repositório Científico de Acesso Aberto de Portugal (RCAAP), Rede de Repositórios de Acceso Abierto a la Ciencia (LA Referencia), OpenAIRE e Networked Digital Library of Theses and Dissertations (NDLTD).",
+  "policy.chapter6.title": "CAPÍTULO VI - DO PÚBLICO-ALVO E BENEFÍCIOS DE UTILIZAÇÃO",
+  "policy.chapter6.article10": "Art. 10 - O Deposita destina-se aos mais diversos atores envolvidos no processo de comunicação científica e sua utilização gera benefícios a todos eles, especificamente:",
+  "policy.chapter6.article10.item1.title": "I - Ao pesquisador:",
+  "policy.chapter6.article10.item1.a": "a) Disponibiliza, na internet e em acesso aberto, sua produção científica.",
+  "policy.chapter6.article10.item1.b": "b) Torna mais visível e acessível sua produção científica.",
+  "policy.chapter6.article10.item1.c": "c) Propicia o aumento da visibilidade e citação da produção científica.",
+  "policy.chapter6.article10.item1.d": "d) Garante a preservação da produção científica em ambiente digital, por meio da atribuição de identificador persistente.",
+  "policy.chapter6.article10.item1.e": "e) Permite a certificação da produção científica com o Currículo Lattes por meio da interoperabilidade com o Portal Oasisbr.",
+  "policy.chapter6.article10.item2.title": "II - Às instituições de ensino e pesquisa:",
+  "policy.chapter6.article10.item2.a": "a) Amplia a visibilidade da produção científica gerada no contexto institucional.",
+  "policy.chapter6.article10.item2.b": "b) Promove a criação de repositórios institucionais nas instituições que ainda não possuem este serviço.",
+  "policy.chapter6.article10.item3.title": "III - À ciência brasileira:",
+  "policy.chapter6.article10.item3.a": "a) Permite que a produção científica brasileira seja acessada de qualquer lugar do mundo e a qualquer hora, de forma livre e sem nenhum custo para o usuário.",
+  "policy.chapter6.article10.item3.b": "b) Fornece dados sobre a produção científica brasileira.",
+  "policy.chapter6.article10.item3.c": "c) Preserva a produção científica brasileira.",
+  "policy.chapter7.title": "CAPÍTULO VII - DA VIGÊNCIA E ATUALIZAÇÃO",
+  "policy.chapter7.article11": "Art. 11 - O Ibict resguarda o direito de fazer atualizações nesta política sempre que assim se julgar necessário.",
+  "policy.chapter7.article12": "Art. 12 - Esta política entrará em vigor na data de sua publicação.",
+
+
 }

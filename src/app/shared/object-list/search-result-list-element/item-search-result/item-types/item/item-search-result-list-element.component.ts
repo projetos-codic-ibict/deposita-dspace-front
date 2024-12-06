@@ -24,21 +24,21 @@ export class ItemSearchResultListElementComponent extends SearchResultListElemen
   getBadgeClass(type: string): string {
     switch (type) {
       case 'Artigo de revista':
-        return 'badge-primary'; // Azul
+        return 'badge-primary'; 
       case 'Trabalho de conclusão de curso':
-        return 'badge-secondary'; // Cinza
+        return 'badge-secondary'; 
       case 'Livro':
-        return 'badge-success'; // Verde
+        return 'badge-success';
       case 'Capítulo de livro':
-        return 'badge-danger'; // Vermelho
+        return 'badge-danger'; 
       case 'Artigo de evento':
-        return 'badge-warning'; // Amarelo
+        return 'badge-warning'; 
       case 'Tese':
-        return 'badge-info'; // Azul claro
+        return 'badge-info'; 
       case 'Dissertação':
-        return 'badge-dark'; // Preto
+        return 'badge-dark';
       default:
-        return 'badge-light'; // Branco
+        return 'badge-light'; 
     }
   }
   
