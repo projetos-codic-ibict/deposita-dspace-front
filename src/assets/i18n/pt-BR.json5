@@ -7119,6 +7119,10 @@
 
   "submission.sections.license.granted-label": "Eu confirmo com a licença acima",
 
+  "submission.sections.license.required": "Você deve aceitar a licença",
+
+  "submission.sections.license.notgranted": "Você deve aceitar a licença",
+
 
   "presentation": {
     "description1": "O Repositório Comum do Brasil (Deposita) foi desenvolvido pelo IBICT. Sua primeira versão foi oficialmente lançada em 2015, com a última atualização ocorrendo em 2024. O Deposita é uma base de dados dedicada a reunir e disponibilizar as produções científicas de pesquisadores de instituições brasileiras que ainda não têm repositórios institucionais próprios. Além disso, também serve como um recurso para pesquisadores brasileiros que realizam pós-graduação em outros países, permitindo que suas publicações fiquem acessíveis à comunidade científica nacional.",
