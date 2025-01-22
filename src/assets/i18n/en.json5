@@ -5352,33 +5352,22 @@
     "refine.search" : "Refine search",
 
 
-  "contact.title": "Contact",
-  
-  "contact.address": "Address",
-  
-  "contact.addressText": "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT), Brasília, DF, Brasil",
-  
-  "contact.phone": "Phone",
-  
-  "contact.phoneNumber": "+55 (61) 1234-5678",
-  
-  "contact.email": "Email",
-
-  "contact.yourEmail": "Your email",
-  
-  "contact.emailAddress": "contato@ibict.br",
-  
-  "contact.name": "Name",
-
-  "contact.yourName": "Your name",
-  
-  "contact.subject": "Subject",
-  
-  "contact.message": "Message",
-
-  "contact,yourMessage": "Your message",
-  
-  "contact.sendButton": "Send",
+   "contact": {
+    "title": "Contact",
+    "generalCoordination": "Coordenação-geral de Informação Científica e Técnica (CGIC)",
+    "generalCoordinationText": "Coordenação-geral de Informação Científica e Técnica (CGIC)",
+    "analysisCoordination": "Coordenação de Tratamento, Análise e Disseminação da Informação Científica (CODIC)",
+    "analysisCoordinationText": "Coordenação de Tratamento, Análise e Disseminação da Informação Científica (CODIC)",
+    "email": "Email",
+    "emailAddress": "deposita@ibict.br",
+    "phone": "Phone",
+    "phoneNumber": "(61) 3217-6134 / (61) 3217-6157 / (61) 3217-6449",
+    "team": "Technical Team",
+    "member1": {
+      "name": "Cássio Morais",
+      "email": "cassiomorais@ibict.br"
+    }
+  },
 
 
   "presentation": {
