@@ -36,7 +36,7 @@
       <div class="d-flex flex-row">
         <h5 class="align-middle pt-2">
           <a [routerLink]="node.route" class="lead">
-            {{ dsoNameService.getName(node.payload) }}
+            {{ dsoNameService.getName(node.payload) | translate }}
           </a>
           <span class="pr-2">&nbsp;</span>
           <span *ngIf="node.payload.archivedItemsCount >= 0" class="badge badge-pill badge-secondary align-top archived-items-lead">{{node.payload.archivedItemsCount}}</span>
@@ -74,7 +74,7 @@
       </button>
       <h6 class="align-middle pt-2">
         <a [routerLink]="node.route" class="lead">
-          {{ dsoNameService.getName(node.payload) }}
+          {{ dsoNameService.getName(node.payload) | translate }}
         </a>
       </h6>
     </div>
