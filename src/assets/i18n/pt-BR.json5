@@ -7054,25 +7054,25 @@
 
 
   "metadataKeys": {
-    "dc.contributor.advisor": "Consultor colaborador",
+    "dc.contributor.advisor": "Orientador",
     "dc.contributor.advisorLattes": "Lattes do Orientador",
     "dc.contributor.author": "Autor",
     "dc.contributor.authorLattes": "Lattes do Autor",
     "dc.date.accessioned": "Data de Acesso",
-    "dc.date.issued": "Data de Emissão",
+    "dc.date.issued": "Ano de publicação",
     "dc.description.abstract": "Abstract",
     "dc.description.provenance": "Proveniência",
     "dc.description.resumo": "Resumo",
-    "dc.description.sponsorship": "Patrocínio",
+    "dc.description.sponsorship": "Agência de financiamento",
     "dc.format": "Formato",
     "dc.identifier.uri": "URI",
     "dc.identifier.isbn": "Identificador ISBN",
     "dc.language": "Idioma",
     "dc.publisher": "Editora",
-    "dc.publisher.country": "País da Editora",
-    "dc.publisher.department": "Departamento da Editora",
-    "dc.publisher.program": "Programa da Editora",
-    "dc.rights": "Direitos",
+    "dc.publisher.country": "País",
+    "dc.publisher.department": "Departamento",
+    "dc.publisher.program": "Programa",
+    "dc.rights": "Tipo de acesso",
     "dc.subject": "Palavra Chave",
     "dc.subject.cnpq": "Assunto CNPq",
     "dc.title": "Título",
@@ -7082,14 +7082,61 @@
     "dc.citation.epage": "Página final",
     "dc.citation.spage": "Página inicial",
     "dc.citation.volume": "Volume",
-    "dc.relation.ispartof": "É parte de",
+    "dc.relation.ispartof": "Título do periódico",
     "dc.identifier.citation": "Citação",
     "dc.identifier.doi": "DOI (Identificador de Objeto Digital)",
-    "dc.contributor.referees1": "Avaliador 1",
+    "dc.contributor.referees1": "Primeiro membro da banca",
     "dc.relation.references": "Referências",
     "dc.rights.uri": "URL dos Direitos",
-    "dc.thumbnail.url": "URL da Miniatura"
+    "dc.thumbnail.url": "URL da Miniatura",
+    "dc.contributor.advisor-co1" : "Primeiro coorientador",
+    "dc.contributor.referees1Lattes" : "Lattes primeiro membro da banca",
+    "dc.contributor.referees2" : "Segundo membro da banca",
+    "dc.contributor.referees2Lattes" : "Lattes segundo membro da banca",
+    "dc.contributor.referees3" : "Terceiro membro da banca",
+    "dc.contributor.referees3Lattes" : "Lattes terceiro membro da banca",
+    "dc.description.region" : "Região",
+
+
   },
+
+  "mydspace.show.supervisedWorkspace": "Itens supervisionados",
+  "system-wide-alert.form.create.error": "Algo deu errado ao criar o alerta para todo o sistema",
+  "system-wide-alert.form.update.error": "Algo deu errado ao atualizar o alerta de todo o sistema",
+  "admin.system-wide-alert.breadcrumbs": "Alertas em todo o sistema",
+  "admin.system-wide-alert.title": "Alertas em todo o sistema",
+  "system-wide-alert-banner.retrieval.error": "Something went wrong retrieving the system-wide alert banner",
+
+
+  "menu.section.system-wide-alert": "Alertas em todo o sistema",
+
+  "system-wide-alert.form.header": "Alertas em todo o sistema",
+
+  "system-wide-alert.form.cancel": "Cancelar",
+
+  "system-wide-alert.form.save": "Salvar",
+
+  "system-wide-alert.form.label.active": "ATIVO",
+
+  "system-wide-alert.form.label.inactive": "INATIVO",
+
+  "system-wide-alert.form.error.message": "O alerta de todo o sistema deve ter uma mensagem",
+
+  "system-wide-alert.form.label.message": "Mensagem de alerta",
+
+  "system-wide-alert.form.label.countdownTo.enable": "Habilite um cronômetro de contagem regressiva",
+
+  "system-wide-alert.form.label.countdownTo.hint": "Dica: defina um cronômetro de contagem regressiva. Quando ativado, uma data pode ser definida no futuro e o banner de alerta em todo o sistema realizará uma contagem regressiva até a data definida. Quando este cronômetro terminar, ele desaparecerá do alerta. O servidor NÃO será parado automaticamente.",
+
+  "system-wide-alert.form.label.preview": "Visualização de alerta em todo o sistema",
+
+  "system-wide-alert.form.update.success": "O alerta de todo o sistema foi atualizado com sucesso",
+
+  "system-wide-alert.form.update.error": "Algo deu errado ao atualizar o alerta de todo o sistema",
+
+  "system-wide-alert.form.create.success": "O alerta de todo o sistema foi criado com sucesso",
+
+  "system-wide-alert.form.create.error": "Algo deu errado ao criar o alerta para todo o sistema",
 
   "languages": {
     "por": "Português",
