@@ -6,6 +6,7 @@ export const FEEDBACK_PATH = 'feedback';
 export const ABOUT_PATH = 'about';
 export const PRESENTATION_PATH = 'presentation';
 export const REPOSITORY_POLICY_PATH = 'repository-policy';
+export const DEPOSIT_PATH = 'deposit';
 
 export function getEndUserAgreementPath() {
     return getSubPath(END_USER_AGREEMENT_PATH);

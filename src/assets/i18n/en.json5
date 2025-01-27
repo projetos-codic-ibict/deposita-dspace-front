@@ -5463,6 +5463,29 @@
   "policy.chapter7.article11": "Art. 11 - Ibict reserves the right to update this policy whenever deemed necessary.",
   "policy.chapter7.article12": "Art. 12 - This policy will come into force on the date of its publication.",
 
+  "deposit.guide.title": "Deposit Handbook / Deposita User Guide",
+  "deposit.greeting": "Dear User,",
+  "deposit.introduction": "First, we would like to inform you that the Deposita repository is operational for new deposits of academic and scientific works.",
+  "deposit.update": "To better serve the user community, the Brazilian Common Repository (Deposita) is undergoing an update process. This process includes the development of repository policies. Additionally, a detailed handbook on repository-related issues, including its features such as user registration and academic document submission processes, will soon be available.",
+  "deposit.criteria.introduction": "Therefore, the acceptance of new records in Deposita will be subject to verification of the following criteria:",
+  "deposit.criteria.1": "The deposit must be made exclusively by the author of the document. In the case of documents with co-authorship, the deposit may be made by any of the authors;",
+  "deposit.criteria.2": "Deposits cannot be made by commercial publishers;",
+  "deposit.criteria.3": "None of the authors of the document can be affiliated with an institution that already has its own institutional repository;",
+  "deposit.criteria.4": "The document must be academic and scientific in nature, considering the following criteria:",
+  "deposit.criteria.4.a": "In the case of scientific articles, it must have been published in a journal and/or scientific event that carries out a peer review process;",
+  "deposit.criteria.4.b": "In the case of books or book chapters, it must have a scientific council composed of researchers in the field;",
+  "deposit.criteria.4.c": "In the case of course completion works, dissertations, or theses, it must have an examination board composed of researchers in the field.",
+  "deposit.noncompliance": "If the document does not comply with the above criteria, it will be rejected.",
+  "deposit.resubmission": "If the necessary corrections can be made to meet the criteria, we request a new submission of the item.",
+  "deposit.suggestion": "As a suggestion, documents that do not comply with Deposita's policy can be deposited on other free and open-access platforms, such as Zenodo and Figshare.",
+  "deposit.review": "For documents already in Deposita that may not comply with these criteria, they may be reviewed by the repository's management team, which reserves the right to retain or delete the records.",
+  "deposit.contact": "If necessary, depositors will be contacted via email.",
+  "deposit.doubts": "If you have any questions, please contact the Deposita Team via email: deposita@ibict.br",
+  "deposit.closure": "We thank you in advance for your understanding and remain available for any additional clarifications that may be necessary.",
+
+  "info.deposit.breadcrumbs" : "Deposit booklet",
+  "info.deposit.title" : "Deposit booklet",
+
 
 
 }

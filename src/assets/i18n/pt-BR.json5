@@ -7188,7 +7188,7 @@
     "contact": "Em caso de dúvidas, entre em contato com a Equipe Deposita por meio do e-mail: deposita@ibict.br"
   },
 
-   "policy.title": "Política Institucional - Repositório Comum do Brasil (Deposita)",
+  "policy.title": "Política Institucional - Repositório Comum do Brasil (Deposita)",
   "policy.chapter1.title": "CAPÍTULO I - DISPOSIÇÕES GERAIS",
   "policy.chapter1.article1": "Art. 1º - O Repositório Comum do Brasil (Deposita) é uma base de dados de acesso aberto criada e mantida pelo Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica de pesquisadores brasileiros vinculados a instituições que ainda não possuem seus próprios repositórios institucionais e/ou de pesquisadores brasileiros que executaram suas produções científicas em instituições estrangeiras de ensino e pesquisa.",
   "policy.chapter1.article1.paragraph": "Parágrafo único - Para efeito desta política, produção científica são todos os documentos resultantes de pesquisa científica e que passaram pelo processo de avaliação por pares.",
@@ -7252,6 +7252,29 @@
   "policy.chapter7.title": "CAPÍTULO VII - DA VIGÊNCIA E ATUALIZAÇÃO",
   "policy.chapter7.article11": "Art. 11 - O Ibict resguarda o direito de fazer atualizações nesta política sempre que assim se julgar necessário.",
   "policy.chapter7.article12": "Art. 12 - Esta política entrará em vigor na data de sua publicação.",
+
+  "deposit.guide.title": "Cartilha de Depósito / Guia de Usuários Deposita",
+  "deposit.greeting": "Prezado(a),",
+  "deposit.introduction": "Primeiramente, gostaríamos de informar que o repositório Deposita encontra-se operacional para novos depósitos de trabalhos acadêmico-científicos.",
+  "deposit.update": "Com vistas a melhor atender a comunidade de usuários, o Repositório Comum do Brasil (Deposita) está passando por um processo de atualização. Nesse processo, está inclusa a elaboração da política do repositório. Além disso, estará disponível em breve uma cartilha detalhada sobre as questões relacionadas ao repositório, incluindo suas funcionalidades, como o cadastro de novos usuários e os processos de submissão de documentos acadêmicos.",
+  "deposit.criteria.introduction": "Diante disso, o aceite de novos registros no Deposita ocorrerá mediante a verificação dos seguintes critérios:",
+  "deposit.criteria.1": "O depósito deve ser feito, obrigatoriamente, pelo autor do documento. Em caso de documentos que possuam coautoria, o depósito poderá ser feito por qualquer um dos autores;",
+  "deposit.criteria.2": "O depósito não pode ser feito por editoras comerciais;",
+  "deposit.criteria.3": "Nenhum dos autores do documento pode ser vinculado a uma instituição que já possua seu próprio repositório institucional;",
+  "deposit.criteria.4": "O documento deve ser de caráter acadêmico-científico, considerando os seguintes critérios:",
+  "deposit.criteria.4.a": "Em caso de artigos científicos, ter sido publicado em revista e/ou evento científico que realize processo de avaliação por pares;",
+  "deposit.criteria.4.b": "Em caso de livros ou capítulos de livro, possuir conselho científico composto por pesquisadores da área;",
+  "deposit.criteria.4.c": "Em caso de trabalhos de conclusão de curso, dissertações ou teses, possuir banca examinadora composta por pesquisadores da área.",
+  "deposit.noncompliance": "Estando em desacordo aos critérios acima elencados, o documento será rejeitado.",
+  "deposit.resubmission": "Sendo possível as devidas correções para se enquadrar aos critérios, solicitamos uma nova submissão do item.",
+  "deposit.suggestion": "Como sugestão, os documentos em desacordo com a política do Deposita podem ser depositados em outras plataformas gratuitas e de acesso aberto, como Zenodo e Figshare.",
+  "deposit.review": "Em relação aos documentos que já estão no Deposita e que possam estar em desacordo com os referidos critérios, estes poderão ser analisados pela equipe gestora do repositório, que resguarda o direito de manter ou eliminar os registros.",
+  "deposit.contact": "Caso necessário, os depositantes serão contatados através de e-mail.",
+  "deposit.doubts": "Em caso de dúvidas, entre em contato com a Equipe Deposita por meio do e-mail: deposita@ibict.br",
+  "deposit.closure": "Agradecemos desde já a compreensão e permanecemos à disposição para esclarecimentos adicionais que sejam considerados necessários.",
+
+  "info.deposit.breadcrumbs" : "Cartilha de depósito",
+  "info.deposit.title" : "Cartilha de depósito",
 
 
 }

@@ -17,6 +17,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { RepositoryPolicyPageComponent } from './repository-policy-page/repository-policy-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { PresentationPageComponent } from './presentation-page/presentation-page.component';
+import { DepositPageComponent } from './deposit-page/deposit-page.component';
 
 const DECLARATIONS = [
   EndUserAgreementComponent,
@@ -31,7 +32,8 @@ const DECLARATIONS = [
   ThemedFeedbackComponent,
   RepositoryPolicyPageComponent,
   AboutPageComponent,
-  PresentationPageComponent
+  PresentationPageComponent,
+  DepositPageComponent
 ];
 
 @NgModule({
