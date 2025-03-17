@@ -12,10 +12,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1px;
-    justify-content: center; /* Centraliza os itens */
+    justify-content: center; 
 
     .list-group-item {
-      flex: 1 1 calc(33.33% - 1px); /* 3 colunas */
+      flex: 1 1 calc(33.33% - 1px);
       text-align: center;
       border: 1px solid #ddd;
       border-right: none;
@@ -23,12 +23,11 @@
       padding: 10px;
     }
 
-    /* Adiciona borda direita na 3ª, 6ª e 9ª colunas */
     .list-group-item:nth-child(3n) {
       border-right: 1px solid #ddd;
     }
 
-    /* Adiciona borda inferior na última linha (7º, 8º e 9º itens) */
+
     .list-group-item:nth-last-child(-n+3) {
       border-bottom: 1px solid #ddd;
     }
@@ -40,15 +39,15 @@
     }
   }
 
-  /* Responsividade: Stack em colunas no mobile */
+
   @media (max-width: 768px) {
     .list-group-horizontal {
       flex-direction: column;
     }
 
     .list-group-item {
-      flex: 1 1 100%; /* Cada item ocupa toda a largura no mobile */
-      border-right: 1px solid #ddd; /* Mantém bordas laterais no mobile */
+      flex: 1 1 100%; 
+      border-right: 1px solid #ddd; 
     }
   }
 }
