@@ -35,5 +35,11 @@ img {
       align-items: center;
       text-align: center;
     }
+    @media (max-width: 768px) {
+      .thumbnail-placeholder {
+        font-size: 0.8rem;
+      }
+    }
   }
-}
+}    
+
