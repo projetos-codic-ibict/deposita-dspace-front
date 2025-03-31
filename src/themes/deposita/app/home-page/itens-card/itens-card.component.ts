@@ -26,7 +26,7 @@ export class ItensCardComponent implements OnInit {
       'Tese',
       'Livro',
       'Capítulo de livro',
-      'Artigo',
+      'Artigo de revista',
       'Trabalho de conclusão de curso',
       'Artigo de evento',
     ];
