@@ -1165,7 +1165,7 @@
   "browse.startsWith.submit": "Pesquisar",
 
   // "browse.startsWith.type_date": "Filter results by date",
-  "browse.startsWith.type_date": "Filtrar bresultados pela data",
+  "browse.startsWith.type_date": "Filtrar resultados pela data",
 
   // "browse.startsWith.type_date.label": "Or type in a date (year-month) and click on the Browse button",
   "browse.startsWith.type_date.label": "Ou digite na data (year-month) e clique no botão de Ir",
@@ -6954,17 +6954,17 @@
 
   "byAuthor": "Por Autor",
 
-  "byKnowledgeArea": "Por Área do conhecimento",
+  "byKnowledgeArea": "Por Área de conhecimento",
 
   "bySubject": "Por Assunto",
 
   "byInstitution": "Por Instituição",
 
-  "byDocumentType": "Por Tipo de documento",
+  "byDocumentType": "Por Tipo de Documento",
 
-  "byLanguage": "Por Idioma de publicação",
+  "byLanguage": "Por Idioma de Publicação",
 
-  "byYear": "Por Ano de publicação",
+  "byYear": "Por Data de Publicação",
 
   "deposita": "O Deposita",
 
@@ -7196,6 +7196,8 @@
   "menu.section.access_control_bulk": "Gerenciamento de acesso em massa",
 
   "statistics": "Estatísticas",
+
+  "item.page.statistics": "Estatísticas do item",
 
   "presentation": {
     "description1": "O Repositório Comum do Brasil (Deposita) foi desenvolvido pelo IBICT. Sua primeira versão foi oficialmente lançada em 2015, com a última atualização ocorrendo em 2024. O Deposita é uma base de dados dedicada a reunir e disponibilizar as produções científicas de pesquisadores de instituições brasileiras que ainda não têm repositórios institucionais próprios. Além disso, também serve como um recurso para pesquisadores brasileiros que realizam pós-graduação em outros países, permitindo que suas publicações fiquem acessíveis à comunidade científica nacional.",
