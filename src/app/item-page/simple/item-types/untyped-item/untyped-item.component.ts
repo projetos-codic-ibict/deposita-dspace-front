@@ -16,5 +16,9 @@ import { ItemComponent } from '../shared/item.component';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class UntypedItemComponent extends ItemComponent {
-
+  generateClickableLinks(subjects: any[]): string {
+    if (!subjects) return '';
+    return subjects.map(subj => `<a href='/browse/keyword?value=${encodeURIComponent(subj.value)}'>${subj.value}</a>`).join(', ');
+  }
+  
 }
