@@ -16,7 +16,7 @@
   *ngIf="dso.firstMetadataValue('dc.type')" 
   [ngClass]="getBadgeClass(dso.firstMetadataValue('dc.type'))" 
   class="badge" 
-  [innerHTML]="dso.firstMetadataValue('dc.type') | translate">
+ [innerHTML]="(dso.firstMetadataValue('dc.type') === 'Artigo' ? 'Artigo de Revista' : dso.firstMetadataValue('dc.type')) | translate">
 </span>
 
     </div>
