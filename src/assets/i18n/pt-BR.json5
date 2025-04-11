@@ -1019,15 +1019,15 @@
   "browse.comcol.by.author": "Por Autor",
 
   // "browse.comcol.by.dateissued": "By Issue Date",
-  "browse.comcol.by.dateissued": "Por Data de Publicação",
+  "browse.comcol.by.dateissued": "Por Data de publicação",
 
-  "browse.comcol.by.dateaccessioned": "Por Data de Acesso",
+  "browse.comcol.by.dateaccessioned": "Por Data de acesso",
 
  "browse.comcol.by.language": "Por Idioma",
 
- "browse.comcol.by.knowledgearea": "Por Área de Conhecimento",
+ "browse.comcol.by.knowledgearea": "Por Área de conhecimento",
 
- "browse.comcol.by.documenttype": "Por Tipo de Documento",
+ "browse.comcol.by.documenttype": "Por Tipo de documento",
 
  "browse.comcol.by.institution": "Por Instituição",
 
@@ -1472,7 +1472,7 @@
   "collection.listelement.badge": "Coleção",
 
   // "collection.page.browse.recent.head": "Recent Submissions",
-  "collection.page.browse.recent.head": "Submissões Recentes",
+  "collection.page.browse.recent.head": "Submissões recentes",
 
   // "collection.page.browse.recent.empty": "No items to show",
   "collection.page.browse.recent.empty": "Nenhum item a exibir",
@@ -3721,7 +3721,7 @@
   "menu.section.browse_community_by_author": "Por Autor",
 
   // "menu.section.browse_community_by_issue_date": "By Issue Date",
-  "menu.section.browse_community_by_issue_date": "Por Data de Publicação",
+  "menu.section.browse_community_by_issue_date": "Por Data de publicação",
 
   // "menu.section.browse_community_by_title": "By Title",
   "menu.section.browse_community_by_title": "Por Título",
@@ -3733,7 +3733,7 @@
   "menu.section.browse_global_by_author": "Por Autor",
 
   // "menu.section.browse_global_by_dateissued": "By Issue Date",
-  "menu.section.browse_global_by_dateissued": "Por Data de Publicação",
+  "menu.section.browse_global_by_dateissued": "Por Data de publicação",
 
   // "menu.section.browse_global_by_subject": "By Subject",
   "menu.section.browse_global_by_subject": "Por Assunto",
@@ -4540,13 +4540,13 @@
   "register-email.title": "Novo registro de usuário",
 
   // "register-page.create-profile.header": "Create Profile",
-  "register-page.create-profile.header": "Criar Profile",
+  "register-page.create-profile.header": "Criar usuário:",
 
   // "register-page.create-profile.identification.header": "Identify",
   "register-page.create-profile.identification.header": "Identificar",
 
   // "register-page.create-profile.identification.email": "Email Address",
-  "register-page.create-profile.identification.email": "Endereço de Email",
+  "register-page.create-profile.identification.email": "Endereço de Email: ",
 
   // "register-page.create-profile.identification.first-name": "First Name *",
   "register-page.create-profile.identification.first-name": "Primeiro Nome *",
@@ -5290,16 +5290,16 @@
   "sorting.DESC": "Descendente",
 
   // "sorting.dc.title.ASC": "Title Ascending",
-  "sorting.dc.title.ASC": "Título Ascendente",
+  "sorting.dc.title.ASC": "Título ascendente",
 
   // "sorting.dc.title.DESC": "Title Descending",
-  "sorting.dc.title.DESC": "Título Descendente",
+  "sorting.dc.title.DESC": "Título descendente",
 
   // "sorting.score.ASC": "Least Relevant",
   "sorting.score.ASC": "Menos relevante",
 
   // "sorting.score.DESC": "Most Relevant",
-  "sorting.score.DESC": "Mais Relevante",
+  "sorting.score.DESC": "Mais relevante",
 
   // "sorting.dc.date.issued.ASC": "Date Issued Ascending",
   "sorting.dc.date.issued.ASC": "Data de emissão ascendente",
@@ -5308,16 +5308,16 @@
   "sorting.dc.date.issued.DESC": "Data de emissão descendente",
 
   // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
-  "sorting.dc.date.accessioned.ASC": "Data de Disponibilização Ascendente",
+  "sorting.dc.date.accessioned.ASC": "Data de disponibilização ascendente",
 
   // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
-  "sorting.dc.date.accessioned.DESC": "Data de Disponibilização Descendente",
+  "sorting.dc.date.accessioned.DESC": "Data de disponibilização descendente",
 
   // "sorting.lastModified.ASC": "Last modified Ascending",
-  "sorting.lastModified.ASC": "Última modificação Ascendente",
+  "sorting.lastModified.ASC": "Última modificação ascendente",
 
   // "sorting.lastModified.DESC": "Last modified Descending",
-  "sorting.lastModified.DESC": "Última modificação Descendente",
+  "sorting.lastModified.DESC": "Última modificação descendente",
 
   // "statistics.title": "Statistics",
   "statistics.title": "Estatísticas",
@@ -6922,13 +6922,13 @@
   "home.recent-submissions.head": "Submissões Recentes",
 
 
-  "article": "Artigo de Revista",
+  "article": "Artigo de revista",
 
-  "conferenceObject": "Artigo de Evento",
+  "conferenceObject": "Artigo de evento",
 
   "book": "Livro",
 
-  "bookPart": "Capítulo de Livro",
+  "bookPart": "Capítulo de livro",
 
   "info.about.title": "Contato",
 
@@ -6960,17 +6960,17 @@
 
   "byInstitution": "Por Instituição",
 
-  "byDocumentType": "Por Tipo de Documento",
+  "byDocumentType": "Por Tipo de documento",
 
-  "byLanguage": "Por Idioma de Publicação",
+  "byLanguage": "Por Idioma de publicação",
 
-  "byYear": "Por Data de Publicação",
+  "byYear": "Por Data de publicação",
 
   "deposita": "O Deposita",
 
   "presentationPage": "Apresentação",
 
-  "repositoryPolicy": "Política do Repositório",
+  "repositoryPolicy": "Política do repositório",
 
   "depositGuide": "Cartilha de depósito",
 

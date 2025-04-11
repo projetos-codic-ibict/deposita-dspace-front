@@ -22,25 +22,27 @@ export class ItemSearchResultListElementComponent extends SearchResultListElemen
    */
   itemPageRoute: string;
   getBadgeClass(type: string): string {
-    switch (type) {
-      case 'Artigo de revista':
-        return 'badge-primary'; 
-      case 'Trabalho de conclusão de curso':
-        return 'badge-secondary'; 
-      case 'Livro':
-        return 'badge-success';
-      case 'Capítulo de livro':
-        return 'badge-danger'; 
-      case 'Artigo de evento':
-        return 'badge-warning'; 
-      case 'Tese':
-        return 'badge-info'; 
-      case 'Dissertação':
-        return 'badge-dark';
-      default:
-        return 'badge-light'; 
-    }
-  }
+    const typeMap: { [key: string]: string } = {
+        'Artigo de revista': 'badge-primary',
+        'Artigo': 'badge-primary',
+        'article': 'badge-primary',
+        'Trabalho de conclusão de curso': 'badge-secondary',
+        'bachelorThesis': 'badge-secondary',
+        'Livro': 'badge-success',
+        'book': 'badge-success',
+        'Capítulo de livro': 'badge-danger',
+        'bookChapter': 'badge-danger',
+        'Artigo de evento': 'badge-warning',
+        'conferenceObject': 'badge-warning',
+        'Tese': 'badge-info',
+        'doctoralThesis': 'badge-info',
+        'Dissertação': 'badge-dark',
+        'masterThesis': 'badge-dark',
+    };
+
+    return typeMap[type] || 'badge-light';
+}
+
   
 
   ngOnInit(): void {
