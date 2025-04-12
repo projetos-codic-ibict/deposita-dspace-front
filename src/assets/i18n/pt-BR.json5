@@ -2208,7 +2208,7 @@
   "forgot-password.form.identification.header": "Identificar",
 
   // "forgot-password.form.identification.email": "Email address: ",
-  "forgot-password.form.identification.email": "Endereço de Email: ",
+  "forgot-password.form.identification.email": "Endereço de Email ",
 
   // "forgot-password.form.label.password": "Password",
   "forgot-password.form.label.password": "Senha",
@@ -4546,7 +4546,7 @@
   "register-page.create-profile.identification.header": "Identificar",
 
   // "register-page.create-profile.identification.email": "Email Address",
-  "register-page.create-profile.identification.email": "Endereço de Email: ",
+  "register-page.create-profile.identification.email": "Endereço de Email",
 
   // "register-page.create-profile.identification.first-name": "First Name *",
   "register-page.create-profile.identification.first-name": "Primeiro Nome *",
