@@ -43,9 +43,9 @@ export class DsDatePickerComponent extends DynamicFormControlComponent implement
   minDay = 1;
   maxDay = 31;
 
-  yearPlaceholder = 'year';
-  monthPlaceholder = 'month';
-  dayPlaceholder = 'day';
+  yearPlaceholder = 'Ano';
+  monthPlaceholder = 'Mês';
+  dayPlaceholder = 'Dia';
 
   disabledMonth = true;
   disabledDay = true;
