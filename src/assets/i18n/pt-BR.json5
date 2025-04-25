@@ -4603,7 +4603,7 @@
   "register-page.registration.header": "Novo registro de usuário",
 
   // "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
-  "register-page.registration.info": "Registre uma conta para assinar coleções para atualizações por e-mail e enviar novos itens para o DSpace.",
+  "register-page.registration.info": "Caso ainda não tenha se registrado no repositório, informe o endereço de e-mail e clique em 'Registrar'. Um e-mail de confirmação será enviado e após completar o registro será possível enviar novos itens para o repositório Deposita.",
 
   // "register-page.registration.email": "Email Address *",
   "register-page.registration.email": "Endereço de Email  *",
