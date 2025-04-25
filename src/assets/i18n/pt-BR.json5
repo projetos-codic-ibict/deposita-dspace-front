@@ -2208,7 +2208,7 @@
   "forgot-password.form.identification.header": "Identificar",
 
   // "forgot-password.form.identification.email": "Email address: ",
-  "forgot-password.form.identification.email": "Endereço de Email ",
+  "forgot-password.form.identification.email": "Endereço de Email",
 
   // "forgot-password.form.label.password": "Password",
   "forgot-password.form.label.password": "Senha",
@@ -7002,7 +7002,7 @@
 
    "about": {
     "title": "Sobre Nós",
-    "description1": "O <strong>Deposita</strong> é o repositório institucional desenvolvido pelo <strong>IBICT</strong>, com o objetivo de promover o depósito, a preservação e a disseminação da produção científica brasileira. Seu propósito é facilitar o acesso ao conhecimento, fortalecer o movimento de <em>Acesso Aberto</em> e estimular a democratização da informação científica no Brasil e no mundo.",
+    "description1": "O <strong>Deposita</strong> é o repositório institucional desenvolvido pelo <strong>Ibict</strong>, com o objetivo de promover o depósito, a preservação e a disseminação da produção científica brasileira. Seu propósito é facilitar o acesso ao conhecimento, fortalecer o movimento de <em>Acesso Aberto</em> e estimular a democratização da informação científica no Brasil e no mundo.",
     "description2": "O repositório busca contribuir para o desenvolvimento social, econômico e tecnológico, fornecendo visibilidade à produção acadêmica e científica de instituições de ensino e pesquisa do Brasil.",
     "description3": "O material disponível é organizado em <em>comunidades</em> e <em>subcomunidades</em>, permitindo a navegação por coleções que incluem dissertações, teses, artigos, imagens, vídeos, entre outros conteúdos digitais.",
     "team_title": "Equipe",
@@ -7011,7 +7011,7 @@
 
   "repository_policy": {
     "title": "Política do Repositório",
-    "mission": "O <strong>Deposita</strong> tem como missão garantir o acesso aberto e a preservação da produção acadêmica e científica das instituições brasileiras. Este repositório segue as diretrizes estabelecidas pelo <strong>IBICT</strong> e se compromete com os princípios do <em>Acesso Aberto</em>, incentivando a disseminação do conhecimento de forma ampla e democrática.",
+    "mission": "O <strong>Deposita</strong> tem como missão garantir o acesso aberto e a preservação da produção acadêmica e científica das instituições brasileiras. Este repositório segue as diretrizes estabelecidas pelo <strong>Ibict</strong> e se compromete com os princípios do <em>Acesso Aberto</em>, incentivando a disseminação do conhecimento de forma ampla e democrática.",
     "principles_title": "A política do repositório baseia-se nos seguintes pilares:",
     "pillars": {
       "open_access": "<strong>Acesso Livre:</strong> Todo o conteúdo disponibilizado no Deposita é de acesso gratuito e irrestrito, em conformidade com a política de Acesso Aberto.",
@@ -7019,7 +7019,7 @@
       "inclusion": "<strong>Inclusão:</strong> Qualquer instituição acadêmica ou de pesquisa pode submeter sua produção científica, desde que atenda aos critérios estabelecidos pelo repositório.",
       "quality": "<strong>Qualidade:</strong> O conteúdo submetido passa por um processo de verificação para garantir sua integridade e relevância científica."
     },
-    "supervision": "O IBICT é responsável por coordenar e supervisionar o desenvolvimento e a gestão do Deposita, garantindo que as políticas de preservação e acesso sigam as melhores práticas internacionais."
+    "supervision": "O Ibict é responsável por coordenar e supervisionar o desenvolvimento e a gestão do Deposita, garantindo que as políticas de preservação e acesso sigam as melhores práticas internacionais."
   },
   "copyright": {
     "title": "Direitos Autorais",
@@ -7035,18 +7035,18 @@
     "analysisCoordination": "Coordenação de Tratamento, Análise e Disseminação da Informação Científica (CODIC)",
     "analysisCoordinationText": "Coordenação de Tratamento, Análise e Disseminação da Informação Científica (CODIC)",
     "email": "Email",
-    "emailAddress": "deposita@ibict.br",
+    "emailAddress": "deposita@Ibict.br",
     "phone": "Telefone",
     "phoneNumber": "(61) 3217-6134 / (61) 3217-6157 / (61) 3217-6449",
     "team": "Equipe técnica",
     "member1": {
       "name": "Cássio Morais",
-      "email": "cassiomorais@ibict.br"
+      "email": "cassiomorais@Ibict.br"
     }
   },
 
    "footer": {
-    "text1": "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)",
+    "text1": "Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)",
     "text2": "SAUS Quadra 5 • Lote 6 Bloco H • Asa Sul • CEP: 70.070-912 - Brasília - DF"
   },
 
@@ -7202,7 +7202,7 @@
   "claimed-approved-search-result-list-element.title": "Depósito aprovado",
 
   "presentation": {
-    "description1": "O Repositório Comum do Brasil (Deposita) foi desenvolvido pelo IBICT. Sua primeira versão foi oficialmente lançada em 2015, com a última atualização ocorrendo em 2024. O Deposita é uma base de dados dedicada a reunir e disponibilizar as produções científicas de pesquisadores de instituições brasileiras que ainda não têm repositórios institucionais próprios. Além disso, também serve como um recurso para pesquisadores brasileiros que realizam pós-graduação em outros países, permitindo que suas publicações fiquem acessíveis à comunidade científica nacional.",
+    "description1": "O Repositório Comum do Brasil (Deposita) foi desenvolvido pelo Ibict. Sua primeira versão foi oficialmente lançada em 2015, com a última atualização ocorrendo em 2024. O Deposita é uma base de dados dedicada a reunir e disponibilizar as produções científicas de pesquisadores de instituições brasileiras que ainda não têm repositórios institucionais próprios. Além disso, também serve como um recurso para pesquisadores brasileiros que realizam pós-graduação em outros países, permitindo que suas publicações fiquem acessíveis à comunidade científica nacional.",
     "description2": "Os repositórios digitais podem ser entendidos como sistemas web que facilitam o depósito e o acesso às publicações digitais, destinado ao gerenciamento e a preservação da documentação científica, ao reunir, organizar e tornar mais acessível às produções científicas, além de, ser um sistema flexível que se adequa as variáveis finalidade das instituições. O nome do repositório, Deposita, foi escolhido com o intuito de atrair os pesquisadores brasileiros a realizar o auto depósito dos resultados de seus trabalhos.",
     "description3": "Para participar do Deposita, o autor ou um dos coautores deve submeter o trabalho científico por meio do autoarquivamento, após um cadastro simples no campo “meu espaço”, localizado no menu do portal. A equipe gestora do repositório é responsável pela curadoria dos dados seguindo padrões internacionais de base de dados de acesso aberto e a política do repositório. Após essa análise, o documento em conformidade com essas diretrizes é aprovado.",
     "description4": "A produção científica disponível no Deposita torna-se amplamente visível na internet. Os trabalhos depositados no repositório são automaticamente coletados pelo Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr). No caso de teses e dissertações, esses documentos também são coletados pela Biblioteca Digital Brasileira de Teses e Dissertações (BDTD), garantindo assim o acesso a pesquisadores e à sociedade em geral.",
@@ -7223,7 +7223,7 @@
       "item4": "Fornecer dados para a gestão da ciência brasileira.",
       "item5": "Promover a criação de repositórios institucionais, que permitirão a gestão organizacional dos recursos de pesquisa."
     },
-    "description6": "Na sua última atualização, o Deposita, de acordo com a nova política do repositório, passou a aceitar os seguintes tipos de documentos: artigo de revista, artigo de evento, livro, capítulo de livro, trabalho de conclusão de curso, dissertação e tese. A evolução da plataforma é resultado de um trabalho de customização realizado pelo IBICT sobre o software DSpace.",
+    "description6": "Na sua última atualização, o Deposita, de acordo com a nova política do repositório, passou a aceitar os seguintes tipos de documentos: artigo de revista, artigo de evento, livro, capítulo de livro, trabalho de conclusão de curso, dissertação e tese. A evolução da plataforma é resultado de um trabalho de customização realizado pelo Ibict sobre o software DSpace.",
     "description7": "O software DSpace consiste em um software livre de código aberto, o qual é um dos softwares mais utilizados mundialmente para construir e gerenciar repositórios digitais de forma simples, mas com muitos recursos personalizáveis para atender à necessidade do usuário.",
     "description8": "Ao depositar um documento no software DSpace, é necessário que se aceite uma licença. No caso do Deposita, a licença de distribuição é Não-Exclusiva, em que o autor concede ao repositório o direito não-exclusivo de reproduzir, traduzir e distribuir a publicação depositada, em qualquer formato e meio, essa licença deve ser concedida antes de iniciar o depósito, juntamente com a seleção da Licença Creative Commons (CC), que não é obrigatória, mas, é altamente recomendada para o repositório (Ibict, 2015).",
     "contact": "Em caso de dúvidas, entre em contato com a Equipe Deposita por meio do e-mail: deposita@ibict.br"
@@ -7375,9 +7375,9 @@
   "chapter.9.preservation": "CAPÍTULO IX - PRESERVAÇÃO",
   "article.15": "Art. 15º - O Ibict se compromete a prover o armazenamento a longo prazo das publicações científicas depositadas no Repositório Comum do Brasil (Deposita), observando as recomendações do modelo de referência de preservação digital para arquivos digitais Open Archival Information System (OAIS) e critérios para certificação de repositórios confiáveis. Considerar, no desenvolvimento de estratégias de preservação digital, os riscos provocados por fatores tecnológicos, ambientais, culturais, operacionais, gerenciais, entre outros. Assim como, atuar em conformidade com a legislação brasileira e normativas institucionais, nacionais e internacionais.",
   "chapter.10.technological.infrastructure": "CAPÍTULO X - INFRAESTRUTURA TECNOLÓGICA",
-  "article.16": "Art. 16º - A estrutura tecnológica do repositório RIDI é baseada no software DSpace, um sistema de código aberto utilizado mundialmente para construção e gerenciamento de repositórios digitais.",
+  "article.16": "Art. 16º - A estrutura tecnológica do repositório Deposita é baseada no software DSpace, um sistema de código aberto utilizado mundialmente para construção e gerenciamento de repositórios digitais.",
   "article.16.paragraph.1": "Parágrafo único. A entidade Lyrasis é a atual mantenedora do software, uma organização sem fins lucrativos, que tem como propósito auxiliar e promover soluções tecnológicas para o gerenciamento de conteúdo digital.",
-  "article.17": "Art. 17º - Ao Ibict compete promover pesquisas e colabora com o desenvolvimento do DSpace, criando versões customizadas dessa plataforma e disponibilizando para outras instituições. As instalações da infraestrutura tecnológica são mantidas e atualizadas em servidores locais sob a responsabilidade da Coordenação-Geral de Tecnologias para Informação e Informática (CGTI).",
+  "article.17": "Art. 17º - Ao Ibict compete promover pesquisas e colaborar com o desenvolvimento do DSpace, criando versões customizadas dessa plataforma e disponibilizando para outras instituições. As instalações da infraestrutura tecnológica são mantidas e atualizadas em servidores locais sob a responsabilidade da Coordenação-Geral de Tecnologias para Informação e Informática (CGTI).",
   "chapter.11.interoperability": "CAPÍTULO XI - INTEROPERABILIDADE",
   "article.18": "Art. 18º - O Deposita deverá ser interoperável com outros sistemas agregadores, nacionais e internacionais, observando-se o uso de padrões e protocolos de interoperabilidade.",
   "article.18.paragraph.1": "§ 1º - Todos os conteúdos do Deposita serão periodicamente coletados pelo Portal brasileiro de publicações e dados científicos em acesso aberto (Oasisbr).",
