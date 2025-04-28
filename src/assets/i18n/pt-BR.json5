@@ -7400,6 +7400,75 @@
 
   "atention.form" : "Atenção: os campos com asterisco (*) são de preenchimento obrigatório.",
 
+  "subscriptions.title": "Assinaturas",
+
+  "subscriptions.item": "Assinaturas para itens",
+
+  "subscriptions.collection": "Assinaturas para coleções",
+
+  "subscriptions.community": "Assinaturas para comunidades",
+
+  "subscriptions.subscription_type": "Tipo de assinatura",
+
+  "subscriptions.frequency": "Frequência de assinatura",
+
+  "subscriptions.frequency.D": "Diariamente",
+
+  "subscriptions.frequency.M": "Mensal",
+
+  "subscriptions.frequency.W": "Semanalmente",
+
+  "subscriptions.modal.new-subscription-form.frequency.M" : "Mensal",
+
+  "subscriptions.modal.new-subscription-form.frequency.W" : "Semanalmente",
+
+  "subscriptions.modal.new-subscription-form.frequency.D" : "Diariamente",
+
+  "subscriptions.modal.new-subscription-form.type.content": "Conteúdo",
+
+  "subscriptions.modal.new-subscription-form.submit": "Enviar",
+
+  "subscriptions.modal.new-subscription-form.processing": "Processando...",
+
+  "subscriptions.modal.create.success": "Inscrito em {{ type }} com sucesso.",
+
+  "subscriptions.modal.delete.success": "Assinatura excluída com sucesso",
+
+  "subscriptions.modal.update.success": "Assinatura em {{ type }} atualizada com sucesso",
+
+  "subscriptions.modal.create.error": "Ocorreu um erro durante a criação da assinatura",
+
+  "subscriptions.modal.delete.error": "Ocorreu um erro durante a exclusão da assinatura",
+
+  "subscriptions.modal.update.error": "Ocorreu um erro durante a atualização da assinatura",
+
+  "subscriptions.table.dso": "Assunto",
+
+  "subscriptions.table.subscription_type": "Tipo de assinatura",
+
+  "subscriptions.table.subscription_frequency": "Frequência de assinatura",
+
+  "subscriptions.table.action": "Ação",
+
+  "subscriptions.table.edit": "Editar",
+
+  "subscriptions.table.delete": "Excluir",
+
+  "subscriptions.table.not-available": "Não disponível",
+
+  "subscriptions.table.not-available-message": "O item inscrito foi excluído ou você não tem permissão para visualizá-lo no momento",
+
+  "subscriptions.table.empty.message": "Você não possui nenhuma assinatura neste momento. Para assinar atualizações por e-mail de uma Comunidade ou Coleção, use o botão de assinatura na página do objeto.",
+
+  "subscriptions.tooltip": "Inscreva-se",
+
+  "subscriptions.modal.title": "Assinaturas",
+
+  "subscriptions.modal.type-frequency": "Tipo e frequência",
+
+  "subscriptions.modal.close": "Fechar",
+
+  "subscriptions.modal.delete-info" : "Para remover esta assinatura, visite a página \"Assinaturas\" no seu perfil de usuário",
 
   "policy.institutional": "Política Institucional",
   "repository.common.brazil": "REPOSITÓRIO COMUM DO BRASIL (DEPOSITA)",
