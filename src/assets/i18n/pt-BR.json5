@@ -3682,7 +3682,7 @@
   "login.breadcrumbs": "Entrar",
 
   // "logout.form.header": "Log out from DSpace",
-  "logout.form.header": "Sair do DSpace",
+  "logout.form.header": "Sair do Deposita",
 
   // "logout.form.submit": "Log out",
   "logout.form.submit": "Sair",
@@ -5323,7 +5323,7 @@
   "statistics.title": "Estatísticas",
 
   // "statistics.header": "Statistics for {{ scope }}",
-  "statistics.header": "Estatísticas para {{ scope }}",
+  "statistics.header": "Estatísticas do Repositório Deposita",
 
   // "statistics.breadcrumbs": "Statistics",
   "statistics.breadcrumbs": "Estatísticas",
@@ -5335,7 +5335,7 @@
   "statistics.table.no-data": "Nenhum dado disponível",
 
   // "statistics.table.title.TotalVisits": "Total visits",
-  "statistics.table.title.TotalVisits": "Total de visitas",
+  "statistics.table.title.TotalVisits": "Total de visitas nos itens mais acessados",
 
   // "statistics.table.title.TotalVisitsPerMonth": "Total visits per month",
   "statistics.table.title.TotalVisitsPerMonth": "Total visitas por mês",
@@ -5351,6 +5351,11 @@
 
   // "statistics.table.header.views": "Views",
   "statistics.table.header.views": "Visualizações",
+
+  "stats": {
+  "views": "Visualizações",
+  "downloads": "Downloads"
+},
 
   // "submission.edit.breadcrumbs": "Edit Submission",
   "submission.edit.breadcrumbs": "Editar Submissão",
@@ -7396,6 +7401,7 @@
 
   "info.deposit.breadcrumbs" : "Cartilha de depósito",
   "info.deposit.title" : "Cartilha de depósito",
+  
 
 
   "atention.form" : "Atenção: os campos com asterisco (*) são de preenchimento obrigatório.",

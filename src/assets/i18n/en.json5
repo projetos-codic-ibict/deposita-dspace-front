@@ -3952,6 +3952,11 @@
 
   "statistics.table.header.views": "Views",
 
+  "stats": {
+  "views": "Views",
+  "downloads": "Downloads"
+},
+
   "statistics.table.no-name": "(object name could not be loaded)",
 
   "submission.edit.breadcrumbs": "Edit Submission",
