@@ -6977,7 +6977,7 @@
 
   "repositoryPolicy": "Política do repositório",
 
-  "depositGuide": "Cartilha de depósito",
+  "depositGuide": "Manual de depósito",
 
   "contacts": "Contatos",
 
@@ -7379,10 +7379,10 @@
   "policy.chapter7.article11": "Art. 11 - O Ibict resguarda o direito de fazer atualizações nesta política sempre que assim se julgar necessário.",
   "policy.chapter7.article12": "Art. 12 - Esta política entrará em vigor na data de sua publicação.",
 
-  "deposit.guide.title": "Cartilha de Depósito / Guia de Usuários Deposita",
+  "deposit.guide.title": "Manual de depósito / Guia de Usuários Deposita",
   "deposit.greeting": "Prezado(a),",
   "deposit.introduction": "Primeiramente, gostaríamos de informar que o repositório Deposita encontra-se operacional para novos depósitos de trabalhos acadêmico-científicos.",
-  "deposit.update": "Com vistas a melhor atender a comunidade de usuários, o Repositório Comum do Brasil (Deposita) está passando por um processo de atualização. Nesse processo, está inclusa a elaboração da política do repositório. Além disso, estará disponível em breve uma cartilha detalhada sobre as questões relacionadas ao repositório, incluindo suas funcionalidades, como o cadastro de novos usuários e os processos de submissão de documentos acadêmicos.",
+  "deposit.update": "Com vistas a melhor atender a comunidade de usuários, o Repositório Comum do Brasil (Deposita) está passando por um processo de atualização. Nesse processo, está inclusa a elaboração da política do repositório. Além disso, estará disponível em breve um manual detalhado sobre as questões relacionadas ao repositório, incluindo suas funcionalidades, como o cadastro de novos usuários e os processos de submissão de documentos acadêmicos.",
   "deposit.criteria.introduction": "Diante disso, o aceite de novos registros no Deposita ocorrerá mediante a verificação dos seguintes critérios:",
   "deposit.criteria.1": "O depósito deve ser feito, obrigatoriamente, pelo autor do documento. Em caso de documentos que possuam coautoria, o depósito poderá ser feito por qualquer um dos autores;",
   "deposit.criteria.2": "O depósito não pode ser feito por editoras comerciais;",
@@ -7399,8 +7399,8 @@
   "deposit.doubts": "Em caso de dúvidas, entre em contato com a Equipe Deposita por meio do e-mail: deposita@ibict.br",
   "deposit.closure": "Agradecemos desde já a compreensão e permanecemos à disposição para esclarecimentos adicionais que sejam considerados necessários.",
 
-  "info.deposit.breadcrumbs" : "Cartilha de depósito",
-  "info.deposit.title" : "Cartilha de depósito",
+  "info.deposit.breadcrumbs" : "Manual de depósito",
+  "info.deposit.title" : "Manual de depósito",
   
 
 
