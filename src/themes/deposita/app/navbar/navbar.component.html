@@ -36,7 +36,10 @@
                 <div *ngIf="isDropdownODepositaOpen" class="dropdown-menu show">
                    <a class="dropdown-item" routerLink="/info/presentation">{{ 'presentationPage' | translate }}</a>
                    <a class="dropdown-item" routerLink="/info/repository-policy">{{ 'repositoryPolicy' | translate }}</a>
-                   <a class="dropdown-item" routerLink="/info/deposit">{{ 'depositGuide' | translate }}</a>
+                   <a class="dropdown-item" href="assets/docs/manual.pdf" target="_blank" rel="noopener">
+                     {{ 'depositGuide' | translate }}
+                   </a>
+                   
                   <a class="dropdown-item" routerLink="/statistics">{{ 'statistics' | translate }}</a>
                 </div>
              </div>
