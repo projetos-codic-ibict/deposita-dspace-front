@@ -1,4 +1,7 @@
 <ds-alert class="mb-4" [type]="'alert-info'">{{FORM_PREFIX + 'info' | translate}}</ds-alert>
+<div class="text-danger">
+    {{ 'minimum-password' | translate }}
+  </div>
 <ds-form *ngIf="formModel"
          [formId]="FORM_PREFIX"
          [formModel]="formModel"
