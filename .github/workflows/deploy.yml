@@ -26,3 +26,16 @@ jobs:
           node-version: "18"
       - run: |
           sh deploy.sh
+
+  prod:
+    runs-on: [self-hosted, Linux, x64, dev]
+    environment:
+      name: prod
+      url: "http://172.16.16.132:4000"
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          node-version: "18"
+      - run: |
+          sh deploy.sh
