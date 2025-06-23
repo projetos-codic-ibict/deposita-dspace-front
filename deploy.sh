@@ -16,6 +16,7 @@ yarn
 
 echo "copy env"
 rm config/config.yml ||  true
+rm config.production.yaml ||  true
 cp config/config.example.yml config.production.yaml
 
 
