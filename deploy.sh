@@ -7,8 +7,9 @@ node -v
 echo "Running pm2 stop deposita"
 pm2 stop deposita || true
 
-echo "Encerrando processos da porta 5000"
+echo "Encerrando processos da porta 5000 e 4000"
 kill $(lsof -t -i:5000) || true
+kill $(lsof -t -i:4000) || true
 
 echo "running yarn install"
 yarn
